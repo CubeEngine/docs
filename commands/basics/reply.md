@@ -5,11 +5,11 @@ The **/reply** command allows you to reply to the last private message an other 
 **/reply** <message\>
 
 #### Example ####
-Player1337 uses ***/reply** Good to see you!*
-<br>You will receive:
-<br>*You -> MrX: Good to see you!*
-<br>MrX will receive:
-<br>*Player1337 -> You: Good to see you!*
+Player1337 uses ***/reply** Good to see you!*  
+You will receive:  
+*You -> MrX: Good to see you!*  
+MrX will receive:  
+*Player1337 -> You: Good to see you!*
 
 #### Alias Commands ####
 r
