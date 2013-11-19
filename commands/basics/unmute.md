@@ -5,7 +5,7 @@ The **/unmute** command allows you unmute a user previously muted with the **/mu
 **/unmute** <user\>
 
 #### Example ####
-Admin42 uses ***/unmute** xXspammerXx  
+Admin42 uses **/unmute** xXspammerXx  
 and xXspammerXx will be able to chat again
 
 #### Permissions ####
