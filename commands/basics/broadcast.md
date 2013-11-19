@@ -5,7 +5,7 @@ The **/broadcast** command allows broadcast a message to all online users.
 **/broadcast** <broadcast message\>
 
 #### Example ####
-Admin42 uses **/broadcast** Good Morning everyone!*  
+Admin42 uses **/broadcast** Good Morning everyone!
 Every online User will receive  
 *[Broadcast] Good Morning everyone!*
 
