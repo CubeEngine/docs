@@ -6,7 +6,7 @@ The message will be broadcastet to all users on the server
 **/me** <action message\>
 
 #### Example ####
-Player1337 uses ***/me** sais Hello!*   
+Player1337 uses **/me** sais Hello!
 will show in Chat as  
 *\* Player1337 sais Hello!*
 
