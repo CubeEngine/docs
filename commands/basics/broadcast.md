@@ -1,5 +1,5 @@
 ## broadcast ##
-The **/broadcast** command allows broadcast a message to all online users.
+The **/broadcast** command allows to broadcast a message to all online users.
 
 #### Usage ####
 **/broadcast** <broadcast message\>
