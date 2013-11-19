@@ -7,7 +7,7 @@ The **/mute** command allows you prevent a user from using chat for a specified 
 **/mute** <user\> [duration]
 
 #### Example ####
-Admin42 uses ***/mute** xXspammerXx 10m  
+Admin42 uses **/mute** xXspammerXx 10m  
 and xXspammerXx will be muted for 10 minutes
 
 #### Permissions ####
