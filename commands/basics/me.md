@@ -1,6 +1,6 @@
 ## me ##
 The **/me** command is an action message  
-The message will be broadcastet to all users on the server
+The message will be broadcasted to all users on the server
 
 #### Usage ####
 **/me** <action message\>
