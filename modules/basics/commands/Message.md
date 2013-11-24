@@ -1,4 +1,4 @@
-## msg ##
+## Message ##
 The **/msg** command allows you to send a private message to an other online user.  
 You can respond to someone using the msg command using **/reply** <your reply\> TODO link  
 It is also possible to write a private message to the console using **/msg console** <your message\>
