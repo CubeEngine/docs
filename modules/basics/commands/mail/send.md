@@ -2,7 +2,7 @@
 **/mail send** : Send mail to other players.
 
 #### Usage ####
-**/mail send** <name\> <message\>
+**/mail send** <name> <message>
 
 #### Example ####
 Admin42 uses **/mail send Owner22** Hello!
