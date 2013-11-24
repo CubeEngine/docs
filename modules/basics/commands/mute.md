@@ -1,4 +1,4 @@
-## mute ##
+## Mute ##
 The **/mute** command allows you prevent a user from using chat for a specified amount of time.  
 
 
