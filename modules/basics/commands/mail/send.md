@@ -1,8 +1,8 @@
-## AFK ##
-The **/mail** command allows you to send mail to other players.
+## Mail ##
+**/mail send** : Send mail to other players.
 
 #### Usage ####
-**/mail** <name\> <message\>
+**/mail send** <name\> <message\>
 
 #### Example ####
 Admin42 uses **/mail send Owner22** Hello!
