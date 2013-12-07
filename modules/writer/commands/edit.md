@@ -7,15 +7,16 @@ use is up to you, they do exactly the same.
 **/edit**
 
 
-**/edit [Line1 "<First line>"] [Line2 "<Second line>"] [Line3 "<Third line>"] [Line4 "<Fourth line>"]**
-**/edit [1 "<First line>"] [2 "<Second line>"] [3 "<Third line>"] [4 "<Fourth line>"]**
+**/edit [Line1 "\<First line\>"] [Line2 "\<Second line\>"] [Line3 "\<Third line\>"] [Line4 "\<Fourth line\>"]**
+
+**/edit [1 "\<First line\>"] [2 "\<Second line\>"] [3 "\<Third line\>"] [4 "\<Fourth line\>"]**
 
 #### Example ####
-The user Extrax-42 holds a signed book in his hands and execute **/edit**
-The book will now be unsigned
+The user Extrax-42 holds a signed book in his hands and execute **/edit**.
+The book will now be unsigned and he can edit it again.
 
 The admin SuperAdmin just finished a sign, but he spot a mistake in line three. He execute
-**/edit 3 "No more typos!"**
+**/edit 3 "No more typos!"**.
 And the typo is corrected.
 
 #### Permissions ####
