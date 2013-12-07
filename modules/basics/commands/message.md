@@ -4,7 +4,7 @@ You can respond to someone using the msg command using **/reply** <your reply\> 
 It is also possible to write a private message to the console using **/msg console** <your message\>
 
 #### Usage ####
-**/msg** <user\> <message\>
+**/msg** &lt;user&gt; &lt;message&gt;
 
 #### Example ####
 Player1337 uses **/msg** MrX Hi there!
