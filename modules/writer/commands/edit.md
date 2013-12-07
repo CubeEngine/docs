@@ -7,9 +7,9 @@ use is up to you, they do exactly the same.
 **/edit**
 
 
-**/edit [Line1 "\<First line\>"] [Line2 "\<Second line\>"] [Line3 "\<Third line\>"] [Line4 "\<Fourth line\>"]**
+**/edit [Line1 "&lt;First line&gt;"] [Line2 "&lt;Second line&gt;"] [Line3 "&lt;Third line&gt;"] [Line4 "&lt;Fourth line&gt;"]**
 
-**/edit [1 "\<First line\>"] [2 "\<Second line\>"] [3 "\<Third line\>"] [4 "\<Fourth line\>"]**
+**/edit [1 "&lt;First line&gt;"] [2 "&lt;Second line&gt;"] [3 "&lt;Third line&gt;"] [4 "&lt;Fourth line&gt;"]**
 
 #### Example ####
 The user Extrax-42 holds a signed book in his hands and execute **/edit**.
