@@ -8,7 +8,7 @@ Roles support multi-inheritance for their permissions.
 Players can have multiple roles and they can get permissions
 and meta data directly assigned to them.
 
-## COnfiguration structure
+## Configuration structure
 
 [@Faithcaio]
 
