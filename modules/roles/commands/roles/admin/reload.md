@@ -3,8 +3,9 @@
 
 #### Usage ####
 **/roles admin reload**
-**/manadmin reload**
-**/manload**
+
+#### Alias Commands ####
+manadmin reload, manload
 
 #### Example ####
 Admin42 changes some settings in the roles configurations
