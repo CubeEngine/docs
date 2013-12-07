@@ -8,7 +8,7 @@
 roles role prio, manrole priority, manrole prio
 
 #### Example ####
-**/prio Member in world** shows the priority of the role Member in world
+**/roles role prio Member in world** shows the priority of the role Member in world
 
 #### Permissions ####
 ***cubeengine.roles.command.roles.role.prio*** allows using the command
