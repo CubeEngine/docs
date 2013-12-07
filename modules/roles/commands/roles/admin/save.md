@@ -3,8 +3,9 @@
 
 #### Usage ####
 **/roles admin save**
-**/manadmin save**
-**/mansave**
+
+#### Alias Commands ####
+manadmin save, mansave
 
 #### Permissions ####
 ***cubeengine.roles.command.roles.admin.save*** allows using the command
