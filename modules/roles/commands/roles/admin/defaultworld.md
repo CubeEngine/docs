@@ -3,7 +3,9 @@
 
 #### Usage ####
 **/roles admin defaultworld [world]**  
-**/manadmin defaultworld [world]**
+
+#### Alias Commands ####
+manadmin defaultworld
 
 #### Permissions ####
 ***cubeengine.roles.command.roles.admin.defaultworld*** allows using the command
