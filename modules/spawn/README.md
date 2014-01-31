@@ -7,4 +7,4 @@ spawns.
 
 ## Configuration structure
 
-There is no configuration necessary.
+main-world: The main world of your server. Usually it will be the default "world" 
