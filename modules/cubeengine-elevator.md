@@ -1,10 +1,12 @@
 # CubeEngine - Elevator
 Lift up and down using signs
+
 ## Features:
  - Multi level lifts
  - Changable destination
  - Use item to create lifts
-## Additional Permissions
+
+## Additional Permissions:
 
 | Permission | Description |
 | --- | --- |

@@ -1,6 +1,7 @@
 # LibCube
 Core Library for CubeEngine plugins
-## Additional Permissions
+
+## Additional Permissions:
 
 | Permission | Description |
 | --- | --- |
