@@ -5,7 +5,7 @@ Provides password authorization
  - Hashed password storage
  - Random per-server static salt and per player dynamic salt
 ## Commands
-| Command | Description | Permission<br>`cubeengine.authorization.command.<perm>` |
+| Command | Description | Permission |
 | --- | --- | --- |
 | [*logout*](#logout) | Logs you out! | `logout.use` |
 | [*setPassword*](#setpassword) | Sets your password. | `setpassword.use` |
