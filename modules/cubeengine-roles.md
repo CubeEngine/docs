@@ -4,7 +4,7 @@ This module assigns permissions based on roles.
 | Command | Description | Permission<br>`cubeengine.roles.command.<perm>` |
 | --- | --- | --- |
 | [*roles*](#*roles*) | Manages the roles | `roles` |
-| [**roles** *admin*](#**roles** *admin*) | Manages the module | `roles.admin` |
+| [**roles** *admin*](#roles-admin) | Manages the module | `roles.admin` |
 | [**roles** **admin** *debug*](#**roles**-**admin**-*debug*) | Toggles debug mode | `roles.admin.debug.use` |
 | [**roles** **admin** *findPermission*](#roles-admin-findPermission) | Searches for registered Permissions | `roles.admin.findpermission.use` |
 | [**roles** **admin** *reload*](#roles admin reload) | Reloads all roles from config | `roles.admin.reload.use` |
