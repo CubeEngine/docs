@@ -4,13 +4,15 @@ Provides password authorization
  - User registration with password
  - Hashed password storage
  - Random per-server static salt and per player dynamic salt
-## Commands
+## Commands:
+
 | Command | Description | Permission |
 | --- | --- | --- |
 | [*logout*](#logout) | Logs you out! | `logout.use` |
 | [*setPassword*](#setpassword) | Sets your password. | `setpassword.use` |
 | [*clearPassword*](#clearpassword) | Clears your password. | `clearpassword.use` |
 | [*login*](#login) | Logs you in with your password! | `login.use` |
+
 #### logout  
 Logs you out!  
 **Usage:** `logout `  
