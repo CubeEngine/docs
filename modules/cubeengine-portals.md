@@ -1,5 +1,9 @@
 # CubeEngine - Portals
 Start thinking with portals
+## Features:
+ - Create portals anywhere
+ - Random destinations
+ - One-way portals
 ## Commands
 | Command | Description | Permission<br>`cubeengine.portals.command.<perm>` |
 | --- | --- | --- |

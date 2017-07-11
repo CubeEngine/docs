@@ -1,5 +1,9 @@
 # CubeEngine - SignMarket
 Adds a sign-based market.
+## Features:
+ - Create signs for trading
+ - Signs support either selling or buying
+ - Admin signs with unlimited capacity
 ## Commands
 | Command | Description | Permission<br>`cubeengine.signmarket.command.<perm>` |
 | --- | --- | --- |

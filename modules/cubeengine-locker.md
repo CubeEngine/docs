@@ -1,5 +1,14 @@
 # CubeEngine - Locker
 Put a lock onto your most precious things
+## Features:
+ - Chest, animal and door locks
+ - Additional lockable objects configurable
+ - Keys to open locks
+ - Automatic protection when taming or building chests
+ - Protect chests from hopper inputs
+ - Synchronized double doors
+ - Automatically close doors
+ - Everything configurable
 ## Commands
 | Command | Description | Permission<br>`cubeengine.locker.command.<perm>` |
 | --- | --- | --- |

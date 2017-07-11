@@ -1,5 +1,9 @@
 # CubeEngine - Multiverse
 Group your worlds in universes
+## Features:
+ - Arbitrary world grouping
+ - Separate Inventory etc. for each universe
+ - Contexts for each universe
 ## Commands
 | Command | Description | Permission<br>`cubeengine.multiverse.command.<perm>` |
 | --- | --- | --- |

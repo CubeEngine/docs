@@ -1,5 +1,8 @@
 # CubeEngine - Writer
 Edit signs and books!
+## Features:
+ - Rewrite books
+ - Change sign texts
 ## Commands
 | Command | Description | Permission<br>`cubeengine.writer.command.<perm>` |
 | --- | --- | --- |

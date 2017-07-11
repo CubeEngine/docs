@@ -1,5 +1,7 @@
 # CubeEngine - Powertools
 Empower your tools!
+## Features:
+ - Bind command executions to any item
 ## Commands
 | Command | Description | Permission<br>`cubeengine.powertools.command.<perm>` |
 | --- | --- | --- |

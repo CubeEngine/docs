@@ -1,5 +1,9 @@
 # CubeEngine - Protector
 Protects your worlds
+## Features:
+ - Define regions in your worlds and protect them
+ - Protects from any world changes
+ - Can be used for greylisting
 ## Commands
 | Command | Description | Permission<br>`cubeengine.protector.command.<perm>` |
 | --- | --- | --- |

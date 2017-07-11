@@ -1,5 +1,7 @@
 # CubeEngine - Namehistory
 Tracks users changing names on your server
+## Features:
+ - Lookup previous names of a player using Mojang's API
 ## Commands
 | Command | Description | Permission<br>`cubeengine.namehistory.command.<perm>` |
 | --- | --- | --- |

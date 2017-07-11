@@ -1,5 +1,7 @@
 # CubeEngine - Backpack
 Expand your inventory!
+## Features:
+ - Additional storage inventories for players
 ## Commands
 | Command | Description | Permission<br>`cubeengine.backpack.command.<perm>` |
 | --- | --- | --- |

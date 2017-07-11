@@ -1,5 +1,9 @@
 # CubeEngine - Kits
 Hand kits to your players
+## Features:
+ - Create sets of arbitrary items
+ - Can run a command on kit receival
+ - Create kits in game using an inventory
 ## Commands
 | Command | Description | Permission<br>`cubeengine.kits.command.<perm>` |
 | --- | --- | --- |

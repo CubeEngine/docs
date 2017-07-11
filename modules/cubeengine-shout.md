@@ -1,5 +1,9 @@
 # CubeEngine - Shout
 Announce things!
+## Features:
+ - Reoccurring chat announcements
+ - Permissions control announcement receivers
+ - Timers are per-player
 ## Commands
 | Command | Description | Permission<br>`cubeengine.shout.command.<perm>` |
 | --- | --- | --- |

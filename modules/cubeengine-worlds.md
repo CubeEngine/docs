@@ -1,5 +1,8 @@
 # CubeEngine - Worlds
 Create universes with countless worlds
+## Features:
+ - Create or delete new worlds
+ - Load or unload existing worls
 ## Commands
 | Command | Description | Permission<br>`cubeengine.worlds.command.<perm>` |
 | --- | --- | --- |

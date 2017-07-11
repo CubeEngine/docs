@@ -1,5 +1,10 @@
 # CubeEngine - Conomy
 Economy API and basic commands
+## Features:
+ - Implementation of the standard Economy interface
+ - Individual user accounts
+ - Banks
+ - Configurable currencies
 ## Commands
 | Command | Description | Permission<br>`cubeengine.conomy.command.<perm>` |
 | --- | --- | --- |

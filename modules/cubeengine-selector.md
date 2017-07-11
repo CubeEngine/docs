@@ -1,5 +1,7 @@
 # CubeEngine - Selector
 Provides tools to select shapes
+## Features:
+ - 2-point cubiod selections
 ## Commands
 | Command | Description | Permission<br>`cubeengine.selector.command.<perm>` |
 | --- | --- | --- |

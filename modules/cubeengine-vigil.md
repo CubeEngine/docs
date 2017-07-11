@@ -1,5 +1,10 @@
 # CubeEngine - Vigil
 Log everything you want!
+## Features:
+ - Tracks any world changes
+ - Storage in MongoDB database
+ - Ingame lookup and restore
+ - Restore preview
 ## Dependencies:
  `cubeengine-bigdata`
 ## Commands
