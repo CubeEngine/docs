@@ -6,6 +6,7 @@ Edit signs and books!
  - Change sign texts
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.writer.command.<perm>` |
 | --- | --- | --- |
 | [*edit*](#edit) | Edit a sign or a signed book | `edit.use` |

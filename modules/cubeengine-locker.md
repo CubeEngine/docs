@@ -12,6 +12,7 @@ Put a lock onto your most precious things
  - Everything configurable
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.locker.command.<perm>` |
 | --- | --- | --- |
 | [*locker*](#locker) | Locker commands | `locker` |

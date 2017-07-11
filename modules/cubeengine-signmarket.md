@@ -7,6 +7,7 @@ Adds a sign-based market.
  - Admin signs with unlimited capacity
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.signmarket.command.<perm>` |
 | --- | --- | --- |
 | [*marketsign*](#marketsign) | MarketSign-Commands | `marketsign` |

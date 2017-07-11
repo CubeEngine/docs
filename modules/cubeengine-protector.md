@@ -7,6 +7,7 @@ Protects your worlds
  - Can be used for greylisting
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.protector.command.<perm>` |
 | --- | --- | --- |
 | [*region*](#region) | Manages the regions | `region` |

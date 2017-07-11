@@ -7,6 +7,7 @@ Hand kits to your players
  - Create kits in game using an inventory
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.kits.command.<perm>` |
 | --- | --- | --- |
 | [*kit*](#kit) | Manages item-kits | `kit` |

@@ -5,6 +5,7 @@ Provides tools to select shapes
  - 2-point cubiod selections
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.selector.command.<perm>` |
 | --- | --- | --- |
 | [*selectiontool*](#selectiontool) | Provides you with a wand to select a cuboid | `selectiontool.use` |

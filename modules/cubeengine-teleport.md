@@ -7,35 +7,61 @@ Basic Teleportation
  - Unsafe teleporting for exact teleport destinations
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.teleport.command.<perm>` |
 | --- | --- | --- |
-| [*tpahere*](#tpahere) | Requests to teleport a player to you. | `tpahere.use` |
-| [*through*](#through) | Jumps to the position you are looking at. | `through.use` |
 | [*place*](#place) | Places a player to the position you are looking at. | `place.use` |
-| [*back*](#back) | Teleports you to your last location | `back.use` |
-| [*tpworld*](#tpworld) | Teleports you to the spawn of given world | `tpworld.use` |
-| [*ascend*](#ascend) | Teleports you to the next safe spot upwards. | `ascend.use` |
-| [*setSpawn*](#setspawn) | Changes the global respawnpoint | `setspawn.use` |
 | [*spawn*](#spawn) | Teleports a player to spawn | `spawn.use` |
-| [*swap*](#swap) | Swaps you and another players position | `swap.use` |
-| [*up*](#up) | Teleports you X amount of blocks into the air and puts a glass block beneath you. | `up.use` |
+| [*tpall*](#tpall) | Teleports everyone directly to a player. | `tpall.use` |
+| [*setSpawn*](#setspawn) | Changes the global respawnpoint | `setspawn.use` |
+| [*tppos*](#tppos) | Direct teleport to a coordinate. | `tppos.use` |
+| [*through*](#through) | Jumps to the position you are looking at. | `through.use` |
 | [*tphere*](#tphere) | Teleport a player directly to you. | `tphere.use` |
+| [*ascend*](#ascend) | Teleports you to the next safe spot upwards. | `ascend.use` |
+| [*spawnAll*](#spawnall) | Teleports all players to spawn | `spawnall.use` |
+| [*tpahere*](#tpahere) | Requests to teleport a player to you. | `tpahere.use` |
+| [*swap*](#swap) | Swaps you and another players position | `swap.use` |
+| [*back*](#back) | Teleports you to your last location | `back.use` |
+| [*top*](#top) | Teleports to the highest point at your position. | `top.use` |
 | [*descend*](#descend) | Teleports you to the next safe spot downwards. | `descend.use` |
+| [*tp*](#tp) | Teleport directly to a player. | `tp.use` |
+| [*tpaccept*](#tpaccept) | Accepts any pending teleport request. | `tpaccept.use` |
 | [*tpdeny*](#tpdeny) | Denies any pending teleport request. | `tpdeny.use` |
 | [*jumpTo*](#jumpto) | Jumps to the position you are looking at. | `jumpto.use` |
-| [*tpall*](#tpall) | Teleports everyone directly to a player. | `tpall.use` |
-| [*tp*](#tp) | Teleport directly to a player. | `tp.use` |
+| [*tpworld*](#tpworld) | Teleports you to the spawn of given world | `tpworld.use` |
+| [*up*](#up) | Teleports you X amount of blocks into the air and puts a glass block beneath you. | `up.use` |
 | [*tphereall*](#tphereall) | Teleport every player directly to you. | `tphereall.use` |
-| [*top*](#top) | Teleports to the highest point at your position. | `top.use` |
-| [*tpaccept*](#tpaccept) | Accepts any pending teleport request. | `tpaccept.use` |
-| [*tppos*](#tppos) | Direct teleport to a coordinate. | `tppos.use` |
 | [*tpa*](#tpa) | Requests to teleport to a player. | `tpa.use` |
-| [*spawnAll*](#spawnall) | Teleports all players to spawn | `spawnall.use` |
 
-#### tpahere  
-Requests to teleport a player to you.  
-**Usage:** `tpahere <player>`  
-**Permission:** `cubeengine.teleport.command.tpahere.use`  
+#### place  
+Places a player to the position you are looking at.  
+**Usage:** `place <player>`  
+**Alias:** `put`  
+**Permission:** `cubeengine.teleport.command.place.use`  
+  
+
+#### spawn  
+Teleports a player to spawn  
+**Usage:** `spawn <player> [world] [-force]`  
+**Permission:** `cubeengine.teleport.command.spawn.use`  
+  
+
+#### tpall  
+Teleports everyone directly to a player.  
+**Usage:** `tpall <player> [-force]`  
+**Permission:** `cubeengine.teleport.command.tpall.use`  
+  
+
+#### setSpawn  
+Changes the global respawnpoint  
+**Usage:** `setSpawn <world> [x] [y] [z]`  
+**Permission:** `cubeengine.teleport.command.setspawn.use`  
+  
+
+#### tppos  
+Direct teleport to a coordinate.  
+**Usage:** `tppos <x> <y> <z> [world <world>] [player <player>] [-unsafe]`  
+**Permission:** `cubeengine.teleport.command.tppos.use`  
   
 
 #### through  
@@ -45,23 +71,10 @@ Jumps to the position you are looking at.
 **Permission:** `cubeengine.teleport.command.through.use`  
   
 
-#### place  
-Places a player to the position you are looking at.  
-**Usage:** `place <player>`  
-**Alias:** `put`  
-**Permission:** `cubeengine.teleport.command.place.use`  
-  
-
-#### back  
-Teleports you to your last location  
-**Usage:** `back [-unsafe]`  
-**Permission:** `cubeengine.teleport.command.back.use`  
-  
-
-#### tpworld  
-Teleports you to the spawn of given world  
-**Usage:** `tpworld <world>`  
-**Permission:** `cubeengine.teleport.command.tpworld.use`  
+#### tphere  
+Teleport a player directly to you.  
+**Usage:** `tphere <player> [-force]`  
+**Permission:** `cubeengine.teleport.command.tphere.use`  
   
 
 #### ascend  
@@ -70,16 +83,16 @@ Teleports you to the next safe spot upwards.
 **Permission:** `cubeengine.teleport.command.ascend.use`  
   
 
-#### setSpawn  
-Changes the global respawnpoint  
-**Usage:** `setSpawn <world> [x] [y] [z]`  
-**Permission:** `cubeengine.teleport.command.setspawn.use`  
+#### spawnAll  
+Teleports all players to spawn  
+**Usage:** `spawnAll <world> [-force]`  
+**Permission:** `cubeengine.teleport.command.spawnall.use`  
   
 
-#### spawn  
-Teleports a player to spawn  
-**Usage:** `spawn <player> [world] [-force]`  
-**Permission:** `cubeengine.teleport.command.spawn.use`  
+#### tpahere  
+Requests to teleport a player to you.  
+**Usage:** `tpahere <player>`  
+**Permission:** `cubeengine.teleport.command.tpahere.use`  
   
 
 #### swap  
@@ -88,22 +101,35 @@ Swaps you and another players position
 **Permission:** `cubeengine.teleport.command.swap.use`  
   
 
-#### up  
-Teleports you X amount of blocks into the air and puts a glass block beneath you.  
-**Usage:** `up <height>`  
-**Permission:** `cubeengine.teleport.command.up.use`  
+#### back  
+Teleports you to your last location  
+**Usage:** `back [-unsafe]`  
+**Permission:** `cubeengine.teleport.command.back.use`  
   
 
-#### tphere  
-Teleport a player directly to you.  
-**Usage:** `tphere <player> [-force]`  
-**Permission:** `cubeengine.teleport.command.tphere.use`  
+#### top  
+Teleports to the highest point at your position.  
+**Usage:** `top `  
+**Permission:** `cubeengine.teleport.command.top.use`  
   
 
 #### descend  
 Teleports you to the next safe spot downwards.  
 **Usage:** `descend `  
 **Permission:** `cubeengine.teleport.command.descend.use`  
+  
+
+#### tp  
+Teleport directly to a player.  
+**Usage:** `tp <player> [target] [-force]`  
+**Permission:** `cubeengine.teleport.command.tp.use`  
+  
+
+#### tpaccept  
+Accepts any pending teleport request.  
+**Usage:** `tpaccept `  
+**Alias:** `tpac`  
+**Permission:** `cubeengine.teleport.command.tpaccept.use`  
   
 
 #### tpdeny  
@@ -119,16 +145,16 @@ Jumps to the position you are looking at.
 **Permission:** `cubeengine.teleport.command.jumpto.use`  
   
 
-#### tpall  
-Teleports everyone directly to a player.  
-**Usage:** `tpall <player> [-force]`  
-**Permission:** `cubeengine.teleport.command.tpall.use`  
+#### tpworld  
+Teleports you to the spawn of given world  
+**Usage:** `tpworld <world>`  
+**Permission:** `cubeengine.teleport.command.tpworld.use`  
   
 
-#### tp  
-Teleport directly to a player.  
-**Usage:** `tp <player> [target] [-force]`  
-**Permission:** `cubeengine.teleport.command.tp.use`  
+#### up  
+Teleports you X amount of blocks into the air and puts a glass block beneath you.  
+**Usage:** `up <height>`  
+**Permission:** `cubeengine.teleport.command.up.use`  
   
 
 #### tphereall  
@@ -137,35 +163,10 @@ Teleport every player directly to you.
 **Permission:** `cubeengine.teleport.command.tphereall.use`  
   
 
-#### top  
-Teleports to the highest point at your position.  
-**Usage:** `top `  
-**Permission:** `cubeengine.teleport.command.top.use`  
-  
-
-#### tpaccept  
-Accepts any pending teleport request.  
-**Usage:** `tpaccept `  
-**Alias:** `tpac`  
-**Permission:** `cubeengine.teleport.command.tpaccept.use`  
-  
-
-#### tppos  
-Direct teleport to a coordinate.  
-**Usage:** `tppos <x> <y> <z> [world <world>] [player <player>] [-unsafe]`  
-**Permission:** `cubeengine.teleport.command.tppos.use`  
-  
-
 #### tpa  
 Requests to teleport to a player.  
 **Usage:** `tpa <player>`  
 **Permission:** `cubeengine.teleport.command.tpa.use`  
-  
-
-#### spawnAll  
-Teleports all players to spawn  
-**Usage:** `spawnAll <world> [-force]`  
-**Permission:** `cubeengine.teleport.command.spawnall.use`  
   
 
 ## Additional Permissions:

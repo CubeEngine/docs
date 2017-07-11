@@ -7,6 +7,7 @@ Announce things!
  - Timers are per-player
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.shout.command.<perm>` |
 | --- | --- | --- |
 | [*shout*](#shout) | Announce a message to players on the server | `shout` |

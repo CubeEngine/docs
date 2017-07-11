@@ -5,6 +5,7 @@ Expand your inventory!
  - Additional storage inventories for players
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.backpack.command.<perm>` |
 | --- | --- | --- |
 | [*backpack*](#backpack) | The Backpack commands | `backpack` |

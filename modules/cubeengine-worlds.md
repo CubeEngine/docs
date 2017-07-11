@@ -6,6 +6,7 @@ Create universes with countless worlds
  - Load or unload existing worls
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.worlds.command.<perm>` |
 | --- | --- | --- |
 | [*worlds*](#worlds) | Worlds commands | `worlds` |

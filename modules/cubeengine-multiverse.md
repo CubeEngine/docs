@@ -7,6 +7,7 @@ Group your worlds in universes
  - Contexts for each universe
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.multiverse.command.<perm>` |
 | --- | --- | --- |
 | [*multiverse*](#multiverse) | Multiverse commands | `multiverse` |

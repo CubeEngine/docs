@@ -13,6 +13,7 @@ This module assigns permissions based on roles.
  - No database necessary!
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.roles.command.<perm>` |
 | --- | --- | --- |
 | [*roles*](#roles) | Manages the roles | `roles` |

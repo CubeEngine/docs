@@ -5,6 +5,7 @@ Tracks users changing names on your server
  - Lookup previous names of a player using Mojang's API
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.namehistory.command.<perm>` |
 | --- | --- | --- |
 | [*namehistory*](#namehistory) | Shows the namehistory of a player | `namehistory.use` |

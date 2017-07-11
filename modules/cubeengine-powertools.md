@@ -5,6 +5,7 @@ Empower your tools!
  - Bind command executions to any item
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.powertools.command.<perm>` |
 | --- | --- | --- |
 | [*powertool*](#powertool) | Binding shortcuts to an item. | `powertool` |

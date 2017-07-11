@@ -6,6 +6,7 @@ Adds repair functionality to minecraft
  - Configurable price development
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.itemrepair.command.<perm>` |
 | --- | --- | --- |
 | [*itemrepair*](#itemrepair) | ItemRepair commands | `itemrepair` |

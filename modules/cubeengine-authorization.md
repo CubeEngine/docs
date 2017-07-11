@@ -7,17 +7,19 @@ Provides password authorization
  - Random per-server static salt and per player dynamic salt
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.authorization.command.<perm>` |
 | --- | --- | --- |
-| [*logout*](#logout) | Logs you out! | `logout.use` |
-| [*setPassword*](#setpassword) | Sets your password. | `setpassword.use` |
 | [*clearPassword*](#clearpassword) | Clears your password. | `clearpassword.use` |
+| [*setPassword*](#setpassword) | Sets your password. | `setpassword.use` |
 | [*login*](#login) | Logs you in with your password! | `login.use` |
+| [*logout*](#logout) | Logs you out! | `logout.use` |
 
-#### logout  
-Logs you out!  
-**Usage:** `logout `  
-**Permission:** `cubeengine.authorization.command.logout.use`  
+#### clearPassword  
+Clears your password.  
+**Usage:** `clearPassword [players]`  
+**Alias:** `clearpw`  
+**Permission:** `cubeengine.authorization.command.clearpassword.use`  
   
 
 #### setPassword  
@@ -27,17 +29,16 @@ Sets your password.
 **Permission:** `cubeengine.authorization.command.setpassword.use`  
   
 
-#### clearPassword  
-Clears your password.  
-**Usage:** `clearPassword [players]`  
-**Alias:** `clearpw`  
-**Permission:** `cubeengine.authorization.command.clearpassword.use`  
-  
-
 #### login  
 Logs you in with your password!  
 **Usage:** `login <password>`  
 **Permission:** `cubeengine.authorization.command.login.use`  
+  
+
+#### logout  
+Logs you out!  
+**Usage:** `logout `  
+**Permission:** `cubeengine.authorization.command.logout.use`  
   
 
 ## Additional Permissions:

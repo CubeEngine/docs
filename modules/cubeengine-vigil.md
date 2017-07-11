@@ -11,6 +11,7 @@ Log everything you want!
  `cubeengine-bigdata`
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.vigil.command.<perm>` |
 | --- | --- | --- |
 | [*vigil*](#vigil) | Vigil-Module Commands | `vigil` |

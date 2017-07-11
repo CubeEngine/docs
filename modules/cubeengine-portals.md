@@ -7,6 +7,7 @@ Start thinking with portals
  - One-way portals
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.portals.command.<perm>` |
 | --- | --- | --- |
 | [*portals*](#portals) | The portal commands | `portals` |

@@ -6,18 +6,13 @@ This module allows players to hide themselves.
  - Supress chat messages
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.hide.command.<perm>` |
 | --- | --- | --- |
-| [*hidden*](#hidden) | Checks whether a player is hidden. | `hidden.use` |
 | [*unhide*](#unhide) | Unhides a player. | `unhide.use` |
 | [*listhiddens*](#listhiddens) | Lists all hidden players. | `listhiddens.use` |
 | [*hide*](#hide) | Hides a player. | `hide.use` |
-
-#### hidden  
-Checks whether a player is hidden.  
-**Usage:** `hidden <player>`  
-**Permission:** `cubeengine.hide.command.hidden.use`  
-  
+| [*hidden*](#hidden) | Checks whether a player is hidden. | `hidden.use` |
 
 #### unhide  
 Unhides a player.  
@@ -35,6 +30,12 @@ Lists all hidden players.
 Hides a player.  
 **Usage:** `hide <player>`  
 **Permission:** `cubeengine.hide.command.hide.use`  
+  
+
+#### hidden  
+Checks whether a player is hidden.  
+**Usage:** `hidden <player>`  
+**Permission:** `cubeengine.hide.command.hidden.use`  
   
 
 ## Additional Permissions:

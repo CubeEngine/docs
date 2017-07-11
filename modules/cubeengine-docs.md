@@ -2,6 +2,7 @@
 Generate Documentation for CubeEngine on the fly.
 
 ## Commands:
+
 | Command | Description | Permission<br>`cubeengine.docs.command.<perm>` |
 | --- | --- | --- |
 | [*generateDocs*](#generatedocs) | Generates documentation | `generatedocs.use` |
