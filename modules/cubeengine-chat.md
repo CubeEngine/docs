@@ -13,13 +13,13 @@ This module adds chat formatting functionality.
 | Command | Description | Permission<br>`cubeengine.chat.command.<perm>` |
 | --- | --- | --- |
 | [*rand*](#rand) | Shows a random number from 0 to 100 | `rand.use` |
-| [*chatcolors*](#chatcolors) | Displays the colors | `chatcolors.use` |
+| [*nick*](#nick) | Changes your display name | `nick.use` |
+| [*me*](#me) | Allows you to emote | `me.use` |
 | [*reply*](#reply) | Replies to the last person that whispered to you. | `reply.use` |
+| [*msg*](#msg) | Sends a private message to someone | `msg.use` |
+| [*chatcolors*](#chatcolors) | Displays the colors | `chatcolors.use` |
 | [*afk*](#afk) | Displays that you are afk | `afk.use` |
 | [*broadcast*](#broadcast) | Broadcasts a message | `broadcast.use` |
-| [*me*](#me) | Allows you to emote | `me.use` |
-| [*nick*](#nick) | Changes your display name | `nick.use` |
-| [*msg*](#msg) | Sends a private message to someone | `msg.use` |
 
 #### rand  
 Shows a random number from 0 to 100  
@@ -28,10 +28,16 @@ Shows a random number from 0 to 100
 **Permission:** `cubeengine.chat.command.rand.use`  
   
 
-#### chatcolors  
-Displays the colors  
-**Usage:** `chatcolors `  
-**Permission:** `cubeengine.chat.command.chatcolors.use`  
+#### nick  
+Changes your display name  
+**Usage:** `nick <<name>|-reset> [player]`  
+**Permission:** `cubeengine.chat.command.nick.use`  
+  
+
+#### me  
+Allows you to emote  
+**Usage:** `me <message>`  
+**Permission:** `cubeengine.chat.command.me.use`  
   
 
 #### reply  
@@ -39,6 +45,19 @@ Replies to the last person that whispered to you.
 **Usage:** `reply <message>`  
 **Alias:** `r`  
 **Permission:** `cubeengine.chat.command.reply.use`  
+  
+
+#### msg  
+Sends a private message to someone  
+**Usage:** `msg <player> <message>`  
+**Alias:** `tell` `message` `pm` `m` `t` `whisper` `w`  
+**Permission:** `cubeengine.chat.command.msg.use`  
+  
+
+#### chatcolors  
+Displays the colors  
+**Usage:** `chatcolors `  
+**Permission:** `cubeengine.chat.command.chatcolors.use`  
   
 
 #### afk  
@@ -51,25 +70,6 @@ Displays that you are afk
 Broadcasts a message  
 **Usage:** `broadcast <message>`  
 **Permission:** `cubeengine.chat.command.broadcast.use`  
-  
-
-#### me  
-Allows you to emote  
-**Usage:** `me <message>`  
-**Permission:** `cubeengine.chat.command.me.use`  
-  
-
-#### nick  
-Changes your display name  
-**Usage:** `nick <<name>|-reset> [player]`  
-**Permission:** `cubeengine.chat.command.nick.use`  
-  
-
-#### msg  
-Sends a private message to someone  
-**Usage:** `msg <player> <message>`  
-**Alias:** `tell` `message` `pm` `m` `t` `whisper` `w`  
-**Permission:** `cubeengine.chat.command.msg.use`  
   
 
 ## Additional Permissions:
