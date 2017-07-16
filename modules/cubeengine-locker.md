@@ -5,7 +5,7 @@ Put a lock onto your most precious things
  - Chest, animal and door locks
  - Additional lockable objects configurable
  - Keys to open locks
- - Automatic protection when taming or building chests
+ - Automatic protection when taming animals or building chests
  - Protect chests from hopper inputs
  - Synchronized double doors
  - Automatically close doors
