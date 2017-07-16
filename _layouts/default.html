@@ -28,13 +28,6 @@
           {% endif %}
         </nav>
       </div><!-- end header -->
-    
-    <div class="sidebar">
-        <div class="partner jprofiler first">
-            <a href="http://www.ej-technologies.com/products/jprofiler/overview.html" target="_blank">JProfiler</a>, ein führender Java profiler, unterstützt unsere Entwickler.
-            <div class="clear"></div>
-        </div>
-    </div>
 
     <div class="wrapper">
 
@@ -43,6 +36,14 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
+        </div>
+        
+            
+        <div class="sidebar">
+            <div class="partner jprofiler first">
+                <a href="http://www.ej-technologies.com/products/jprofiler/overview.html" target="_blank">JProfiler</a>, ein führender Java profiler, unterstützt unsere Entwickler.
+                <div class="clear"></div>
+            </div>
         </div>
 
         {{ content }}
