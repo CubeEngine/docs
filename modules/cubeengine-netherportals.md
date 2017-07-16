@@ -10,8 +10,8 @@ Modifies Vanilla Portal behaviours
 | Command | Description | Permission<br>`cubeengine.netherportals.command.<perm>` |
 | --- | --- | --- |
 | [*netherportals*](#netherportals) | Manages Netherportals | `netherportals` |
-| [**netherportals** *setEndTarget*](#netherportals-setendtarget) | Sets the EndPortal Target | `netherportals.setendtarget.use` |
-| [**netherportals** *setNetherTarget*](#netherportals-setnethertarget) | Sets the NetherPortal Target | `netherportals.setnethertarget.use` |
+| [**netherportals**&nbsp;*setEndTarget*](#netherportals&nbsp;setendtarget) | Sets the EndPortal Target | `netherportals.setendtarget.use` |
+| [**netherportals**&nbsp;*setNetherTarget*](#netherportals&nbsp;setnethertarget) | Sets the NetherPortal Target | `netherportals.setnethertarget.use` |
 
 #### netherportals  
 Manages Netherportals  
@@ -20,14 +20,14 @@ Manages Netherportals
 **Permission:** `cubeengine.netherportals.command.netherportals`  
 **SubCommands:** `setEndTarget` `setNetherTarget`  
 
-#### netherportals setEndTarget  
+#### netherportals&nbsp;setEndTarget  
 Sets the EndPortal Target  
 **Usage:** `netherportals setEndTarget <world> <target>`  
 **Alias:** `end`  
 **Permission:** `cubeengine.netherportals.command.netherportals.setendtarget.use`  
   
 
-#### netherportals setNetherTarget  
+#### netherportals&nbsp;setNetherTarget  
 Sets the NetherPortal Target  
 **Usage:** `netherportals setNetherTarget <world> <target>`  
 **Alias:** `nether`  

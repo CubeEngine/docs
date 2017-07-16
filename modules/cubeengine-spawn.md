@@ -9,14 +9,8 @@ Modifies the default spawn behaviour
 
 | Command | Description | Permission<br>`cubeengine.spawn.command.<perm>` |
 | --- | --- | --- |
-| [*setRoleSpawn*](#setrolespawn) | Changes the respawnpoint | `setrolespawn.use` |
 | [*roleSpawn*](#rolespawn) | Teleports a player to the configured rolespawn | `rolespawn.use` |
-
-#### setRoleSpawn  
-Changes the respawnpoint  
-**Usage:** `setRoleSpawn <role> <context>`  
-**Permission:** `cubeengine.spawn.command.setrolespawn.use`  
-  
+| [*setRoleSpawn*](#setrolespawn) | Changes the respawnpoint | `setrolespawn.use` |
 
 #### roleSpawn  
 Teleports a player to the configured rolespawn  
@@ -24,8 +18,14 @@ Teleports a player to the configured rolespawn
 **Permission:** `cubeengine.spawn.command.rolespawn.use`  
   
 
+#### setRoleSpawn  
+Changes the respawnpoint  
+**Usage:** `setRoleSpawn <role> <context>`  
+**Permission:** `cubeengine.spawn.command.setrolespawn.use`  
+  
+
 ## Additional Permissions:
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.spawn` | Base Permission for spawn |
+| `cubeengine.spawn` | Base Permission for spawn || `cubeengine.spawner` | Base Permission for spawner |

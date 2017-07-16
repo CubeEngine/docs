@@ -9,10 +9,10 @@ Empower your tools!
 | Command | Description | Permission<br>`cubeengine.powertools.command.<perm>` |
 | --- | --- | --- |
 | [*powertool*](#powertool) | Binding shortcuts to an item. | `powertool` |
-| [**powertool** *add*](#powertool-add) | Adds a command to your powertool | `powertool.add.use` |
-| [**powertool** *clear*](#powertool-clear) | Removes all commands from your powertool | `powertool.clear.use` |
-| [**powertool** *list*](#powertool-list) | Lists your powertool-bindings. | `powertool.list.use` |
-| [**powertool** *remove*](#powertool-remove) | Removes a command from your powertool | `powertool.remove.use` |
+| [**powertool**&nbsp;*add*](#powertool&nbsp;add) | Adds a command to your powertool | `powertool.add.use` |
+| [**powertool**&nbsp;*clear*](#powertool&nbsp;clear) | Removes all commands from your powertool | `powertool.clear.use` |
+| [**powertool**&nbsp;*list*](#powertool&nbsp;list) | Lists your powertool-bindings. | `powertool.list.use` |
+| [**powertool**&nbsp;*remove*](#powertool&nbsp;remove) | Removes a command from your powertool | `powertool.remove.use` |
 
 #### powertool  
 Binding shortcuts to an item.  
@@ -21,28 +21,28 @@ Binding shortcuts to an item.
 **Permission:** `cubeengine.powertools.command.powertool`  
 **SubCommands:** `add` `clear` `list` `remove`  
 
-#### powertool add  
+#### powertool&nbsp;add  
 Adds a command to your powertool  
 **Usage:** `powertool add <commandString> [-replace]`  
 **Alias:** `/pta`  
 **Permission:** `cubeengine.powertools.command.powertool.add.use`  
   
 
-#### powertool clear  
+#### powertool&nbsp;clear  
 Removes all commands from your powertool  
 **Usage:** `powertool clear [-all]`  
 **Alias:** `/ptc`  
 **Permission:** `cubeengine.powertools.command.powertool.clear.use`  
   
 
-#### powertool list  
+#### powertool&nbsp;list  
 Lists your powertool-bindings.  
 **Usage:** `powertool list [-all]`  
 **Alias:** `/ptl`  
 **Permission:** `cubeengine.powertools.command.powertool.list.use`  
   
 
-#### powertool remove  
+#### powertool&nbsp;remove  
 Removes a command from your powertool  
 **Usage:** `powertool remove [command]`  
 **Alias:** `del` `delete` `rm` `/ptr`  

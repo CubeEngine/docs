@@ -10,23 +10,10 @@ Provides password authorization
 
 | Command | Description | Permission<br>`cubeengine.authorization.command.<perm>` |
 | --- | --- | --- |
-| [*setPassword*](#setpassword) | Sets your password. | `setpassword.use` |
-| [*logout*](#logout) | Logs you out! | `logout.use` |
 | [*clearPassword*](#clearpassword) | Clears your password. | `clearpassword.use` |
 | [*login*](#login) | Logs you in with your password! | `login.use` |
-
-#### setPassword  
-Sets your password.  
-**Usage:** `setPassword <password> <player>`  
-**Alias:** `setpw`  
-**Permission:** `cubeengine.authorization.command.setpassword.use`  
-  
-
-#### logout  
-Logs you out!  
-**Usage:** `logout `  
-**Permission:** `cubeengine.authorization.command.logout.use`  
-  
+| [*logout*](#logout) | Logs you out! | `logout.use` |
+| [*setPassword*](#setpassword) | Sets your password. | `setpassword.use` |
 
 #### clearPassword  
 Clears your password.  
@@ -39,6 +26,19 @@ Clears your password.
 Logs you in with your password!  
 **Usage:** `login <password>`  
 **Permission:** `cubeengine.authorization.command.login.use`  
+  
+
+#### logout  
+Logs you out!  
+**Usage:** `logout `  
+**Permission:** `cubeengine.authorization.command.logout.use`  
+  
+
+#### setPassword  
+Sets your password.  
+**Usage:** `setPassword <password> <player>`  
+**Alias:** `setpw`  
+**Permission:** `cubeengine.authorization.command.setpassword.use`  
   
 
 ## Additional Permissions:

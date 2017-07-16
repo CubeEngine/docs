@@ -11,10 +11,10 @@ Group your worlds in universes
 | Command | Description | Permission<br>`cubeengine.multiverse.command.<perm>` |
 | --- | --- | --- |
 | [*multiverse*](#multiverse) | Multiverse commands | `multiverse` |
-| [**multiverse** *list*](#multiverse-list) | Lists all known universes | `multiverse.list.use` |
-| [**multiverse** *move*](#multiverse-move) | Moves a world into another universe | `multiverse.move.use` |
-| [**multiverse** *remove*](#multiverse-remove) | Removes a universe | `multiverse.remove.use` |
-| [**multiverse** *rename*](#multiverse-rename) | Renames a universe | `multiverse.rename.use` |
+| [**multiverse**&nbsp;*list*](#multiverse&nbsp;list) | Lists all known universes | `multiverse.list.use` |
+| [**multiverse**&nbsp;*move*](#multiverse&nbsp;move) | Moves a world into another universe | `multiverse.move.use` |
+| [**multiverse**&nbsp;*remove*](#multiverse&nbsp;remove) | Removes a universe | `multiverse.remove.use` |
+| [**multiverse**&nbsp;*rename*](#multiverse&nbsp;rename) | Renames a universe | `multiverse.rename.use` |
 
 #### multiverse  
 Multiverse commands  
@@ -23,25 +23,25 @@ Multiverse commands
 **Permission:** `cubeengine.multiverse.command.multiverse`  
 **SubCommands:** `list` `move` `remove` `rename`  
 
-#### multiverse list  
+#### multiverse&nbsp;list  
 Lists all known universes  
 **Usage:** `multiverse list `  
 **Permission:** `cubeengine.multiverse.command.multiverse.list.use`  
   
 
-#### multiverse move  
+#### multiverse&nbsp;move  
 Moves a world into another universe  
 **Usage:** `multiverse move <world> <universe>`  
 **Permission:** `cubeengine.multiverse.command.multiverse.move.use`  
   
 
-#### multiverse remove  
+#### multiverse&nbsp;remove  
 Removes a universe  
 **Usage:** `multiverse remove <universe>`  
 **Permission:** `cubeengine.multiverse.command.multiverse.remove.use`  
   
 
-#### multiverse rename  
+#### multiverse&nbsp;rename  
 Renames a universe  
 **Usage:** `multiverse rename <universe> <newName>`  
 **Permission:** `cubeengine.multiverse.command.multiverse.rename.use`  

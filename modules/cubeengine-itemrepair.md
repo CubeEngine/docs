@@ -10,8 +10,8 @@ Adds repair functionality to minecraft
 | Command | Description | Permission<br>`cubeengine.itemrepair.command.<perm>` |
 | --- | --- | --- |
 | [*itemrepair*](#itemrepair) | ItemRepair commands | `itemrepair` |
-| [**itemrepair** *add*](#itemrepair-add) | Adds a new RepairBlock | `itemrepair.add.use` |
-| [**itemrepair** *remove*](#itemrepair-remove) | Removes an existing RepairBlock | `itemrepair.remove.use` |
+| [**itemrepair**&nbsp;*add*](#itemrepair&nbsp;add) | Adds a new RepairBlock | `itemrepair.add.use` |
+| [**itemrepair**&nbsp;*remove*](#itemrepair&nbsp;remove) | Removes an existing RepairBlock | `itemrepair.remove.use` |
 
 #### itemrepair  
 ItemRepair commands  
@@ -20,13 +20,13 @@ ItemRepair commands
 **Permission:** `cubeengine.itemrepair.command.itemrepair`  
 **SubCommands:** `add` `remove`  
 
-#### itemrepair add  
+#### itemrepair&nbsp;add  
 Adds a new RepairBlock  
 **Usage:** `itemrepair add `  
 **Permission:** `cubeengine.itemrepair.command.itemrepair.add.use`  
   
 
-#### itemrepair remove  
+#### itemrepair&nbsp;remove  
 Removes an existing RepairBlock  
 **Usage:** `itemrepair remove `  
 **Permission:** `cubeengine.itemrepair.command.itemrepair.remove.use`  

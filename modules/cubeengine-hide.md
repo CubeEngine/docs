@@ -9,21 +9,21 @@ This module allows players to hide themselves.
 
 | Command | Description | Permission<br>`cubeengine.hide.command.<perm>` |
 | --- | --- | --- |
-| [*hide*](#hide) | Hides a player. | `hide.use` |
-| [*unhide*](#unhide) | Unhides a player. | `unhide.use` |
-| [*listhiddens*](#listhiddens) | Lists all hidden players. | `listhiddens.use` |
 | [*hidden*](#hidden) | Checks whether a player is hidden. | `hidden.use` |
+| [*hide*](#hide) | Hides a player. | `hide.use` |
+| [*listhiddens*](#listhiddens) | Lists all hidden players. | `listhiddens.use` |
+| [*unhide*](#unhide) | Unhides a player. | `unhide.use` |
+
+#### hidden  
+Checks whether a player is hidden.  
+**Usage:** `hidden <player>`  
+**Permission:** `cubeengine.hide.command.hidden.use`  
+  
 
 #### hide  
 Hides a player.  
 **Usage:** `hide <player>`  
 **Permission:** `cubeengine.hide.command.hide.use`  
-  
-
-#### unhide  
-Unhides a player.  
-**Usage:** `unhide <player>`  
-**Permission:** `cubeengine.hide.command.unhide.use`  
   
 
 #### listhiddens  
@@ -32,10 +32,10 @@ Lists all hidden players.
 **Permission:** `cubeengine.hide.command.listhiddens.use`  
   
 
-#### hidden  
-Checks whether a player is hidden.  
-**Usage:** `hidden <player>`  
-**Permission:** `cubeengine.hide.command.hidden.use`  
+#### unhide  
+Unhides a player.  
+**Usage:** `unhide <player>`  
+**Permission:** `cubeengine.hide.command.unhide.use`  
   
 
 ## Additional Permissions:
