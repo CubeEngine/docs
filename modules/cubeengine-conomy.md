@@ -11,10 +11,6 @@ Economy API and basic commands
 
 | Command | Description | Permission<br>`cubeengine.conomy.command.<perm>` |
 | --- | --- | --- |
-| [*money*](#money) | Manage your money | `money` |
-| [**money** *balance*](#money-balance) | Shows your balance | `money.balance.use` |
-| [**money** *pay*](#money-pay) | Transfer the given amount to another account. | `money.pay.use` |
-| [**money** *top*](#money-top) | Shows the players with the highest balance. | `money.top.use` |
 | [*eco*](#eco) | Administrative commands for Conomy | `eco` |
 | [**eco** *give*](#eco-give) | Gives money to one or all players. | `eco.give.use` |
 | [**eco** *hide*](#eco-hide) | Hides the account of a given player | `eco.hide.use` |
@@ -22,33 +18,10 @@ Economy API and basic commands
 | [**eco** *set*](#eco-set) | Sets the money of a given player | `eco.set.use` |
 | [**eco** *take*](#eco-take) | Takes money from given user | `eco.take.use` |
 | [**eco** *unhide*](#eco-unhide) | Unhides the account of a given player | `eco.unhide.use` |
-
-#### money  
-Manage your money  
-**Usage:** `money <command>`  
-**Permission:** `cubeengine.conomy.command.money`  
-**SubCommands:** `balance` `pay` `top`  
-
-#### money balance  
-Shows your balance  
-**Usage:** `money balance <account>`  
-**Alias:** `/balance` `/moneybalance` `/pmoney`  
-**Permission:** `cubeengine.conomy.command.money.balance.use`  
-  
-
-#### money pay  
-Transfer the given amount to another account.  
-**Usage:** `money pay <*|<players>> <amount> [as <source>]`  
-**Alias:** `give` `/pay`  
-**Permission:** `cubeengine.conomy.command.money.pay.use`  
-  
-
-#### money top  
-Shows the players with the highest balance.  
-**Usage:** `money top [[fromRank-]toRank]`  
-**Alias:** `/toplist` `/balancetop` `/topmoney`  
-**Permission:** `cubeengine.conomy.command.money.top.use`  
-  
+| [*money*](#money) | Manage your money | `money` |
+| [**money** *balance*](#money-balance) | Shows your balance | `money.balance.use` |
+| [**money** *pay*](#money-pay) | Transfer the given amount to another account. | `money.pay.use` |
+| [**money** *top*](#money-top) | Shows the players with the highest balance. | `money.top.use` |
 
 #### eco  
 Administrative commands for Conomy  
@@ -92,6 +65,33 @@ Takes money from given user
 Unhides the account of a given player  
 **Usage:** `eco unhide <*|<players>>`  
 **Permission:** `cubeengine.conomy.command.eco.unhide.use`  
+  
+
+#### money  
+Manage your money  
+**Usage:** `money <command>`  
+**Permission:** `cubeengine.conomy.command.money`  
+**SubCommands:** `balance` `pay` `top`  
+
+#### money balance  
+Shows your balance  
+**Usage:** `money balance <account>`  
+**Alias:** `/balance` `/moneybalance` `/pmoney`  
+**Permission:** `cubeengine.conomy.command.money.balance.use`  
+  
+
+#### money pay  
+Transfer the given amount to another account.  
+**Usage:** `money pay <*|<players>> <amount> [as <source>]`  
+**Alias:** `give` `/pay`  
+**Permission:** `cubeengine.conomy.command.money.pay.use`  
+  
+
+#### money top  
+Shows the players with the highest balance.  
+**Usage:** `money top [[fromRank-]toRank]`  
+**Alias:** `/toplist` `/balancetop` `/topmoney`  
+**Permission:** `cubeengine.conomy.command.money.top.use`  
   
 
 ## Additional Permissions:

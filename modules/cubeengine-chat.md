@@ -12,19 +12,20 @@ This module adds chat formatting functionality.
 
 | Command | Description | Permission<br>`cubeengine.chat.command.<perm>` |
 | --- | --- | --- |
-| [*nick*](#nick) | Changes your display name | `nick.use` |
+| [*rand*](#rand) | Shows a random number from 0 to 100 | `rand.use` |
 | [*broadcast*](#broadcast) | Broadcasts a message | `broadcast.use` |
 | [*afk*](#afk) | Displays that you are afk | `afk.use` |
-| [*me*](#me) | Allows you to emote | `me.use` |
-| [*chatcolors*](#chatcolors) | Displays the colors | `chatcolors.use` |
-| [*msg*](#msg) | Sends a private message to someone | `msg.use` |
-| [*rand*](#rand) | Shows a random number from 0 to 100 | `rand.use` |
 | [*reply*](#reply) | Replies to the last person that whispered to you. | `reply.use` |
+| [*me*](#me) | Allows you to emote | `me.use` |
+| [*msg*](#msg) | Sends a private message to someone | `msg.use` |
+| [*nick*](#nick) | Changes your display name | `nick.use` |
+| [*chatcolors*](#chatcolors) | Displays the colors | `chatcolors.use` |
 
-#### nick  
-Changes your display name  
-**Usage:** `nick <<name>|-reset> [player]`  
-**Permission:** `cubeengine.chat.command.nick.use`  
+#### rand  
+Shows a random number from 0 to 100  
+**Usage:** `rand `  
+**Alias:** `roll`  
+**Permission:** `cubeengine.chat.command.rand.use`  
   
 
 #### broadcast  
@@ -39,16 +40,17 @@ Displays that you are afk
 **Permission:** `cubeengine.chat.command.afk.use`  
   
 
+#### reply  
+Replies to the last person that whispered to you.  
+**Usage:** `reply <message>`  
+**Alias:** `r`  
+**Permission:** `cubeengine.chat.command.reply.use`  
+  
+
 #### me  
 Allows you to emote  
 **Usage:** `me <message>`  
 **Permission:** `cubeengine.chat.command.me.use`  
-  
-
-#### chatcolors  
-Displays the colors  
-**Usage:** `chatcolors `  
-**Permission:** `cubeengine.chat.command.chatcolors.use`  
   
 
 #### msg  
@@ -58,18 +60,16 @@ Sends a private message to someone
 **Permission:** `cubeengine.chat.command.msg.use`  
   
 
-#### rand  
-Shows a random number from 0 to 100  
-**Usage:** `rand `  
-**Alias:** `roll`  
-**Permission:** `cubeengine.chat.command.rand.use`  
+#### nick  
+Changes your display name  
+**Usage:** `nick <<name>|-reset> [player]`  
+**Permission:** `cubeengine.chat.command.nick.use`  
   
 
-#### reply  
-Replies to the last person that whispered to you.  
-**Usage:** `reply <message>`  
-**Alias:** `r`  
-**Permission:** `cubeengine.chat.command.reply.use`  
+#### chatcolors  
+Displays the colors  
+**Usage:** `chatcolors `  
+**Permission:** `cubeengine.chat.command.chatcolors.use`  
   
 
 ## Additional Permissions:

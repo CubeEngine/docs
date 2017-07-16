@@ -8,31 +8,19 @@ Kicks and Bans
 
 | Command | Description | Permission<br>`cubeengine.kickban.command.<perm>` |
 | --- | --- | --- |
-| [*kick*](#kick) | Kicks a player from the server | `kick.use` |
 | [*ban*](#ban) | Bans a player permanently on your server. | `ban.use` |
-| [*banlist*](#banlist) | View all players banned from this server | `banlist.use` |
 | [*ipunban*](#ipunban) | Bans the IP from this server. | `ipunban.use` |
+| [*kick*](#kick) | Kicks a player from the server | `kick.use` |
 | [*unban*](#unban) | Unbans a previously banned player. | `unban.use` |
-| [*tempban*](#tempban) | Bans a player for a given time. | `tempban.use` |
 | [*ipban*](#ipban) | Bans the IP from this server. | `ipban.use` |
-
-#### kick  
-Kicks a player from the server  
-**Usage:** `kick <players> [reason]`  
-**Permission:** `cubeengine.kickban.command.kick.use`  
-  
+| [*tempban*](#tempban) | Bans a player for a given time. | `tempban.use` |
+| [*banlist*](#banlist) | View all players banned from this server | `banlist.use` |
 
 #### ban  
 Bans a player permanently on your server.  
 **Usage:** `ban <player> [reason] [-ipban] [-force]`  
 **Alias:** `kickban`  
 **Permission:** `cubeengine.kickban.command.ban.use`  
-  
-
-#### banlist  
-View all players banned from this server  
-**Usage:** `banlist <type> [filter]`  
-**Permission:** `cubeengine.kickban.command.banlist.use`  
   
 
 #### ipunban  
@@ -42,11 +30,24 @@ Bans the IP from this server.
 **Permission:** `cubeengine.kickban.command.ipunban.use`  
   
 
+#### kick  
+Kicks a player from the server  
+**Usage:** `kick <players> [reason]`  
+**Permission:** `cubeengine.kickban.command.kick.use`  
+  
+
 #### unban  
 Unbans a previously banned player.  
 **Usage:** `unban <player>`  
 **Alias:** `pardon`  
 **Permission:** `cubeengine.kickban.command.unban.use`  
+  
+
+#### ipban  
+Bans the IP from this server.  
+**Usage:** `ipban <IP address> [reason]`  
+**Alias:** `banip`  
+**Permission:** `cubeengine.kickban.command.ipban.use`  
   
 
 #### tempban  
@@ -56,11 +57,10 @@ Bans a player for a given time.
 **Permission:** `cubeengine.kickban.command.tempban.use`  
   
 
-#### ipban  
-Bans the IP from this server.  
-**Usage:** `ipban <IP address> [reason]`  
-**Alias:** `banip`  
-**Permission:** `cubeengine.kickban.command.ipban.use`  
+#### banlist  
+View all players banned from this server  
+**Usage:** `banlist <type> [filter]`  
+**Permission:** `cubeengine.kickban.command.banlist.use`  
   
 
 ## Additional Permissions:

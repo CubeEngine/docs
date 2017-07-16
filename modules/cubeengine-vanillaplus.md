@@ -11,17 +11,8 @@ Improved Vanilla
 
 | Command | Description | Permission<br>`cubeengine.vanillaplus.command.<perm>` |
 | --- | --- | --- |
-| [*time*](#time) | Changes the time of a world | `time.use` |
-| [*plugins*](#plugins) | Lists all loaded plugins | `plugins.use` |
-| [*saveall*](#saveall) | Saves all or a specific world to disk. | `saveall.use` |
-| [*difficulty*](#difficulty) | Changes the difficulty level of the server | `difficulty.use` |
-| [*depth*](#depth) | Displays your current depth. | `depth.use` |
-| [*invsee*](#invsee) | Allows you to see into the inventory of someone else. | `invsee.use` |
-| [*clearinventory*](#clearinventory) | Clears the inventory | `clearinventory.use` |
-| [*stop*](#stop) | Shuts down the server | `stop.use` |
-| [*getPos*](#getpos) | Displays your current location. | `getpos.use` |
-| [*feed*](#feed) | Refills your hunger bar | `feed.use` |
-| [*remove*](#remove) | Removes entities in a radius | `remove.use` |
+| [*compass*](#compass) | Displays the direction in which you are looking. | `compass.use` |
+| [*fly*](#fly) | Lets you fly away | `fly.use` |
 | [*whitelist*](#whitelist) | Allows you to manage your whitelist | `whitelist` |
 | [**whitelist** *add*](#whitelist-add) | Adds a player to the whitelist. | `whitelist.add.use` |
 | [**whitelist** *list*](#whitelist-list) | Lists all the whitelisted players | `whitelist.list.use` |
@@ -29,24 +20,35 @@ Improved Vanilla
 | [**whitelist** *on*](#whitelist-on) | Enables the whitelisting | `whitelist.on.use` |
 | [**whitelist** *remove*](#whitelist-remove) | Removes a player from the whitelist. | `whitelist.remove.use` |
 | [**whitelist** *wipe*](#whitelist-wipe) | Wipes the whitelist completely | `whitelist.wipe.use` |
-| [*headchange*](#headchange) | Changes a skull to a players skin. | `headchange.use` |
 | [*weather*](#weather) | Changes the weather | `weather.use` |
 | [*whois*](#whois) | Displays informations from a player! | `whois.use` |
-| [*compass*](#compass) | Displays the direction in which you are looking. | `compass.use` |
-| [*gamemode*](#gamemode) | Changes the gamemode | `gamemode.use` |
-| [*lore*](#lore) | Changes the lore of the item in your hand. | `lore.use` |
-| [*kill*](#kill) | Kills a player | `kill.use` |
+| [*headchange*](#headchange) | Changes a skull to a players skin. | `headchange.use` |
 | [*walkspeed*](#walkspeed) | Changes your walkspeed. | `walkspeed.use` |
-| [*list*](#list) | Displays all the online players. | `list.use` |
-| [*version*](#version) | Displays the version of the server or a given plugin | `version.use` |
-| [*spawnMob*](#spawnmob) | Spawns the specified Mob | `spawnmob.use` |
-| [*itemDB*](#itemdb) | Looks up an item for you! | `itemdb.use` |
+| [*remove*](#remove) | Removes entities in a radius | `remove.use` |
+| [*starve*](#starve) | Empties the hunger bar | `starve.use` |
+| [*more*](#more) | Refills the stack in hand | `more.use` |
 | [*rename*](#rename) | Changes the display name of the item in your hand. | `rename.use` |
-| [*ping*](#ping) | Pong! | `ping.use` |
-| [*biome*](#biome) | Displays the biome type you are standing in. | `biome.use` |
+| [*clearinventory*](#clearinventory) | Clears the inventory | `clearinventory.use` |
+| [*give*](#give) | Gives the specified Item to a player | `give.use` |
+| [*unlimited*](#unlimited) | Grants unlimited items | `unlimited.use` |
 | [*suicide*](#suicide) | Kills yourself | `suicide.use` |
 | [*heal*](#heal) | Heals a player | `heal.use` |
+| [*enchant*](#enchant) | Adds an Enchantment to the item in your hand | `enchant.use` |
+| [*depth*](#depth) | Displays your current depth. | `depth.use` |
+| [*version*](#version) | Displays the version of the server or a given plugin | `version.use` |
 | [*seen*](#seen) | Shows when given player was online the last time | `seen.use` |
+| [*lore*](#lore) | Changes the lore of the item in your hand. | `lore.use` |
+| [*gamemode*](#gamemode) | Changes the gamemode | `gamemode.use` |
+| [*removeAll*](#removeall) | Removes entities in a world | `removeall.use` |
+| [*getPos*](#getpos) | Displays your current location. | `getpos.use` |
+| [*difficulty*](#difficulty) | Changes the difficulty level of the server | `difficulty.use` |
+| [*time*](#time) | Changes the time of a world | `time.use` |
+| [*list*](#list) | Displays all the online players. | `list.use` |
+| [*stash*](#stash) | Stashes or unstashes your inventory to reuse later | `stash.use` |
+| [*kill*](#kill) | Kills a player | `kill.use` |
+| [*lag*](#lag) | Displays chunk, memory and world information. | `lag.use` |
+| [*saveall*](#saveall) | Saves all or a specific world to disk. | `saveall.use` |
+| [*feed*](#feed) | Refills your hunger bar | `feed.use` |
 | [*border*](#border) | border commands | `border` |
 | [**border** *add*](#border-add) | Sets the diameter of the worldborder | `border.add.use` |
 | [**border** *damage*](#border-damage) | Sets the world border damage per second per block | `border.damage.use` |
@@ -58,90 +60,31 @@ Improved Vanilla
 | [**border** *warningDistance*](#border-warningdistance) | Sets the warning time | `border.warningdistance.use` |
 | [**border** *warningTime*](#border-warningtime) | Sets the warning time | `border.warningtime.use` |
 | [*repair*](#repair) | Repairs your items | `repair.use` |
-| [*near*](#near) | Displays near players(entities/mobs) to you. | `near.use` |
-| [*stack*](#stack) | Stacks your items up to 64 | `stack.use` |
-| [*item*](#item) | Gives the specified Item to you | `item.use` |
-| [*enchant*](#enchant) | Adds an Enchantment to the item in your hand | `enchant.use` |
-| [*sudo*](#sudo) | Makes a player send a message (including commands) | `sudo.use` |
-| [*butcher*](#butcher) | Gets rid of mobs close to you. Valid types are:<br>monster, animal, pet, golem, boss, other, creeper, skeleton, spider etc. | `butcher.use` |
-| [*lag*](#lag) | Displays chunk, memory and world information. | `lag.use` |
-| [*unlimited*](#unlimited) | Grants unlimited items | `unlimited.use` |
+| [*ping*](#ping) | Pong! | `ping.use` |
+| [*spawnMob*](#spawnmob) | Spawns the specified Mob | `spawnmob.use` |
 | [*god*](#god) | Toggles the god-mode! | `god.use` |
-| [*starve*](#starve) | Empties the hunger bar | `starve.use` |
-| [*more*](#more) | Refills the stack in hand | `more.use` |
-| [*removeAll*](#removeall) | Removes entities in a world | `removeall.use` |
+| [*biome*](#biome) | Displays the biome type you are standing in. | `biome.use` |
+| [*plugins*](#plugins) | Lists all loaded plugins | `plugins.use` |
+| [*stack*](#stack) | Stacks your items up to 64 | `stack.use` |
+| [*invsee*](#invsee) | Allows you to see into the inventory of someone else. | `invsee.use` |
+| [*near*](#near) | Displays near players(entities/mobs) to you. | `near.use` |
+| [*stop*](#stop) | Shuts down the server | `stop.use` |
+| [*sudo*](#sudo) | Makes a player send a message (including commands) | `sudo.use` |
+| [*itemDB*](#itemdb) | Looks up an item for you! | `itemdb.use` |
+| [*butcher*](#butcher) | Gets rid of mobs close to you. Valid types are:<br>monster, animal, pet, golem, boss, other, creeper, skeleton, spider etc. | `butcher.use` |
+| [*item*](#item) | Gives the specified Item to you | `item.use` |
 | [*seed*](#seed) | Displays the seed of a world. | `seed.use` |
-| [*give*](#give) | Gives the specified Item to a player | `give.use` |
-| [*fly*](#fly) | Lets you fly away | `fly.use` |
-| [*stash*](#stash) | Stashes or unstashes your inventory to reuse later | `stash.use` |
 
-#### time  
-Changes the time of a world  
-**Usage:** `time [time] [in <worlds>] [-lock]`  
-**Permission:** `cubeengine.vanillaplus.command.time.use`  
+#### compass  
+Displays the direction in which you are looking.  
+**Usage:** `compass `  
+**Permission:** `cubeengine.vanillaplus.command.compass.use`  
   
 
-#### plugins  
-Lists all loaded plugins  
-**Usage:** `plugins `  
-**Permission:** `cubeengine.vanillaplus.command.plugins.use`  
-  
-
-#### saveall  
-Saves all or a specific world to disk.  
-**Usage:** `saveall [world]`  
-**Alias:** `/save-all`  
-**Permission:** `cubeengine.vanillaplus.command.saveall.use`  
-  
-
-#### difficulty  
-Changes the difficulty level of the server  
-**Usage:** `difficulty [difficulty] [world <world>]`  
-**Permission:** `cubeengine.vanillaplus.command.difficulty.use`  
-  
-
-#### depth  
-Displays your current depth.  
-**Usage:** `depth `  
-**Permission:** `cubeengine.vanillaplus.command.depth.use`  
-  
-
-#### invsee  
-Allows you to see into the inventory of someone else.  
-**Usage:** `invsee <player> [-force] [-quiet] [-ender]`  
-**Permission:** `cubeengine.vanillaplus.command.invsee.use`  
-  
-
-#### clearinventory  
-Clears the inventory  
-**Usage:** `clearinventory <player> [-removeArmor] [-quiet] [-force]`  
-**Alias:** `ci` `clear`  
-**Permission:** `cubeengine.vanillaplus.command.clearinventory.use`  
-  
-
-#### stop  
-Shuts down the server  
-**Usage:** `stop [message]`  
-**Alias:** `shutdown` `killserver` `quit`  
-**Permission:** `cubeengine.vanillaplus.command.stop.use`  
-  
-
-#### getPos  
-Displays your current location.  
-**Usage:** `getPos `  
-**Permission:** `cubeengine.vanillaplus.command.getpos.use`  
-  
-
-#### feed  
-Refills your hunger bar  
-**Usage:** `feed [players]`  
-**Permission:** `cubeengine.vanillaplus.command.feed.use`  
-  
-
-#### remove  
-Removes entities in a radius  
-**Usage:** `remove <entityType[:itemMaterial]> [radius] [in <world>]`  
-**Permission:** `cubeengine.vanillaplus.command.remove.use`  
+#### fly  
+Lets you fly away  
+**Usage:** `fly [flyspeed] [player <player>]`  
+**Permission:** `cubeengine.vanillaplus.command.fly.use`  
   
 
 #### whitelist  
@@ -187,13 +130,6 @@ Wipes the whitelist completely
 **Permission:** `cubeengine.vanillaplus.command.whitelist.wipe.use`  
   
 
-#### headchange  
-Changes a skull to a players skin.  
-**Usage:** `headchange [name]`  
-**Alias:** `skullchange`  
-**Permission:** `cubeengine.vanillaplus.command.headchange.use`  
-  
-
 #### weather  
 Changes the weather  
 **Usage:** `weather <weather> [duration] [in <world>]`  
@@ -206,30 +142,11 @@ Displays informations from a player!
 **Permission:** `cubeengine.vanillaplus.command.whois.use`  
   
 
-#### compass  
-Displays the direction in which you are looking.  
-**Usage:** `compass `  
-**Permission:** `cubeengine.vanillaplus.command.compass.use`  
-  
-
-#### gamemode  
-Changes the gamemode  
-**Usage:** `gamemode [gamemode] <player>`  
-**Alias:** `gm`  
-**Permission:** `cubeengine.vanillaplus.command.gamemode.use`  
-  
-
-#### lore  
-Changes the lore of the item in your hand.  
-**Usage:** `lore <lore>`  
-**Permission:** `cubeengine.vanillaplus.command.lore.use`  
-  
-
-#### kill  
-Kills a player  
-**Usage:** `kill <players> [-force] [-quiet] [-lightning]`  
-**Alias:** `slay`  
-**Permission:** `cubeengine.vanillaplus.command.kill.use`  
+#### headchange  
+Changes a skull to a players skin.  
+**Usage:** `headchange [name]`  
+**Alias:** `skullchange`  
+**Permission:** `cubeengine.vanillaplus.command.headchange.use`  
   
 
 #### walkspeed  
@@ -238,28 +155,22 @@ Changes your walkspeed.
 **Permission:** `cubeengine.vanillaplus.command.walkspeed.use`  
   
 
-#### list  
-Displays all the online players.  
-**Usage:** `list `  
-**Permission:** `cubeengine.vanillaplus.command.list.use`  
+#### remove  
+Removes entities in a radius  
+**Usage:** `remove <entityType[:itemMaterial]> [radius] [in <world>]`  
+**Permission:** `cubeengine.vanillaplus.command.remove.use`  
   
 
-#### version  
-Displays the version of the server or a given plugin  
-**Usage:** `version [plugin]`  
-**Permission:** `cubeengine.vanillaplus.command.version.use`  
+#### starve  
+Empties the hunger bar  
+**Usage:** `starve [players]`  
+**Permission:** `cubeengine.vanillaplus.command.starve.use`  
   
 
-#### spawnMob  
-Spawns the specified Mob  
-**Usage:** `spawnMob <<mob>[:data][,<ridingmob>[:data]]> [amount] [player]`  
-**Permission:** `cubeengine.vanillaplus.command.spawnmob.use`  
-  
-
-#### itemDB  
-Looks up an item for you!  
-**Usage:** `itemDB [item]`  
-**Permission:** `cubeengine.vanillaplus.command.itemdb.use`  
+#### more  
+Refills the stack in hand  
+**Usage:** `more [amount] [-all]`  
+**Permission:** `cubeengine.vanillaplus.command.more.use`  
   
 
 #### rename  
@@ -268,17 +179,23 @@ Changes the display name of the item in your hand.
 **Permission:** `cubeengine.vanillaplus.command.rename.use`  
   
 
-#### ping  
-Pong!  
-**Usage:** `ping `  
-**Alias:** `pong`  
-**Permission:** `cubeengine.vanillaplus.command.ping.use`  
+#### clearinventory  
+Clears the inventory  
+**Usage:** `clearinventory <player> [-removeArmor] [-quiet] [-force]`  
+**Alias:** `ci` `clear`  
+**Permission:** `cubeengine.vanillaplus.command.clearinventory.use`  
   
 
-#### biome  
-Displays the biome type you are standing in.  
-**Usage:** `biome [world] [block-x] [block-z]`  
-**Permission:** `cubeengine.vanillaplus.command.biome.use`  
+#### give  
+Gives the specified Item to a player  
+**Usage:** `give <player> <material[:data]> [amount]`  
+**Permission:** `cubeengine.vanillaplus.command.give.use`  
+  
+
+#### unlimited  
+Grants unlimited items  
+**Usage:** `unlimited [unlimited]`  
+**Permission:** `cubeengine.vanillaplus.command.unlimited.use`  
   
 
 #### suicide  
@@ -293,10 +210,103 @@ Heals a player
 **Permission:** `cubeengine.vanillaplus.command.heal.use`  
   
 
+#### enchant  
+Adds an Enchantment to the item in your hand  
+**Usage:** `enchant <enchantment> [level] [-unsafe]`  
+**Permission:** `cubeengine.vanillaplus.command.enchant.use`  
+  
+
+#### depth  
+Displays your current depth.  
+**Usage:** `depth `  
+**Permission:** `cubeengine.vanillaplus.command.depth.use`  
+  
+
+#### version  
+Displays the version of the server or a given plugin  
+**Usage:** `version [plugin]`  
+**Permission:** `cubeengine.vanillaplus.command.version.use`  
+  
+
 #### seen  
 Shows when given player was online the last time  
 **Usage:** `seen <player>`  
 **Permission:** `cubeengine.vanillaplus.command.seen.use`  
+  
+
+#### lore  
+Changes the lore of the item in your hand.  
+**Usage:** `lore <lore>`  
+**Permission:** `cubeengine.vanillaplus.command.lore.use`  
+  
+
+#### gamemode  
+Changes the gamemode  
+**Usage:** `gamemode [gamemode] <player>`  
+**Alias:** `gm`  
+**Permission:** `cubeengine.vanillaplus.command.gamemode.use`  
+  
+
+#### removeAll  
+Removes entities in a world  
+**Usage:** `removeAll <entityType[:itemMaterial]> [in <world>]`  
+**Permission:** `cubeengine.vanillaplus.command.removeall.use`  
+  
+
+#### getPos  
+Displays your current location.  
+**Usage:** `getPos `  
+**Permission:** `cubeengine.vanillaplus.command.getpos.use`  
+  
+
+#### difficulty  
+Changes the difficulty level of the server  
+**Usage:** `difficulty [difficulty] [world <world>]`  
+**Permission:** `cubeengine.vanillaplus.command.difficulty.use`  
+  
+
+#### time  
+Changes the time of a world  
+**Usage:** `time [time] [in <worlds>] [-lock]`  
+**Permission:** `cubeengine.vanillaplus.command.time.use`  
+  
+
+#### list  
+Displays all the online players.  
+**Usage:** `list `  
+**Permission:** `cubeengine.vanillaplus.command.list.use`  
+  
+
+#### stash  
+Stashes or unstashes your inventory to reuse later  
+**Usage:** `stash `  
+**Permission:** `cubeengine.vanillaplus.command.stash.use`  
+  
+
+#### kill  
+Kills a player  
+**Usage:** `kill <players> [-force] [-quiet] [-lightning]`  
+**Alias:** `slay`  
+**Permission:** `cubeengine.vanillaplus.command.kill.use`  
+  
+
+#### lag  
+Displays chunk, memory and world information.  
+**Usage:** `lag `  
+**Permission:** `cubeengine.vanillaplus.command.lag.use`  
+  
+
+#### saveall  
+Saves all or a specific world to disk.  
+**Usage:** `saveall [world]`  
+**Alias:** `/save-all`  
+**Permission:** `cubeengine.vanillaplus.command.saveall.use`  
+  
+
+#### feed  
+Refills your hunger bar  
+**Usage:** `feed [players]`  
+**Permission:** `cubeengine.vanillaplus.command.feed.use`  
   
 
 #### border  
@@ -369,10 +379,35 @@ Repairs your items
 **Permission:** `cubeengine.vanillaplus.command.repair.use`  
   
 
-#### near  
-Displays near players(entities/mobs) to you.  
-**Usage:** `near [radius] <player> [-entity] [-mob]`  
-**Permission:** `cubeengine.vanillaplus.command.near.use`  
+#### ping  
+Pong!  
+**Usage:** `ping `  
+**Alias:** `pong`  
+**Permission:** `cubeengine.vanillaplus.command.ping.use`  
+  
+
+#### spawnMob  
+Spawns the specified Mob  
+**Usage:** `spawnMob <<mob>[:data][,<ridingmob>[:data]]> [amount] [player]`  
+**Permission:** `cubeengine.vanillaplus.command.spawnmob.use`  
+  
+
+#### god  
+Toggles the god-mode!  
+**Usage:** `god <player>`  
+**Permission:** `cubeengine.vanillaplus.command.god.use`  
+  
+
+#### biome  
+Displays the biome type you are standing in.  
+**Usage:** `biome [world] [block-x] [block-z]`  
+**Permission:** `cubeengine.vanillaplus.command.biome.use`  
+  
+
+#### plugins  
+Lists all loaded plugins  
+**Usage:** `plugins `  
+**Permission:** `cubeengine.vanillaplus.command.plugins.use`  
   
 
 #### stack  
@@ -381,23 +416,35 @@ Stacks your items up to 64
 **Permission:** `cubeengine.vanillaplus.command.stack.use`  
   
 
-#### item  
-Gives the specified Item to you  
-**Usage:** `item <material[:data]> [amount] [ench <enchantment[:level]>]`  
-**Alias:** `i`  
-**Permission:** `cubeengine.vanillaplus.command.item.use`  
+#### invsee  
+Allows you to see into the inventory of someone else.  
+**Usage:** `invsee <player> [-force] [-quiet] [-ender]`  
+**Permission:** `cubeengine.vanillaplus.command.invsee.use`  
   
 
-#### enchant  
-Adds an Enchantment to the item in your hand  
-**Usage:** `enchant <enchantment> [level] [-unsafe]`  
-**Permission:** `cubeengine.vanillaplus.command.enchant.use`  
+#### near  
+Displays near players(entities/mobs) to you.  
+**Usage:** `near [radius] <player> [-entity] [-mob]`  
+**Permission:** `cubeengine.vanillaplus.command.near.use`  
+  
+
+#### stop  
+Shuts down the server  
+**Usage:** `stop [message]`  
+**Alias:** `shutdown` `killserver` `quit`  
+**Permission:** `cubeengine.vanillaplus.command.stop.use`  
   
 
 #### sudo  
 Makes a player send a message (including commands)  
 **Usage:** `sudo <player> <message>`  
 **Permission:** `cubeengine.vanillaplus.command.sudo.use`  
+  
+
+#### itemDB  
+Looks up an item for you!  
+**Usage:** `itemDB [item]`  
+**Permission:** `cubeengine.vanillaplus.command.itemdb.use`  
   
 
 #### butcher  
@@ -407,64 +454,17 @@ monster, animal, pet, golem, boss, other, creeper, skeleton, spider etc.
 **Permission:** `cubeengine.vanillaplus.command.butcher.use`  
   
 
-#### lag  
-Displays chunk, memory and world information.  
-**Usage:** `lag `  
-**Permission:** `cubeengine.vanillaplus.command.lag.use`  
-  
-
-#### unlimited  
-Grants unlimited items  
-**Usage:** `unlimited [unlimited]`  
-**Permission:** `cubeengine.vanillaplus.command.unlimited.use`  
-  
-
-#### god  
-Toggles the god-mode!  
-**Usage:** `god <player>`  
-**Permission:** `cubeengine.vanillaplus.command.god.use`  
-  
-
-#### starve  
-Empties the hunger bar  
-**Usage:** `starve [players]`  
-**Permission:** `cubeengine.vanillaplus.command.starve.use`  
-  
-
-#### more  
-Refills the stack in hand  
-**Usage:** `more [amount] [-all]`  
-**Permission:** `cubeengine.vanillaplus.command.more.use`  
-  
-
-#### removeAll  
-Removes entities in a world  
-**Usage:** `removeAll <entityType[:itemMaterial]> [in <world>]`  
-**Permission:** `cubeengine.vanillaplus.command.removeall.use`  
+#### item  
+Gives the specified Item to you  
+**Usage:** `item <material[:data]> [amount] [ench <enchantment[:level]>]`  
+**Alias:** `i`  
+**Permission:** `cubeengine.vanillaplus.command.item.use`  
   
 
 #### seed  
 Displays the seed of a world.  
 **Usage:** `seed [world]`  
 **Permission:** `cubeengine.vanillaplus.command.seed.use`  
-  
-
-#### give  
-Gives the specified Item to a player  
-**Usage:** `give <player> <material[:data]> [amount]`  
-**Permission:** `cubeengine.vanillaplus.command.give.use`  
-  
-
-#### fly  
-Lets you fly away  
-**Usage:** `fly [flyspeed] [player <player>]`  
-**Permission:** `cubeengine.vanillaplus.command.fly.use`  
-  
-
-#### stash  
-Stashes or unstashes your inventory to reuse later  
-**Usage:** `stash `  
-**Permission:** `cubeengine.vanillaplus.command.stash.use`  
   
 
 ## Additional Permissions:

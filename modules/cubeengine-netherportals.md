@@ -1,5 +1,9 @@
-# CubeEngine - netherportals
+# CubeEngine - netherportals [WIP]
 Modifies Vanilla Portal behaviours
+
+## Features:
+ - Change nether and ender portal destinations
+ - Change distance scaling between worlds
 
 ## Commands:
 
