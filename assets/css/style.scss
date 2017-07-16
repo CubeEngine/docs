@@ -56,16 +56,29 @@ th code {
   font-size: 10px;  
 }
 
-.sidebar {
-  width: 9.5%;
-  margin-right: 45px;
-  margin-top: 130px;
-  position: fixed;
-  right: 0px;
-  border: 1px solid #494949;
-  padding: 8px;
-  border-radius: 8px;
-  background: #323232;
-}
-
+  .sidebar {
+    width: 9.5%;
+    margin-right: 45px;
+    margin-top: 0px;
+    position: fixed;
+    right: 0px;
+    border: 1px solid #494949;
+    padding: 8px;
+    border-radius: 8px;
+    background: #323232;
+  }
+  
+  @media (max-width: 1000px)  {
+    .sidebar {
+       width: auto;
+       text-align: center;
+       margin: 0 0 10px 0;
+       position: initial;
+       
+    }
+  }
+  
+  #title {
+    margin-bottom: 0px !important;
+  }
 
