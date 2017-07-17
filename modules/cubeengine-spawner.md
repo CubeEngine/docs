@@ -9,4 +9,4 @@ Lets you move spawners
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.spawner` | Base Permission for spawner |
+| `cubeengine.spawner` | Base Permission for Spawner |

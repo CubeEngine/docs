@@ -8,4 +8,4 @@ Tranfer items via glass pipes
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.itemduct` | Base Permission for itemduct |
+| `cubeengine.itemduct` | Base Permission for ItemDuct |

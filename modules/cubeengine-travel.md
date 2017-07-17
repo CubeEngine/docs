@@ -174,4 +174,4 @@ Teleport to a warp
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.travel` | Base Permission for travel |
+| `cubeengine.travel` | Base Permission for Travel |

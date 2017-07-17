@@ -471,4 +471,4 @@ Displays informations from a player!
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.vanillaplus` | Base Permission for vanillaplus |
+| `cubeengine.vanillaplus` | Base Permission for VanillaPlus |

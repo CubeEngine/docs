@@ -10,4 +10,4 @@ Lift up and down using signs
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.elevator` | Base Permission for elevator |
+| `cubeengine.elevator` | Base Permission for Elevator |

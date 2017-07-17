@@ -45,4 +45,4 @@ Sets your password.
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.authorization` | Base Permission for authorization |
+| `cubeengine.authorization` | Base Permission for Authorization |

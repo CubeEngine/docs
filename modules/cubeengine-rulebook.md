@@ -60,4 +60,4 @@ removes the declared language and languagefiles!
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.rulebook` | Base Permission for rulebook |
+| `cubeengine.rulebook` | Base Permission for Rulebook |

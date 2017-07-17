@@ -76,4 +76,4 @@ Replies to the last person that whispered to you.
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.chat` | Base Permission for chat |
+| `cubeengine.chat` | Base Permission for Chat |

@@ -66,4 +66,4 @@ Displays an announcement
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.shout` | Base Permission for shout |
+| `cubeengine.shout` | Base Permission for Shout |

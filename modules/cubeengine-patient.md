@@ -9,4 +9,4 @@ Find out what your server is suffering from.
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.patient` | Base Permission for patient |
+| `cubeengine.patient` | Base Permission for Patient |

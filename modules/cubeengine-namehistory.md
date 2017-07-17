@@ -20,4 +20,4 @@ Shows the namehistory of a player
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.namehistory` | Base Permission for namehistory |
+| `cubeengine.namehistory` | Base Permission for Namehistory |

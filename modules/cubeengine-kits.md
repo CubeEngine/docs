@@ -67,4 +67,4 @@ Sets a command to be run when a kit is received
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.kits` | Base Permission for kits |
+| `cubeengine.kits` | Base Permission for Kits |

@@ -189,4 +189,4 @@ Unlocks a password protected chest
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.locker` | Base Permission for locker |
+| `cubeengine.locker` | Base Permission for Locker |

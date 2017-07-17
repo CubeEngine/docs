@@ -9,4 +9,4 @@ Mute or Ignore other players
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.squelch` | Base Permission for squelch |
+| `cubeengine.squelch` | Base Permission for Squelch |

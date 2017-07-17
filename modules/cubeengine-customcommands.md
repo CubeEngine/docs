@@ -41,4 +41,4 @@ Prints out all the custom chat commands.
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.customcommands` | Base Permission for customcommands |
+| `cubeengine.customcommands` | Base Permission for CustomCommands |

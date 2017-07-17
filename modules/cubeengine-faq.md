@@ -9,4 +9,4 @@ Answers all your frequently asked questions!
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.faq` | Base Permission for faq |
+| `cubeengine.faq` | Base Permission for Faq |

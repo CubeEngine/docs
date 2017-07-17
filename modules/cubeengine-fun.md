@@ -85,4 +85,4 @@ Throw something!
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.fun` | Base Permission for fun |
+| `cubeengine.fun` | Base Permission for Fun |

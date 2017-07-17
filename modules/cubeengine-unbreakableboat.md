@@ -8,4 +8,4 @@ Adds a Recipe for an unbreakable Boat
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.unbreakableboat` | Base Permission for unbreakableboat |
+| `cubeengine.unbreakableboat` | Base Permission for UnbreakableBoat |

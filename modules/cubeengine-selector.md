@@ -20,4 +20,4 @@ Provides you with a wand to select a cuboid
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.selector` | Base Permission for selector |
+| `cubeengine.selector` | Base Permission for Selector |

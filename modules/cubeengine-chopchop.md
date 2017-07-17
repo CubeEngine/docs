@@ -9,4 +9,4 @@ Chop whole trees down
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.chopchop` | Base Permission for chopchop |
+| `cubeengine.chopchop` | Base Permission for ChopChop |

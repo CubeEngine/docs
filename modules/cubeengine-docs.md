@@ -21,4 +21,4 @@ Generates documentation
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.docs` | Base Permission for docs |
+| `cubeengine.docs` | Base Permission for Docs |

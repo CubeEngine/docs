@@ -42,4 +42,4 @@ Unhides a player.
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.hide` | Base Permission for hide |
+| `cubeengine.hide` | Base Permission for Hide |

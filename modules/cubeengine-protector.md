@@ -206,4 +206,4 @@ Selects a Region
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.protector` | Base Permission for protector |
+| `cubeengine.protector` | Base Permission for Protector |

@@ -5,4 +5,4 @@ Core Library for CubeEngine plugins
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.core` | Base Permission for core |
+| `cubeengine.core` | Base Permission for LibCube |

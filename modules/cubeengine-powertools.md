@@ -53,4 +53,4 @@ Removes a command from your powertool
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.powertools` | Base Permission for powertools |
+| `cubeengine.powertools` | Base Permission for Powertools |

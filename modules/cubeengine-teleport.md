@@ -173,4 +173,4 @@ Teleports you X amount of blocks into the air and puts a glass block beneath you
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.teleport` | Base Permission for teleport |
+| `cubeengine.teleport` | Base Permission for Teleport |

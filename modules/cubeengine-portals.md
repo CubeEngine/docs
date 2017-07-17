@@ -129,4 +129,4 @@ Selects an existing portal
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.portals` | Base Permission for portals |
+| `cubeengine.portals` | Base Permission for Portals |

@@ -11,4 +11,4 @@ Provides an APIServer Service
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.apiserver` | Base Permission for apiserver |
+| `cubeengine.apiserver` | Base Permission for APIServer |

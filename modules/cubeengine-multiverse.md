@@ -51,4 +51,4 @@ Renames a universe
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.multiverse` | Base Permission for multiverse |
+| `cubeengine.multiverse` | Base Permission for Multiverse |

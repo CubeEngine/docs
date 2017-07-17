@@ -9,4 +9,4 @@ Provides serialization to a MongoDB
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.bigdata` | Base Permission for bigdata |
+| `cubeengine.bigdata` | Base Permission for Bigdata |

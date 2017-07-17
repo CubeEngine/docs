@@ -64,4 +64,4 @@ Gives you an item to check logs with.
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.vigil` | Base Permission for vigil |
+| `cubeengine.vigil` | Base Permission for Vigil |

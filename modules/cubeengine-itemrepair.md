@@ -36,4 +36,4 @@ Removes an existing RepairBlock
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.itemrepair` | Base Permission for itemrepair |
+| `cubeengine.itemrepair` | Base Permission for Itemrepair |

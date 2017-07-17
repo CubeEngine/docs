@@ -79,4 +79,4 @@ Unload a loaded world
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.worlds` | Base Permission for worlds |
+| `cubeengine.worlds` | Base Permission for Worlds |

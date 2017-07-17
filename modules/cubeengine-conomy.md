@@ -98,4 +98,4 @@ Shows the players with the highest balance.
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.conomy` | Base Permission for conomy |
+| `cubeengine.conomy` | Base Permission for Conomy |

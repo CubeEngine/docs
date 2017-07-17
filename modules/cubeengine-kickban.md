@@ -67,4 +67,4 @@ Unbans a previously banned player.
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.kickban` | Base Permission for kickban |
+| `cubeengine.kickban` | Base Permission for KickBan |

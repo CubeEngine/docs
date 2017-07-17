@@ -11,4 +11,4 @@ Provides WebAPI to handle donations
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.donations` | Base Permission for donations |
+| `cubeengine.donations` | Base Permission for Donations |

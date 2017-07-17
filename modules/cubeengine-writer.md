@@ -22,4 +22,4 @@ Edit a sign or a signed book
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.writer` | Base Permission for writer |
+| `cubeengine.writer` | Base Permission for Writer |

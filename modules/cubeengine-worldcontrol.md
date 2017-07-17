@@ -8,4 +8,4 @@ Control what happens in your world
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.worldcontrol` | Base Permission for worldcontrol |
+| `cubeengine.worldcontrol` | Base Permission for WorldControl |

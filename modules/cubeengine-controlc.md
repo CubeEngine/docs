@@ -8,4 +8,4 @@ You cannot copy in console with ControlC
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.controlc` | Base Permission for controlc |
+| `cubeengine.controlc` | Base Permission for ControlC |

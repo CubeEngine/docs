@@ -59,4 +59,4 @@ modifies a backpacks context
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.backpack` | Base Permission for backpack |
+| `cubeengine.backpack` | Base Permission for Backpack |

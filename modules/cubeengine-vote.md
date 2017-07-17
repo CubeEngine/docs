@@ -26,4 +26,4 @@ Shows your current vote situation
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.vote` | Base Permission for vote |
+| `cubeengine.vote` | Base Permission for Vote |

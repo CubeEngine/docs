@@ -8,4 +8,4 @@ Flying without creative mode
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.fly` | Base Permission for fly |
+| `cubeengine.fly` | Base Permission for Fly |

@@ -31,4 +31,4 @@ Enters the editmode allowing to change market signs easily
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.signmarket` | Base Permission for signmarket |
+| `cubeengine.signmarket` | Base Permission for SignMarket |
