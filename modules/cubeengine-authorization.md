@@ -47,7 +47,6 @@ Sets your password.
 | --- | --- |
 | `cubeengine.authorization` | Base Permission for Authorization |
 | `cubeengine.authorization.command` | Allows using all commands of Authorization |
-| `cubeengine.authorization.command.` | Base Commands Permission |
-| `cubeengine.authorization.command..clearpassword.all` | Allows clearing all passwords |
-| `cubeengine.authorization.command..clearpassword.other` | Allows clearing passwords of other players |
-| `cubeengine.authorization.command..setpassword.other` | Allows setting passwords of other players |
+| `cubeengine.authorization.command.clearpassword.all` | Allows clearing all passwords |
+| `cubeengine.authorization.command.clearpassword.other` | Allows clearing passwords of other players |
+| `cubeengine.authorization.command.setpassword.other` | Allows setting passwords of other players |
