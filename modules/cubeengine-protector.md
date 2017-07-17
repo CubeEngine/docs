@@ -11,32 +11,32 @@ Protects your worlds
 | Command | Description | Permission<br>`cubeengine.protector.command.<perm>` |
 | --- | --- | --- |
 | [*region*](#region) | Manages the regions | `region` |
-| [**region**&nbsp;*control*](#region&nbsp;control) | Manages the region settings | `control` |
-| [**region**&nbsp;**control**&nbsp;*blockdamage*](#region&nbsp;control&nbsp;blockdamage) | Manages the region block-damage settings | `control.blockdamage` |
-| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*block*](#region&nbsp;control&nbsp;blockdamage&nbsp;block) | Controls blocks breaking blocks | `control.blockdamage.block.use` |
-| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*explosion*](#region&nbsp;control&nbsp;blockdamage&nbsp;explosion) | Controls explosions breaking blocks | `control.blockdamage.explosion.use` |
-| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*fire*](#region&nbsp;control&nbsp;blockdamage&nbsp;fire) | Controls fire breaking blocks | `control.blockdamage.fire.use` |
-| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*monster*](#region&nbsp;control&nbsp;blockdamage&nbsp;monster) | Controls entities breaking blocks | `control.blockdamage.monster.use` |
-| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*playerExplosion*](#region&nbsp;control&nbsp;blockdamage&nbsp;playerexplosion) | Controls explosions caused by players breaking blocks | `control.blockdamage.playerexplosion.use` |
-| [**region**&nbsp;**control**&nbsp;*build*](#region&nbsp;control&nbsp;build) | Controls player building | `control.build.use` |
-| [**region**&nbsp;**control**&nbsp;*command*](#region&nbsp;control&nbsp;command) | Controls executing commands | `control.command.use` |
-| [**region**&nbsp;**control**&nbsp;*deadCircuit*](#region&nbsp;control&nbsp;deadcircuit) | Controls redstone circuits commands | `control.deadcircuit.use` |
-| [**region**&nbsp;**control**&nbsp;*entityDamage*](#region&nbsp;control&nbsp;entitydamage) | Manages the region entity-damage settings | `control.entitydamage` |
-| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*all*](#region&nbsp;control&nbsp;entitydamage&nbsp;all) | Controls entity damage | `control.entitydamage.all.use` |
-| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*entity*](#region&nbsp;control&nbsp;entitydamage&nbsp;entity) | Controls explosions caused by players breaking blocks | `control.entitydamage.entity.use` |
-| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*living*](#region&nbsp;control&nbsp;entitydamage&nbsp;living) | Controls damage by living entities | `control.entitydamage.living.use` |
-| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*pvp*](#region&nbsp;control&nbsp;entitydamage&nbsp;pvp) | Controls pvp damage | `control.entitydamage.pvp.use` |
-| [**region**&nbsp;**control**&nbsp;*move*](#region&nbsp;control&nbsp;move) | Controls movement | `control.move.use` |
-| [**region**&nbsp;**control**&nbsp;*spawn*](#region&nbsp;control&nbsp;spawn) | Controls spawning of entities | `control.spawn.use` |
-| [**region**&nbsp;**control**&nbsp;*teleport*](#region&nbsp;control&nbsp;teleport) | Controls teleport movement | `control.teleport.use` |
-| [**region**&nbsp;**control**&nbsp;*useAll*](#region&nbsp;control&nbsp;useall) | Controls players interacting with blocks | `control.useall.use` |
-| [**region**&nbsp;**control**&nbsp;*useBlock*](#region&nbsp;control&nbsp;useblock) | Controls player interacting with blocks | `control.useblock.use` |
-| [**region**&nbsp;**control**&nbsp;*useItem*](#region&nbsp;control&nbsp;useitem) | Controls player interactive with items | `control.useitem.use` |
-| [**region**&nbsp;*define*](#region&nbsp;define) | Defines a new Region | `region.define.use` |
-| [**region**&nbsp;*info*](#region&nbsp;info) | Displays Region info | `region.info.use` |
-| [**region**&nbsp;*list*](#region&nbsp;list) | Lists regions | `region.list.use` |
-| [**region**&nbsp;*redefine*](#region&nbsp;redefine) | Redefines an existing Region | `region.redefine.use` |
-| [**region**&nbsp;*select*](#region&nbsp;select) | Selects a Region | `region.select.use` |
+| [**region**&nbsp;*control*](#regioncontrol) | Manages the region settings | `control` |
+| [**region**&nbsp;**control**&nbsp;*blockdamage*](#regioncontrolblockdamage) | Manages the region block-damage settings | `control.blockdamage` |
+| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*block*](#regioncontrolblockdamageblock) | Controls blocks breaking blocks | `control.blockdamage.block.use` |
+| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*explosion*](#regioncontrolblockdamageexplosion) | Controls explosions breaking blocks | `control.blockdamage.explosion.use` |
+| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*fire*](#regioncontrolblockdamagefire) | Controls fire breaking blocks | `control.blockdamage.fire.use` |
+| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*monster*](#regioncontrolblockdamagemonster) | Controls entities breaking blocks | `control.blockdamage.monster.use` |
+| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*playerExplosion*](#regioncontrolblockdamageplayerexplosion) | Controls explosions caused by players breaking blocks | `control.blockdamage.playerexplosion.use` |
+| [**region**&nbsp;**control**&nbsp;*build*](#regioncontrolbuild) | Controls player building | `control.build.use` |
+| [**region**&nbsp;**control**&nbsp;*command*](#regioncontrolcommand) | Controls executing commands | `control.command.use` |
+| [**region**&nbsp;**control**&nbsp;*deadCircuit*](#regioncontroldeadcircuit) | Controls redstone circuits commands | `control.deadcircuit.use` |
+| [**region**&nbsp;**control**&nbsp;*entityDamage*](#regioncontrolentitydamage) | Manages the region entity-damage settings | `control.entitydamage` |
+| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*all*](#regioncontrolentitydamageall) | Controls entity damage | `control.entitydamage.all.use` |
+| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*entity*](#regioncontrolentitydamageentity) | Controls explosions caused by players breaking blocks | `control.entitydamage.entity.use` |
+| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*living*](#regioncontrolentitydamageliving) | Controls damage by living entities | `control.entitydamage.living.use` |
+| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*pvp*](#regioncontrolentitydamagepvp) | Controls pvp damage | `control.entitydamage.pvp.use` |
+| [**region**&nbsp;**control**&nbsp;*move*](#regioncontrolmove) | Controls movement | `control.move.use` |
+| [**region**&nbsp;**control**&nbsp;*spawn*](#regioncontrolspawn) | Controls spawning of entities | `control.spawn.use` |
+| [**region**&nbsp;**control**&nbsp;*teleport*](#regioncontrolteleport) | Controls teleport movement | `control.teleport.use` |
+| [**region**&nbsp;**control**&nbsp;*useAll*](#regioncontroluseall) | Controls players interacting with blocks | `control.useall.use` |
+| [**region**&nbsp;**control**&nbsp;*useBlock*](#regioncontroluseblock) | Controls player interacting with blocks | `control.useblock.use` |
+| [**region**&nbsp;**control**&nbsp;*useItem*](#regioncontroluseitem) | Controls player interactive with items | `control.useitem.use` |
+| [**region**&nbsp;*define*](#regiondefine) | Defines a new Region | `region.define.use` |
+| [**region**&nbsp;*info*](#regioninfo) | Displays Region info | `region.info.use` |
+| [**region**&nbsp;*list*](#regionlist) | Lists regions | `region.list.use` |
+| [**region**&nbsp;*redefine*](#regionredefine) | Redefines an existing Region | `region.redefine.use` |
+| [**region**&nbsp;*select*](#regionselect) | Selects a Region | `region.select.use` |
 
 #### region  
 Manages the regions  

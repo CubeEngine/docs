@@ -9,12 +9,12 @@ Mails
 | Command | Description | Permission<br>`cubeengine.mail.command.<perm>` |
 | --- | --- | --- |
 | [*mail*](#mail) | Manages your server mail. | `mail` |
-| [**mail**&nbsp;*clear*](#mail&nbsp;clear) | Clears your mail. | `mail.clear.use` |
-| [**mail**&nbsp;*read*](#mail&nbsp;read) | Reads your mail. | `mail.read.use` |
-| [**mail**&nbsp;*remove*](#mail&nbsp;remove) | Removes a single mail | `mail.remove.use` |
-| [**mail**&nbsp;*send*](#mail&nbsp;send) | Sends mails to other players. | `mail.send.use` |
-| [**mail**&nbsp;*sendAll*](#mail&nbsp;sendall) | Sends mails to all players. | `mail.sendall.use` |
-| [**mail**&nbsp;*spy*](#mail&nbsp;spy) | Shows the mail of other players. | `mail.spy.use` |
+| [**mail**&nbsp;*clear*](#mailclear) | Clears your mail. | `mail.clear.use` |
+| [**mail**&nbsp;*read*](#mailread) | Reads your mail. | `mail.read.use` |
+| [**mail**&nbsp;*remove*](#mailremove) | Removes a single mail | `mail.remove.use` |
+| [**mail**&nbsp;*send*](#mailsend) | Sends mails to other players. | `mail.send.use` |
+| [**mail**&nbsp;*sendAll*](#mailsendall) | Sends mails to all players. | `mail.sendall.use` |
+| [**mail**&nbsp;*spy*](#mailspy) | Shows the mail of other players. | `mail.spy.use` |
 
 #### mail  
 Manages your server mail.  

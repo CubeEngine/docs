@@ -16,27 +16,27 @@ Put a lock onto your most precious things
 | Command | Description | Permission<br>`cubeengine.locker.command.<perm>` |
 | --- | --- | --- |
 | [*locker*](#locker) | Locker commands | `locker` |
-| [**locker**&nbsp;*admin*](#locker&nbsp;admin) | Administrate the protections | `locker.admin` |
-| [**locker**&nbsp;**admin**&nbsp;*cleanup*](#locker&nbsp;admin&nbsp;cleanup) | Deletes old locks | `locker.admin.cleanup.use` |
-| [**locker**&nbsp;**admin**&nbsp;*purge*](#locker&nbsp;admin&nbsp;purge) | Deletes all locks of given player | `locker.admin.purge.use` |
-| [**locker**&nbsp;**admin**&nbsp;*remove*](#locker&nbsp;admin&nbsp;remove) | Deletes a protection by its id | `locker.admin.remove.use` |
-| [**locker**&nbsp;**admin**&nbsp;*tp*](#locker&nbsp;admin&nbsp;tp) | Teleport to a protection | `locker.admin.tp.use` |
-| [**locker**&nbsp;**admin**&nbsp;*view*](#locker&nbsp;admin&nbsp;view) | Opens a protected chest by protection id | `locker.admin.view.use` |
-| [**locker**&nbsp;*create*](#locker&nbsp;create) | Creates various protections | `locker.create` |
-| [**locker**&nbsp;**create**&nbsp;*donation*](#locker&nbsp;create&nbsp;donation) | creates a donation protection | `locker.create.donation.use` |
-| [**locker**&nbsp;**create**&nbsp;*free*](#locker&nbsp;create&nbsp;free) | creates a free protection | `locker.create.free.use` |
-| [**locker**&nbsp;**create**&nbsp;*guarded*](#locker&nbsp;create&nbsp;guarded) | creates a guarded protection | `locker.create.guarded.use` |
-| [**locker**&nbsp;**create**&nbsp;*password*](#locker&nbsp;create&nbsp;password) | creates a donation protection | `locker.create.password.use` |
-| [**locker**&nbsp;**create**&nbsp;*private*](#locker&nbsp;create&nbsp;private) | creates a private protection | `locker.create.private.use` |
-| [**locker**&nbsp;**create**&nbsp;*public*](#locker&nbsp;create&nbsp;public) | creates a public protection | `locker.create.public.use` |
-| [**locker**&nbsp;*flag*](#locker&nbsp;flag) | Sets or unsets flags | `locker.flag.use` |
-| [**locker**&nbsp;*give*](#locker&nbsp;give) | gives a protection to someone else | `locker.give.use` |
-| [**locker**&nbsp;*info*](#locker&nbsp;info) | Shows information about a protection | `locker.info.use` |
-| [**locker**&nbsp;*key*](#locker&nbsp;key) | creates a KeyBook or invalidates previous KeyBooks | `locker.key.use` |
-| [**locker**&nbsp;*modify*](#locker&nbsp;modify) | adds or removes player from the accesslist | `locker.modify.use` |
-| [**locker**&nbsp;*persist*](#locker&nbsp;persist) | persists your last locker command | `locker.persist.use` |
-| [**locker**&nbsp;*remove*](#locker&nbsp;remove) | Shows information about a protection | `locker.remove.use` |
-| [**locker**&nbsp;*unlock*](#locker&nbsp;unlock) | Unlocks a password protected chest | `locker.unlock.use` |
+| [**locker**&nbsp;*admin*](#lockeradmin) | Administrate the protections | `locker.admin` |
+| [**locker**&nbsp;**admin**&nbsp;*cleanup*](#lockeradmincleanup) | Deletes old locks | `locker.admin.cleanup.use` |
+| [**locker**&nbsp;**admin**&nbsp;*purge*](#lockeradminpurge) | Deletes all locks of given player | `locker.admin.purge.use` |
+| [**locker**&nbsp;**admin**&nbsp;*remove*](#lockeradminremove) | Deletes a protection by its id | `locker.admin.remove.use` |
+| [**locker**&nbsp;**admin**&nbsp;*tp*](#lockeradmintp) | Teleport to a protection | `locker.admin.tp.use` |
+| [**locker**&nbsp;**admin**&nbsp;*view*](#lockeradminview) | Opens a protected chest by protection id | `locker.admin.view.use` |
+| [**locker**&nbsp;*create*](#lockercreate) | Creates various protections | `locker.create` |
+| [**locker**&nbsp;**create**&nbsp;*donation*](#lockercreatedonation) | creates a donation protection | `locker.create.donation.use` |
+| [**locker**&nbsp;**create**&nbsp;*free*](#lockercreatefree) | creates a free protection | `locker.create.free.use` |
+| [**locker**&nbsp;**create**&nbsp;*guarded*](#lockercreateguarded) | creates a guarded protection | `locker.create.guarded.use` |
+| [**locker**&nbsp;**create**&nbsp;*password*](#lockercreatepassword) | creates a donation protection | `locker.create.password.use` |
+| [**locker**&nbsp;**create**&nbsp;*private*](#lockercreateprivate) | creates a private protection | `locker.create.private.use` |
+| [**locker**&nbsp;**create**&nbsp;*public*](#lockercreatepublic) | creates a public protection | `locker.create.public.use` |
+| [**locker**&nbsp;*flag*](#lockerflag) | Sets or unsets flags | `locker.flag.use` |
+| [**locker**&nbsp;*give*](#lockergive) | gives a protection to someone else | `locker.give.use` |
+| [**locker**&nbsp;*info*](#lockerinfo) | Shows information about a protection | `locker.info.use` |
+| [**locker**&nbsp;*key*](#lockerkey) | creates a KeyBook or invalidates previous KeyBooks | `locker.key.use` |
+| [**locker**&nbsp;*modify*](#lockermodify) | adds or removes player from the accesslist | `locker.modify.use` |
+| [**locker**&nbsp;*persist*](#lockerpersist) | persists your last locker command | `locker.persist.use` |
+| [**locker**&nbsp;*remove*](#lockerremove) | Shows information about a protection | `locker.remove.use` |
+| [**locker**&nbsp;*unlock*](#lockerunlock) | Unlocks a password protected chest | `locker.unlock.use` |
 
 #### locker  
 Locker commands  

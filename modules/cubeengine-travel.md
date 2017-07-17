@@ -12,26 +12,26 @@ Travel anywhere!
 | Command | Description | Permission<br>`cubeengine.travel.command.<perm>` |
 | --- | --- | --- |
 | [*home*](#home) | Teleport to your home | `home` |
-| [**home**&nbsp;*clear*](#home&nbsp;clear) | Clear all homes [of a player] | `home.clear.use` |
-| [**home**&nbsp;*greeting*](#home&nbsp;greeting) | Set the welcome message of homes | `home.greeting.use` |
-| [**home**&nbsp;*ilist*](#home&nbsp;ilist) | List all players invited to your homes | `home.ilist.use` |
-| [**home**&nbsp;*invite*](#home&nbsp;invite) | Invite a user to one of your homes | `home.invite.use` |
-| [**home**&nbsp;*list*](#home&nbsp;list) | Lists homes a player can access | `home.list.use` |
-| [**home**&nbsp;*move*](#home&nbsp;move) | Move a home | `home.move.use` |
-| [**home**&nbsp;*remove*](#home&nbsp;remove) | Remove a home | `home.remove.use` |
-| [**home**&nbsp;*rename*](#home&nbsp;rename) | Rename a home | `home.rename.use` |
-| [**home**&nbsp;*set*](#home&nbsp;set) | Set your home | `home.set.use` |
-| [**home**&nbsp;*tp*](#home&nbsp;tp) | Teleport to a home | `home.tp.use` |
-| [**home**&nbsp;*unInvite*](#home&nbsp;uninvite) | Uninvite a player from one of your homes | `home.uninvite.use` |
+| [**home**&nbsp;*clear*](#homeclear) | Clear all homes [of a player] | `home.clear.use` |
+| [**home**&nbsp;*greeting*](#homegreeting) | Set the welcome message of homes | `home.greeting.use` |
+| [**home**&nbsp;*ilist*](#homeilist) | List all players invited to your homes | `home.ilist.use` |
+| [**home**&nbsp;*invite*](#homeinvite) | Invite a user to one of your homes | `home.invite.use` |
+| [**home**&nbsp;*list*](#homelist) | Lists homes a player can access | `home.list.use` |
+| [**home**&nbsp;*move*](#homemove) | Move a home | `home.move.use` |
+| [**home**&nbsp;*remove*](#homeremove) | Remove a home | `home.remove.use` |
+| [**home**&nbsp;*rename*](#homerename) | Rename a home | `home.rename.use` |
+| [**home**&nbsp;*set*](#homeset) | Set your home | `home.set.use` |
+| [**home**&nbsp;*tp*](#hometp) | Teleport to a home | `home.tp.use` |
+| [**home**&nbsp;*unInvite*](#homeuninvite) | Uninvite a player from one of your homes | `home.uninvite.use` |
 | [*warp*](#warp) | Teleport to a warp | `warp` |
-| [**warp**&nbsp;*clear*](#warp&nbsp;clear) | Clear all warps [of a player] | `warp.clear.use` |
-| [**warp**&nbsp;*create*](#warp&nbsp;create) | Create a warp | `warp.create.use` |
-| [**warp**&nbsp;*greeting*](#warp&nbsp;greeting) | Set the welcome message of warps | `warp.greeting.use` |
-| [**warp**&nbsp;*list*](#warp&nbsp;list) | List warps of a player | `warp.list.use` |
-| [**warp**&nbsp;*move*](#warp&nbsp;move) | Move a warp | `warp.move.use` |
-| [**warp**&nbsp;*remove*](#warp&nbsp;remove) | Remove a warp | `warp.remove.use` |
-| [**warp**&nbsp;*rename*](#warp&nbsp;rename) | Rename a warp | `warp.rename.use` |
-| [**warp**&nbsp;*tp*](#warp&nbsp;tp) | Teleport to a warp | `warp.tp.use` |
+| [**warp**&nbsp;*clear*](#warpclear) | Clear all warps [of a player] | `warp.clear.use` |
+| [**warp**&nbsp;*create*](#warpcreate) | Create a warp | `warp.create.use` |
+| [**warp**&nbsp;*greeting*](#warpgreeting) | Set the welcome message of warps | `warp.greeting.use` |
+| [**warp**&nbsp;*list*](#warplist) | List warps of a player | `warp.list.use` |
+| [**warp**&nbsp;*move*](#warpmove) | Move a warp | `warp.move.use` |
+| [**warp**&nbsp;*remove*](#warpremove) | Remove a warp | `warp.remove.use` |
+| [**warp**&nbsp;*rename*](#warprename) | Rename a warp | `warp.rename.use` |
+| [**warp**&nbsp;*tp*](#warptp) | Teleport to a warp | `warp.tp.use` |
 
 #### home  
 Teleport to your home  

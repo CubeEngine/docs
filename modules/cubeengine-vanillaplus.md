@@ -13,15 +13,15 @@ Improved Vanilla
 | --- | --- | --- |
 | [*biome*](#biome) | Displays the biome type you are standing in. | `biome.use` |
 | [*border*](#border) | border commands | `border` |
-| [**border**&nbsp;*add*](#border&nbsp;add) | Sets the diameter of the worldborder | `border.add.use` |
-| [**border**&nbsp;*damage*](#border&nbsp;damage) | Sets the world border damage per second per block | `border.damage.use` |
-| [**border**&nbsp;*damageBuffer*](#border&nbsp;damagebuffer) | Sets the world border damage buffer | `border.damagebuffer.use` |
-| [**border**&nbsp;*generate*](#border&nbsp;generate) | Generates the chunks located in the border | `border.generate.use` |
-| [**border**&nbsp;*info*](#border&nbsp;info) | Shows information about the world border | `border.info.use` |
-| [**border**&nbsp;*setCenter*](#border&nbsp;setcenter) | Sets the center for the worldborder | `border.setcenter.use` |
-| [**border**&nbsp;*setDiameter*](#border&nbsp;setdiameter) | Sets the diameter of the worldborder | `border.setdiameter.use` |
-| [**border**&nbsp;*warningDistance*](#border&nbsp;warningdistance) | Sets the warning time | `border.warningdistance.use` |
-| [**border**&nbsp;*warningTime*](#border&nbsp;warningtime) | Sets the warning time | `border.warningtime.use` |
+| [**border**&nbsp;*add*](#borderadd) | Sets the diameter of the worldborder | `border.add.use` |
+| [**border**&nbsp;*damage*](#borderdamage) | Sets the world border damage per second per block | `border.damage.use` |
+| [**border**&nbsp;*damageBuffer*](#borderdamagebuffer) | Sets the world border damage buffer | `border.damagebuffer.use` |
+| [**border**&nbsp;*generate*](#bordergenerate) | Generates the chunks located in the border | `border.generate.use` |
+| [**border**&nbsp;*info*](#borderinfo) | Shows information about the world border | `border.info.use` |
+| [**border**&nbsp;*setCenter*](#bordersetcenter) | Sets the center for the worldborder | `border.setcenter.use` |
+| [**border**&nbsp;*setDiameter*](#bordersetdiameter) | Sets the diameter of the worldborder | `border.setdiameter.use` |
+| [**border**&nbsp;*warningDistance*](#borderwarningdistance) | Sets the warning time | `border.warningdistance.use` |
+| [**border**&nbsp;*warningTime*](#borderwarningtime) | Sets the warning time | `border.warningtime.use` |
 | [*butcher*](#butcher) | Gets rid of mobs close to you. Valid types are:<br>monster, animal, pet, golem, boss, other, creeper, skeleton, spider etc. | `butcher.use` |
 | [*clearinventory*](#clearinventory) | Clears the inventory | `clearinventory.use` |
 | [*compass*](#compass) | Displays the direction in which you are looking. | `compass.use` |
@@ -67,12 +67,12 @@ Improved Vanilla
 | [*walkspeed*](#walkspeed) | Changes your walkspeed. | `walkspeed.use` |
 | [*weather*](#weather) | Changes the weather | `weather.use` |
 | [*whitelist*](#whitelist) | Allows you to manage your whitelist | `whitelist` |
-| [**whitelist**&nbsp;*add*](#whitelist&nbsp;add) | Adds a player to the whitelist. | `whitelist.add.use` |
-| [**whitelist**&nbsp;*list*](#whitelist&nbsp;list) | Lists all the whitelisted players | `whitelist.list.use` |
-| [**whitelist**&nbsp;*off*](#whitelist&nbsp;off) | Disables the whitelisting | `whitelist.off.use` |
-| [**whitelist**&nbsp;*on*](#whitelist&nbsp;on) | Enables the whitelisting | `whitelist.on.use` |
-| [**whitelist**&nbsp;*remove*](#whitelist&nbsp;remove) | Removes a player from the whitelist. | `whitelist.remove.use` |
-| [**whitelist**&nbsp;*wipe*](#whitelist&nbsp;wipe) | Wipes the whitelist completely | `whitelist.wipe.use` |
+| [**whitelist**&nbsp;*add*](#whitelistadd) | Adds a player to the whitelist. | `whitelist.add.use` |
+| [**whitelist**&nbsp;*list*](#whitelistlist) | Lists all the whitelisted players | `whitelist.list.use` |
+| [**whitelist**&nbsp;*off*](#whitelistoff) | Disables the whitelisting | `whitelist.off.use` |
+| [**whitelist**&nbsp;*on*](#whiteliston) | Enables the whitelisting | `whitelist.on.use` |
+| [**whitelist**&nbsp;*remove*](#whitelistremove) | Removes a player from the whitelist. | `whitelist.remove.use` |
+| [**whitelist**&nbsp;*wipe*](#whitelistwipe) | Wipes the whitelist completely | `whitelist.wipe.use` |
 | [*whois*](#whois) | Displays informations from a player! | `whois.use` |
 
 #### biome  

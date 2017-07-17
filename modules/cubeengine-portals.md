@@ -11,20 +11,20 @@ Start thinking with portals
 | Command | Description | Permission<br>`cubeengine.portals.command.<perm>` |
 | --- | --- | --- |
 | [*portals*](#portals) | The portal commands | `portals` |
-| [**portals**&nbsp;*create*](#portals&nbsp;create) | Creates a new Portal | `portals.create.use` |
-| [**portals**&nbsp;*debug*](#portals&nbsp;debug) | Shows debug portal information instead of teleporting | `portals.debug.use` |
-| [**portals**&nbsp;*info*](#portals&nbsp;info) | Show info about a portal | `portals.info.use` |
-| [**portals**&nbsp;*list*](#portals&nbsp;list) | Lists the portals | `portals.list.use` |
-| [**portals**&nbsp;*modify*](#portals&nbsp;modify) | modifies a portal | `portals.modify` |
-| [**portals**&nbsp;**modify**&nbsp;*destination*](#portals&nbsp;modify&nbsp;destination) | changes the destination of the selected portal | `portals.modify.destination.use` |
-| [**portals**&nbsp;**modify**&nbsp;*entity*](#portals&nbsp;modify&nbsp;entity) | Toggles whether entities can teleport with this portal | `portals.modify.entity.use` |
-| [**portals**&nbsp;**modify**&nbsp;*exit*](#portals&nbsp;modify&nbsp;exit) | Modifies the location where a player exits when teleporting a portal | `portals.modify.exit.use` |
-| [**portals**&nbsp;**modify**&nbsp;*location*](#portals&nbsp;modify&nbsp;location) | Changes a portals location | `portals.modify.location.use` |
-| [**portals**&nbsp;**modify**&nbsp;*owner*](#portals&nbsp;modify&nbsp;owner) | Changes the owner of a portal | `portals.modify.owner.use` |
-| [**portals**&nbsp;**modify**&nbsp;*randomDestination*](#portals&nbsp;modify&nbsp;randomdestination) | Changes the destination of the selected portal to a random position each time | `portals.modify.randomdestination.use` |
-| [**portals**&nbsp;**modify**&nbsp;*togglesafe*](#portals&nbsp;modify&nbsp;togglesafe) | Toggles safe teleportation for this portal | `portals.modify.togglesafe.use` |
-| [**portals**&nbsp;*remove*](#portals&nbsp;remove) | Removes a portal permanently | `portals.remove.use` |
-| [**portals**&nbsp;*select*](#portals&nbsp;select) | Selects an existing portal | `portals.select.use` |
+| [**portals**&nbsp;*create*](#portalscreate) | Creates a new Portal | `portals.create.use` |
+| [**portals**&nbsp;*debug*](#portalsdebug) | Shows debug portal information instead of teleporting | `portals.debug.use` |
+| [**portals**&nbsp;*info*](#portalsinfo) | Show info about a portal | `portals.info.use` |
+| [**portals**&nbsp;*list*](#portalslist) | Lists the portals | `portals.list.use` |
+| [**portals**&nbsp;*modify*](#portalsmodify) | modifies a portal | `portals.modify` |
+| [**portals**&nbsp;**modify**&nbsp;*destination*](#portalsmodifydestination) | changes the destination of the selected portal | `portals.modify.destination.use` |
+| [**portals**&nbsp;**modify**&nbsp;*entity*](#portalsmodifyentity) | Toggles whether entities can teleport with this portal | `portals.modify.entity.use` |
+| [**portals**&nbsp;**modify**&nbsp;*exit*](#portalsmodifyexit) | Modifies the location where a player exits when teleporting a portal | `portals.modify.exit.use` |
+| [**portals**&nbsp;**modify**&nbsp;*location*](#portalsmodifylocation) | Changes a portals location | `portals.modify.location.use` |
+| [**portals**&nbsp;**modify**&nbsp;*owner*](#portalsmodifyowner) | Changes the owner of a portal | `portals.modify.owner.use` |
+| [**portals**&nbsp;**modify**&nbsp;*randomDestination*](#portalsmodifyrandomdestination) | Changes the destination of the selected portal to a random position each time | `portals.modify.randomdestination.use` |
+| [**portals**&nbsp;**modify**&nbsp;*togglesafe*](#portalsmodifytogglesafe) | Toggles safe teleportation for this portal | `portals.modify.togglesafe.use` |
+| [**portals**&nbsp;*remove*](#portalsremove) | Removes a portal permanently | `portals.remove.use` |
+| [**portals**&nbsp;*select*](#portalsselect) | Selects an existing portal | `portals.select.use` |
 
 #### portals  
 The portal commands  

@@ -11,7 +11,7 @@ Adds a sign-based market.
 | Command | Description | Permission<br>`cubeengine.signmarket.command.<perm>` |
 | --- | --- | --- |
 | [*marketsign*](#marketsign) | MarketSign-Commands | `marketsign` |
-| [**marketsign**&nbsp;*editMode*](#marketsign&nbsp;editmode) | Enters the editmode allowing to change market signs easily | `marketsign.editmode.use` |
+| [**marketsign**&nbsp;*editMode*](#marketsigneditmode) | Enters the editmode allowing to change market signs easily | `marketsign.editmode.use` |
 
 #### marketsign  
 MarketSign-Commands  

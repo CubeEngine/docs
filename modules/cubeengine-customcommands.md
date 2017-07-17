@@ -9,9 +9,9 @@ module adding custom chat commands
 | Command | Description | Permission<br>`cubeengine.customcommands.command.<perm>` |
 | --- | --- | --- |
 | [*customcommands*](#customcommands) | Commands to modify custom commands. | `customcommands` |
-| [**customcommands**&nbsp;*add*](#customcommands&nbsp;add) | Adds a custom chat command. | `customcommands.add.use` |
-| [**customcommands**&nbsp;*delete*](#customcommands&nbsp;delete) | Deletes a custom chat command. | `customcommands.delete.use` |
-| [**customcommands**&nbsp;*help*](#customcommands&nbsp;help) | Prints out all the custom chat commands. | `customcommands.help.use` |
+| [**customcommands**&nbsp;*add*](#customcommandsadd) | Adds a custom chat command. | `customcommands.add.use` |
+| [**customcommands**&nbsp;*delete*](#customcommandsdelete) | Deletes a custom chat command. | `customcommands.delete.use` |
+| [**customcommands**&nbsp;*help*](#customcommandshelp) | Prints out all the custom chat commands. | `customcommands.help.use` |
 
 #### customcommands  
 Commands to modify custom commands.  

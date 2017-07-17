@@ -9,10 +9,10 @@ Empower your tools!
 | Command | Description | Permission<br>`cubeengine.powertools.command.<perm>` |
 | --- | --- | --- |
 | [*powertool*](#powertool) | Binding shortcuts to an item. | `powertool` |
-| [**powertool**&nbsp;*add*](#powertool&nbsp;add) | Adds a command to your powertool | `powertool.add.use` |
-| [**powertool**&nbsp;*clear*](#powertool&nbsp;clear) | Removes all commands from your powertool | `powertool.clear.use` |
-| [**powertool**&nbsp;*list*](#powertool&nbsp;list) | Lists your powertool-bindings. | `powertool.list.use` |
-| [**powertool**&nbsp;*remove*](#powertool&nbsp;remove) | Removes a command from your powertool | `powertool.remove.use` |
+| [**powertool**&nbsp;*add*](#powertooladd) | Adds a command to your powertool | `powertool.add.use` |
+| [**powertool**&nbsp;*clear*](#powertoolclear) | Removes all commands from your powertool | `powertool.clear.use` |
+| [**powertool**&nbsp;*list*](#powertoollist) | Lists your powertool-bindings. | `powertool.list.use` |
+| [**powertool**&nbsp;*remove*](#powertoolremove) | Removes a command from your powertool | `powertool.remove.use` |
 
 #### powertool  
 Binding shortcuts to an item.  

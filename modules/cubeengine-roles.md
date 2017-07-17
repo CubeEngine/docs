@@ -17,45 +17,45 @@ This module assigns permissions based on roles.
 | Command | Description | Permission<br>`cubeengine.roles.command.<perm>` |
 | --- | --- | --- |
 | [*roles*](#roles) | Manages the roles | `roles` |
-| [**roles**&nbsp;*admin*](#roles&nbsp;admin) | Manages the module | `roles.admin` |
-| [**roles**&nbsp;**admin**&nbsp;*debug*](#roles&nbsp;admin&nbsp;debug) | Toggles debug mode | `roles.admin.debug.use` |
-| [**roles**&nbsp;**admin**&nbsp;*findPermission*](#roles&nbsp;admin&nbsp;findpermission) | Searches for registered Permissions | `roles.admin.findpermission.use` |
-| [**roles**&nbsp;**admin**&nbsp;*reload*](#roles&nbsp;admin&nbsp;reload) | Reloads all roles from config | `roles.admin.reload.use` |
-| [**roles**&nbsp;**admin**&nbsp;*save*](#roles&nbsp;admin&nbsp;save) | Overrides all configs with current settings | `roles.admin.save.use` |
-| [**roles**&nbsp;*role*](#roles&nbsp;role) | Manage roles | `roles.role` |
-| [**roles**&nbsp;**role**&nbsp;*addParent*](#roles&nbsp;role&nbsp;addparent) | Adds a parent role to given role [in context] | `roles.role.addparent.use` |
-| [**roles**&nbsp;**role**&nbsp;*checkPermission*](#roles&nbsp;role&nbsp;checkpermission) | Checks the permission in given role [in context] | `roles.role.checkpermission.use` |
-| [**roles**&nbsp;**role**&nbsp;*clearOption*](#roles&nbsp;role&nbsp;clearoption) | Clears the options for given role [in context] | `roles.role.clearoption.use` |
-| [**roles**&nbsp;**role**&nbsp;*clearParent*](#roles&nbsp;role&nbsp;clearparent) | Removes all parent roles from given role [in context] | `roles.role.clearparent.use` |
-| [**roles**&nbsp;**role**&nbsp;*create*](#roles&nbsp;role&nbsp;create) | Creates a new role | `roles.role.create.use` |
-| [**roles**&nbsp;**role**&nbsp;*delete*](#roles&nbsp;role&nbsp;delete) | Deletes a role | `roles.role.delete.use` |
-| [**roles**&nbsp;**role**&nbsp;*list*](#roles&nbsp;role&nbsp;list) | Lists all roles | `roles.role.list.use` |
-| [**roles**&nbsp;**role**&nbsp;*listDefaultRoles*](#roles&nbsp;role&nbsp;listdefaultroles) | Lists all default roles | `roles.role.listdefaultroles.use` |
-| [**roles**&nbsp;**role**&nbsp;*listOption*](#roles&nbsp;role&nbsp;listoption) | Lists all options of given role [in context] | `roles.role.listoption.use` |
-| [**roles**&nbsp;**role**&nbsp;*listParent*](#roles&nbsp;role&nbsp;listparent) | Lists all parents of given role [in context] | `roles.role.listparent.use` |
-| [**roles**&nbsp;**role**&nbsp;*listPermission*](#roles&nbsp;role&nbsp;listpermission) | Lists all permissions of given role [in context] | `roles.role.listpermission.use` |
-| [**roles**&nbsp;**role**&nbsp;*priority*](#roles&nbsp;role&nbsp;priority) | Show the priority of given role | `roles.role.priority.use` |
-| [**roles**&nbsp;**role**&nbsp;*removeParent*](#roles&nbsp;role&nbsp;removeparent) | Removes a parent role from given role [in context] | `roles.role.removeparent.use` |
-| [**roles**&nbsp;**role**&nbsp;*rename*](#roles&nbsp;role&nbsp;rename) | Renames given role | `roles.role.rename.use` |
-| [**roles**&nbsp;**role**&nbsp;*resetOption*](#roles&nbsp;role&nbsp;resetoption) | Resets the options for given role [in context] | `roles.role.resetoption.use` |
-| [**roles**&nbsp;**role**&nbsp;*setOption*](#roles&nbsp;role&nbsp;setoption) | Sets an option for given role [in context] | `roles.role.setoption.use` |
-| [**roles**&nbsp;**role**&nbsp;*setPermission*](#roles&nbsp;role&nbsp;setpermission) | Sets the permission for given role [in context] | `roles.role.setpermission.use` |
-| [**roles**&nbsp;**role**&nbsp;*setPriority*](#roles&nbsp;role&nbsp;setpriority) | Sets the priority of given role | `roles.role.setpriority.use` |
-| [**roles**&nbsp;**role**&nbsp;*toggleDefaultRole*](#roles&nbsp;role&nbsp;toggledefaultrole) | Toggles whether given role is a default role | `roles.role.toggledefaultrole.use` |
-| [**roles**&nbsp;*user*](#roles&nbsp;user) | Manage users | `roles.user` |
-| [**roles**&nbsp;**user**&nbsp;*assign*](#roles&nbsp;user&nbsp;assign) | Assign a role to the player [-temp] | `roles.user.assign.use` |
-| [**roles**&nbsp;**user**&nbsp;*checkOption*](#roles&nbsp;user&nbsp;checkoption) | Checks for options of a user [in context] | `roles.user.checkoption.use` |
-| [**roles**&nbsp;**user**&nbsp;*checkPermission*](#roles&nbsp;user&nbsp;checkpermission) | Checks for permissions of a user [in context] | `roles.user.checkpermission.use` |
-| [**roles**&nbsp;**user**&nbsp;*clear*](#roles&nbsp;user&nbsp;clear) | Clears all roles from the player and sets the defaultroles [in context] | `roles.user.clear.use` |
-| [**roles**&nbsp;**user**&nbsp;*clearOption*](#roles&nbsp;user&nbsp;clearoption) | Resets options for this user [in context] | `roles.user.clearoption.use` |
-| [**roles**&nbsp;**user**&nbsp;*list*](#roles&nbsp;user&nbsp;list) | Lists roles of a user | `roles.user.list.use` |
-| [**roles**&nbsp;**user**&nbsp;*listOption*](#roles&nbsp;user&nbsp;listoption) | Lists assigned options from a user [in context] | `roles.user.listoption.use` |
-| [**roles**&nbsp;**user**&nbsp;*listPermission*](#roles&nbsp;user&nbsp;listpermission) | List permission assigned to a user [in context] | `roles.user.listpermission.use` |
-| [**roles**&nbsp;**user**&nbsp;*remove*](#roles&nbsp;user&nbsp;remove) | Removes a role from the player | `roles.user.remove.use` |
-| [**roles**&nbsp;**user**&nbsp;*resetOption*](#roles&nbsp;user&nbsp;resetoption) | Resets options for this user [in context] | `roles.user.resetoption.use` |
-| [**roles**&nbsp;**user**&nbsp;*resetPermission*](#roles&nbsp;user&nbsp;resetpermission) | Resets a permission for this user [in context] | `roles.user.resetpermission.use` |
-| [**roles**&nbsp;**user**&nbsp;*setOption*](#roles&nbsp;user&nbsp;setoption) | Sets options for this user [in context] | `roles.user.setoption.use` |
-| [**roles**&nbsp;**user**&nbsp;*setPermission*](#roles&nbsp;user&nbsp;setpermission) | Sets a permission for this user [in context] | `roles.user.setpermission.use` |
+| [**roles**&nbsp;*admin*](#rolesadmin) | Manages the module | `roles.admin` |
+| [**roles**&nbsp;**admin**&nbsp;*debug*](#rolesadmindebug) | Toggles debug mode | `roles.admin.debug.use` |
+| [**roles**&nbsp;**admin**&nbsp;*findPermission*](#rolesadminfindpermission) | Searches for registered Permissions | `roles.admin.findpermission.use` |
+| [**roles**&nbsp;**admin**&nbsp;*reload*](#rolesadminreload) | Reloads all roles from config | `roles.admin.reload.use` |
+| [**roles**&nbsp;**admin**&nbsp;*save*](#rolesadminsave) | Overrides all configs with current settings | `roles.admin.save.use` |
+| [**roles**&nbsp;*role*](#rolesrole) | Manage roles | `roles.role` |
+| [**roles**&nbsp;**role**&nbsp;*addParent*](#rolesroleaddparent) | Adds a parent role to given role [in context] | `roles.role.addparent.use` |
+| [**roles**&nbsp;**role**&nbsp;*checkPermission*](#rolesrolecheckpermission) | Checks the permission in given role [in context] | `roles.role.checkpermission.use` |
+| [**roles**&nbsp;**role**&nbsp;*clearOption*](#rolesroleclearoption) | Clears the options for given role [in context] | `roles.role.clearoption.use` |
+| [**roles**&nbsp;**role**&nbsp;*clearParent*](#rolesroleclearparent) | Removes all parent roles from given role [in context] | `roles.role.clearparent.use` |
+| [**roles**&nbsp;**role**&nbsp;*create*](#rolesrolecreate) | Creates a new role | `roles.role.create.use` |
+| [**roles**&nbsp;**role**&nbsp;*delete*](#rolesroledelete) | Deletes a role | `roles.role.delete.use` |
+| [**roles**&nbsp;**role**&nbsp;*list*](#rolesrolelist) | Lists all roles | `roles.role.list.use` |
+| [**roles**&nbsp;**role**&nbsp;*listDefaultRoles*](#rolesrolelistdefaultroles) | Lists all default roles | `roles.role.listdefaultroles.use` |
+| [**roles**&nbsp;**role**&nbsp;*listOption*](#rolesrolelistoption) | Lists all options of given role [in context] | `roles.role.listoption.use` |
+| [**roles**&nbsp;**role**&nbsp;*listParent*](#rolesrolelistparent) | Lists all parents of given role [in context] | `roles.role.listparent.use` |
+| [**roles**&nbsp;**role**&nbsp;*listPermission*](#rolesrolelistpermission) | Lists all permissions of given role [in context] | `roles.role.listpermission.use` |
+| [**roles**&nbsp;**role**&nbsp;*priority*](#rolesrolepriority) | Show the priority of given role | `roles.role.priority.use` |
+| [**roles**&nbsp;**role**&nbsp;*removeParent*](#rolesroleremoveparent) | Removes a parent role from given role [in context] | `roles.role.removeparent.use` |
+| [**roles**&nbsp;**role**&nbsp;*rename*](#rolesrolerename) | Renames given role | `roles.role.rename.use` |
+| [**roles**&nbsp;**role**&nbsp;*resetOption*](#rolesroleresetoption) | Resets the options for given role [in context] | `roles.role.resetoption.use` |
+| [**roles**&nbsp;**role**&nbsp;*setOption*](#rolesrolesetoption) | Sets an option for given role [in context] | `roles.role.setoption.use` |
+| [**roles**&nbsp;**role**&nbsp;*setPermission*](#rolesrolesetpermission) | Sets the permission for given role [in context] | `roles.role.setpermission.use` |
+| [**roles**&nbsp;**role**&nbsp;*setPriority*](#rolesrolesetpriority) | Sets the priority of given role | `roles.role.setpriority.use` |
+| [**roles**&nbsp;**role**&nbsp;*toggleDefaultRole*](#rolesroletoggledefaultrole) | Toggles whether given role is a default role | `roles.role.toggledefaultrole.use` |
+| [**roles**&nbsp;*user*](#rolesuser) | Manage users | `roles.user` |
+| [**roles**&nbsp;**user**&nbsp;*assign*](#rolesuserassign) | Assign a role to the player [-temp] | `roles.user.assign.use` |
+| [**roles**&nbsp;**user**&nbsp;*checkOption*](#rolesusercheckoption) | Checks for options of a user [in context] | `roles.user.checkoption.use` |
+| [**roles**&nbsp;**user**&nbsp;*checkPermission*](#rolesusercheckpermission) | Checks for permissions of a user [in context] | `roles.user.checkpermission.use` |
+| [**roles**&nbsp;**user**&nbsp;*clear*](#rolesuserclear) | Clears all roles from the player and sets the defaultroles [in context] | `roles.user.clear.use` |
+| [**roles**&nbsp;**user**&nbsp;*clearOption*](#rolesuserclearoption) | Resets options for this user [in context] | `roles.user.clearoption.use` |
+| [**roles**&nbsp;**user**&nbsp;*list*](#rolesuserlist) | Lists roles of a user | `roles.user.list.use` |
+| [**roles**&nbsp;**user**&nbsp;*listOption*](#rolesuserlistoption) | Lists assigned options from a user [in context] | `roles.user.listoption.use` |
+| [**roles**&nbsp;**user**&nbsp;*listPermission*](#rolesuserlistpermission) | List permission assigned to a user [in context] | `roles.user.listpermission.use` |
+| [**roles**&nbsp;**user**&nbsp;*remove*](#rolesuserremove) | Removes a role from the player | `roles.user.remove.use` |
+| [**roles**&nbsp;**user**&nbsp;*resetOption*](#rolesuserresetoption) | Resets options for this user [in context] | `roles.user.resetoption.use` |
+| [**roles**&nbsp;**user**&nbsp;*resetPermission*](#rolesuserresetpermission) | Resets a permission for this user [in context] | `roles.user.resetpermission.use` |
+| [**roles**&nbsp;**user**&nbsp;*setOption*](#rolesusersetoption) | Sets options for this user [in context] | `roles.user.setoption.use` |
+| [**roles**&nbsp;**user**&nbsp;*setPermission*](#rolesusersetpermission) | Sets a permission for this user [in context] | `roles.user.setpermission.use` |
 
 #### roles  
 Manages the roles  

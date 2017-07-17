@@ -9,11 +9,11 @@ Expand your inventory!
 | Command | Description | Permission<br>`cubeengine.backpack.command.<perm>` |
 | --- | --- | --- |
 | [*backpack*](#backpack) | The Backpack commands | `backpack` |
-| [**backpack**&nbsp;*addContext*](#backpack&nbsp;addcontext) | modifies a backpacks context | `backpack.addcontext.use` |
-| [**backpack**&nbsp;*blockinput*](#backpack&nbsp;blockinput) | modifies a backpack | `backpack.blockinput.use` |
-| [**backpack**&nbsp;*create*](#backpack&nbsp;create) | creates a new backpack | `backpack.create.use` |
-| [**backpack**&nbsp;*open*](#backpack&nbsp;open) | opens a backpack | `backpack.open.use` |
-| [**backpack**&nbsp;*removeContext*](#backpack&nbsp;removecontext) | modifies a backpacks context | `backpack.removecontext.use` |
+| [**backpack**&nbsp;*addContext*](#backpackaddcontext) | modifies a backpacks context | `backpack.addcontext.use` |
+| [**backpack**&nbsp;*blockinput*](#backpackblockinput) | modifies a backpack | `backpack.blockinput.use` |
+| [**backpack**&nbsp;*create*](#backpackcreate) | creates a new backpack | `backpack.create.use` |
+| [**backpack**&nbsp;*open*](#backpackopen) | opens a backpack | `backpack.open.use` |
+| [**backpack**&nbsp;*removeContext*](#backpackremovecontext) | modifies a backpacks context | `backpack.removecontext.use` |
 
 #### backpack  
 The Backpack commands  

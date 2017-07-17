@@ -11,12 +11,12 @@ Announce things!
 | Command | Description | Permission<br>`cubeengine.shout.command.<perm>` |
 | --- | --- | --- |
 | [*shout*](#shout) | Announce a message to players on the server | `shout` |
-| [**shout**&nbsp;*create*](#shout&nbsp;create) | Creates a new announcement | `shout.create.use` |
-| [**shout**&nbsp;*delete*](#shout&nbsp;delete) | delete an announcement | `shout.delete.use` |
-| [**shout**&nbsp;*list*](#shout&nbsp;list) | List all announcements | `shout.list.use` |
-| [**shout**&nbsp;*modify*](#shout&nbsp;modify) | modifies an announcement | `shout.modify.use` |
-| [**shout**&nbsp;*reload*](#shout&nbsp;reload) | clean all loaded announcements from memory and load from disk | `shout.reload.use` |
-| [**shout**&nbsp;*show*](#shout&nbsp;show) | Displays an announcement | `shout.show.use` |
+| [**shout**&nbsp;*create*](#shoutcreate) | Creates a new announcement | `shout.create.use` |
+| [**shout**&nbsp;*delete*](#shoutdelete) | delete an announcement | `shout.delete.use` |
+| [**shout**&nbsp;*list*](#shoutlist) | List all announcements | `shout.list.use` |
+| [**shout**&nbsp;*modify*](#shoutmodify) | modifies an announcement | `shout.modify.use` |
+| [**shout**&nbsp;*reload*](#shoutreload) | clean all loaded announcements from memory and load from disk | `shout.reload.use` |
+| [**shout**&nbsp;*show*](#shoutshow) | Displays an announcement | `shout.show.use` |
 
 #### shout  
 Announce a message to players on the server  

@@ -10,14 +10,14 @@ Create universes with countless worlds
 | Command | Description | Permission<br>`cubeengine.worlds.command.<perm>` |
 | --- | --- | --- |
 | [*worlds*](#worlds) | Worlds commands | `worlds` |
-| [**worlds**&nbsp;*autoload*](#worlds&nbsp;autoload) | Sets the autoload behaviour | `worlds.autoload.use` |
-| [**worlds**&nbsp;*create*](#worlds&nbsp;create) | Creates a new world | `worlds.create.use` |
-| [**worlds**&nbsp;*info*](#worlds&nbsp;info) | Show info about a world | `worlds.info.use` |
-| [**worlds**&nbsp;*list*](#worlds&nbsp;list) | Lists all worlds | `worlds.list.use` |
-| [**worlds**&nbsp;*listplayers*](#worlds&nbsp;listplayers) | Lists the players in a world | `worlds.listplayers.use` |
-| [**worlds**&nbsp;*load*](#worlds&nbsp;load) | Loads a world | `worlds.load.use` |
-| [**worlds**&nbsp;*remove*](#worlds&nbsp;remove) | Remove a world | `worlds.remove.use` |
-| [**worlds**&nbsp;*unload*](#worlds&nbsp;unload) | Unload a loaded world | `worlds.unload.use` |
+| [**worlds**&nbsp;*autoload*](#worldsautoload) | Sets the autoload behaviour | `worlds.autoload.use` |
+| [**worlds**&nbsp;*create*](#worldscreate) | Creates a new world | `worlds.create.use` |
+| [**worlds**&nbsp;*info*](#worldsinfo) | Show info about a world | `worlds.info.use` |
+| [**worlds**&nbsp;*list*](#worldslist) | Lists all worlds | `worlds.list.use` |
+| [**worlds**&nbsp;*listplayers*](#worldslistplayers) | Lists the players in a world | `worlds.listplayers.use` |
+| [**worlds**&nbsp;*load*](#worldsload) | Loads a world | `worlds.load.use` |
+| [**worlds**&nbsp;*remove*](#worldsremove) | Remove a world | `worlds.remove.use` |
+| [**worlds**&nbsp;*unload*](#worldsunload) | Unload a loaded world | `worlds.unload.use` |
 
 #### worlds  
 Worlds commands  

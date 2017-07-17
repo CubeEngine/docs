@@ -11,12 +11,12 @@ Hand kits to your players
 | Command | Description | Permission<br>`cubeengine.kits.command.<perm>` |
 | --- | --- | --- |
 | [*kit*](#kit) | Manages item-kits | `kit` |
-| [**kit**&nbsp;*create*](#kit&nbsp;create) | Opens the configured kit if the kit does not exists a new is created | `kit.create.use` |
-| [**kit**&nbsp;*delete*](#kit&nbsp;delete) | Deletes a kit | `kit.delete.use` |
-| [**kit**&nbsp;*give*](#kit&nbsp;give) | Gives a set of items. | `kit.give.use` |
-| [**kit**&nbsp;*giveall*](#kit&nbsp;giveall) | Gives a kit to every online player | `kit.giveall.use` |
-| [**kit**&nbsp;*list*](#kit&nbsp;list) | Lists all currently available kits. | `kit.list.use` |
-| [**kit**&nbsp;*setCommand*](#kit&nbsp;setcommand) | Sets a command to be run when a kit is received | `kit.setcommand.use` |
+| [**kit**&nbsp;*create*](#kitcreate) | Opens the configured kit if the kit does not exists a new is created | `kit.create.use` |
+| [**kit**&nbsp;*delete*](#kitdelete) | Deletes a kit | `kit.delete.use` |
+| [**kit**&nbsp;*give*](#kitgive) | Gives a set of items. | `kit.give.use` |
+| [**kit**&nbsp;*giveall*](#kitgiveall) | Gives a kit to every online player | `kit.giveall.use` |
+| [**kit**&nbsp;*list*](#kitlist) | Lists all currently available kits. | `kit.list.use` |
+| [**kit**&nbsp;*setCommand*](#kitsetcommand) | Sets a command to be run when a kit is received | `kit.setcommand.use` |
 
 #### kit  
 Manages item-kits  

@@ -12,16 +12,16 @@ Economy API and basic commands
 | Command | Description | Permission<br>`cubeengine.conomy.command.<perm>` |
 | --- | --- | --- |
 | [*eco*](#eco) | Administrative commands for Conomy | `eco` |
-| [**eco**&nbsp;*give*](#eco&nbsp;give) | Gives money to one or all players. | `eco.give.use` |
-| [**eco**&nbsp;*hide*](#eco&nbsp;hide) | Hides the account of a given player | `eco.hide.use` |
-| [**eco**&nbsp;*reset*](#eco&nbsp;reset) | Reset the money from given user | `eco.reset.use` |
-| [**eco**&nbsp;*set*](#eco&nbsp;set) | Sets the money of a given player | `eco.set.use` |
-| [**eco**&nbsp;*take*](#eco&nbsp;take) | Takes money from given user | `eco.take.use` |
-| [**eco**&nbsp;*unhide*](#eco&nbsp;unhide) | Unhides the account of a given player | `eco.unhide.use` |
+| [**eco**&nbsp;*give*](#ecogive) | Gives money to one or all players. | `eco.give.use` |
+| [**eco**&nbsp;*hide*](#ecohide) | Hides the account of a given player | `eco.hide.use` |
+| [**eco**&nbsp;*reset*](#ecoreset) | Reset the money from given user | `eco.reset.use` |
+| [**eco**&nbsp;*set*](#ecoset) | Sets the money of a given player | `eco.set.use` |
+| [**eco**&nbsp;*take*](#ecotake) | Takes money from given user | `eco.take.use` |
+| [**eco**&nbsp;*unhide*](#ecounhide) | Unhides the account of a given player | `eco.unhide.use` |
 | [*money*](#money) | Manage your money | `money` |
-| [**money**&nbsp;*balance*](#money&nbsp;balance) | Shows your balance | `money.balance.use` |
-| [**money**&nbsp;*pay*](#money&nbsp;pay) | Transfer the given amount to another account. | `money.pay.use` |
-| [**money**&nbsp;*top*](#money&nbsp;top) | Shows the players with the highest balance. | `money.top.use` |
+| [**money**&nbsp;*balance*](#moneybalance) | Shows your balance | `money.balance.use` |
+| [**money**&nbsp;*pay*](#moneypay) | Transfer the given amount to another account. | `money.pay.use` |
+| [**money**&nbsp;*top*](#moneytop) | Shows the players with the highest balance. | `money.top.use` |
 
 #### eco  
 Administrative commands for Conomy  
