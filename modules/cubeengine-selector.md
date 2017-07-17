@@ -21,3 +21,5 @@ Provides you with a wand to select a cuboid
 | Permission | Description |
 | --- | --- |
 | `cubeengine.selector` | Base Permission for Selector |
+| `cubeengine.selector.command` | Allows using all commands of Selector |
+| `cubeengine.selector.use-wand` | Allows using the selector wand |

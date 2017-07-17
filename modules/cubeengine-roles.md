@@ -340,3 +340,4 @@ Sets a permission for this user [in context]
 | Permission | Description |
 | --- | --- |
 | `cubeengine.roles` | Base Permission for Roles |
+| `cubeengine.roles.command` | Allows using all commands of Roles |

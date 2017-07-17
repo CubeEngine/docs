@@ -39,3 +39,4 @@ Sets the NetherPortal Target
 | Permission | Description |
 | --- | --- |
 | `cubeengine.netherportals` | Base Permission for NetherPortals |
+| `cubeengine.netherportals.command` | Allows using all commands of NetherPortals |

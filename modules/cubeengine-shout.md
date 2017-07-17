@@ -67,3 +67,5 @@ Displays an announcement
 | Permission | Description |
 | --- | --- |
 | `cubeengine.shout` | Base Permission for Shout |
+| `cubeengine.shout.announcement` |  |
+| `cubeengine.shout.command` | Allows using all commands of Shout |

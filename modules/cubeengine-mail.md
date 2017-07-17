@@ -67,3 +67,4 @@ Shows the mail of other players.
 | Permission | Description |
 | --- | --- |
 | `cubeengine.mail` | Base Permission for Mail |
+| `cubeengine.mail.command` | Allows using all commands of Mail |

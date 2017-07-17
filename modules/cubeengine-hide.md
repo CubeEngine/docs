@@ -43,3 +43,11 @@ Unhides a player.
 | Permission | Description |
 | --- | --- |
 | `cubeengine.hide` | Base Permission for Hide |
+| `cubeengine.hide.auto` |  |
+| `cubeengine.hide.auto.hide` |  |
+| `cubeengine.hide.auto.see-hidden` |  |
+| `cubeengine.hide.chat` |  |
+| `cubeengine.hide.command` | Allows using all commands of Hide |
+| `cubeengine.hide.drop` |  |
+| `cubeengine.hide.interact` |  |
+| `cubeengine.hide.pickup` |  |

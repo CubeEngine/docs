@@ -175,3 +175,15 @@ Teleport to a warp
 | Permission | Description |
 | --- | --- |
 | `cubeengine.travel` | Base Permission for Travel |
+| `cubeengine.travel.command` | Allows using all commands of Travel |
+| `cubeengine.travel.command.home.list.other` |  |
+| `cubeengine.travel.command.home.move.other` |  |
+| `cubeengine.travel.command.home.remove.other` |  |
+| `cubeengine.travel.command.home.rename.other` |  |
+| `cubeengine.travel.command.home.set.more` |  |
+| `cubeengine.travel.command.home.tp.other` |  |
+| `cubeengine.travel.command.warp.list.other` |  |
+| `cubeengine.travel.command.warp.move.other` |  |
+| `cubeengine.travel.command.warp.remove.other` |  |
+| `cubeengine.travel.command.warp.rename.other` |  |
+| `cubeengine.travel.command.warp.tp.other` |  |

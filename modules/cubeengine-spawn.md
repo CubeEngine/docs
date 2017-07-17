@@ -29,3 +29,4 @@ Changes the respawnpoint
 | Permission | Description |
 | --- | --- |
 | `cubeengine.spawn` | Base Permission for Spawn |
+| `cubeengine.spawn.command` | Allows using all commands of Spawn |

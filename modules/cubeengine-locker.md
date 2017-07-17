@@ -190,3 +190,19 @@ Unlocks a password protected chest
 | Permission | Description |
 | --- | --- |
 | `cubeengine.locker` | Base Permission for Locker |
+| `cubeengine.locker.access-other` |  |
+| `cubeengine.locker.allow.container` |  |
+| `cubeengine.locker.allow.door` |  |
+| `cubeengine.locker.allow.entity` |  |
+| `cubeengine.locker.allow.hanging` |  |
+| `cubeengine.locker.break-other` |  |
+| `cubeengine.locker.command` | Allows using all commands of Locker |
+| `cubeengine.locker.command.locker.give.other` |  |
+| `cubeengine.locker.command.locker.info.other` |  |
+| `cubeengine.locker.command.locker.info.show-owner` |  |
+| `cubeengine.locker.command.locker.key.other` |  |
+| `cubeengine.locker.command.locker.modify.other` |  |
+| `cubeengine.locker.command.locker.remove.other` |  |
+| `cubeengine.locker.expand-other` |  |
+| `cubeengine.locker.prevent-notify` |  |
+| `cubeengine.locker.show-owner` |  |

@@ -61,3 +61,5 @@ removes the declared language and languagefiles!
 | Permission | Description |
 | --- | --- |
 | `cubeengine.rulebook` | Base Permission for Rulebook |
+| `cubeengine.rulebook.command` | Allows using all commands of Rulebook |
+| `cubeengine.rulebook.command.get.other` | Allows adding a rulebook to another players inventory |

@@ -52,3 +52,4 @@ Renames a universe
 | Permission | Description |
 | --- | --- |
 | `cubeengine.multiverse` | Base Permission for Multiverse |
+| `cubeengine.multiverse.command` | Allows using all commands of Multiverse |

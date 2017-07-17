@@ -68,3 +68,5 @@ Sets a command to be run when a kit is received
 | Permission | Description |
 | --- | --- |
 | `cubeengine.kits` | Base Permission for Kits |
+| `cubeengine.kits.command` | Allows using all commands of Kits |
+| `cubeengine.kits.kits` | Grants access to all kits |

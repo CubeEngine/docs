@@ -99,3 +99,8 @@ Shows the players with the highest balance.
 | Permission | Description |
 | --- | --- |
 | `cubeengine.conomy` | Base Permission for Conomy |
+| `cubeengine.conomy.access.other.player` | Grants full access to all player accounts |
+| `cubeengine.conomy.access.other.player.seehidden` | Allows seeing hidden player accounts |
+| `cubeengine.conomy.access.other.player.withdraw` | Allows transfering money from anothers players account |
+| `cubeengine.conomy.account.user.allow-under-min` |  |
+| `cubeengine.conomy.command` | Allows using all commands of Conomy |

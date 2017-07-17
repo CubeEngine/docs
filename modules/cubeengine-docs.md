@@ -22,3 +22,4 @@ Generates documentation
 | Permission | Description |
 | --- | --- |
 | `cubeengine.docs` | Base Permission for Docs |
+| `cubeengine.docs.command` | Allows using all commands of Docs |

@@ -207,3 +207,22 @@ Selects a Region
 | Permission | Description |
 | --- | --- |
 | `cubeengine.protector` | Base Permission for Protector |
+| `cubeengine.protector.bypass.blockdamage.explode.player` |  |
+| `cubeengine.protector.bypass.build` |  |
+| `cubeengine.protector.bypass.command` |  |
+| `cubeengine.protector.bypass.entity-damage.all` |  |
+| `cubeengine.protector.bypass.entity-damage.living` |  |
+| `cubeengine.protector.bypass.entity-damage.pvp` |  |
+| `cubeengine.protector.bypass.move.enter` |  |
+| `cubeengine.protector.bypass.move.exit` |  |
+| `cubeengine.protector.bypass.move.move` |  |
+| `cubeengine.protector.bypass.move.teleport` |  |
+| `cubeengine.protector.bypass.spawn.player` |  |
+| `cubeengine.protector.bypass.use` |  |
+| `cubeengine.protector.bypass.use-all.block` |  |
+| `cubeengine.protector.bypass.use-all.container` |  |
+| `cubeengine.protector.bypass.use-all.item` |  |
+| `cubeengine.protector.bypass.use-all.open` |  |
+| `cubeengine.protector.bypass.use-all.redstone` |  |
+| `cubeengine.protector.bypass.use-item` |  |
+| `cubeengine.protector.command` | Allows using all commands of Protector |

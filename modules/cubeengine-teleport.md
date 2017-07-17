@@ -174,3 +174,17 @@ Teleports you X amount of blocks into the air and puts a glass block beneath you
 | Permission | Description |
 | --- | --- |
 | `cubeengine.teleport` | Base Permission for Teleport |
+| `cubeengine.teleport.command` | Allows using all commands of Teleport |
+| `cubeengine.teleport.command.back.ondeath` | Allows using the back command after dieing (if this is not set you won't be able to tp back to your deathpoint) |
+| `cubeengine.teleport.command.spawn.force` | Allows teleporting a player to spawn even if the player has the prevent permission |
+| `cubeengine.teleport.command.spawn.prevent` | Prevents from being teleported to spawn by someone else |
+| `cubeengine.teleport.command.tp.force` | Ignores all prevent permissions when using the /tp command |
+| `cubeengine.teleport.command.tp.other` | Allows teleporting another player |
+| `cubeengine.teleport.command.tpall.force` | Ignores all prevent permissions when using the /tpall command |
+| `cubeengine.teleport.command.tphere.force` | Ignores all prevent permissions when using the /tphere command |
+| `cubeengine.teleport.command.tphereall.force` | Ignores all prevent permissions when using the /tphereall command |
+| `cubeengine.teleport.command.tppos.unsafe` |  |
+| `cubeengine.teleport.compass.jumpto.left` |  |
+| `cubeengine.teleport.right` |  |
+| `cubeengine.teleport.teleport.prevent.tp` | Prevents from being teleported by someone else |
+| `cubeengine.teleport.teleport.prevent.tpto` | Prevents from teleporting to you |

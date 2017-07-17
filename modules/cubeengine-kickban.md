@@ -68,3 +68,11 @@ Unbans a previously banned player.
 | Permission | Description |
 | --- | --- |
 | `cubeengine.kickban` | Base Permission for KickBan |
+| `cubeengine.kickban.command` | Allows using all commands of KickBan |
+| `cubeengine.kickban.command.ban.noreason` | Allows banning without providing a reason |
+| `cubeengine.kickban.command.ban.notify` | Enables notification when a player gets banned |
+| `cubeengine.kickban.command.ipban.noreason` | Allows banning without providing a reason |
+| `cubeengine.kickban.command.kick.all` | Allows kicking all players |
+| `cubeengine.kickban.command.kick.noreason` | Allows kicking without providing a reason |
+| `cubeengine.kickban.command.kick.notify` | Enables notification when a player gets kicked |
+| `cubeengine.kickban.command.tempban.noreason` | Allows banning without providing a reason |

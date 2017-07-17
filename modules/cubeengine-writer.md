@@ -23,3 +23,4 @@ Edit a sign or a signed book
 | Permission | Description |
 | --- | --- |
 | `cubeengine.writer` | Base Permission for Writer |
+| `cubeengine.writer.command` | Allows using all commands of Writer |

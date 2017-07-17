@@ -130,3 +130,4 @@ Selects an existing portal
 | Permission | Description |
 | --- | --- |
 | `cubeengine.portals` | Base Permission for Portals |
+| `cubeengine.portals.command` | Allows using all commands of Portals |

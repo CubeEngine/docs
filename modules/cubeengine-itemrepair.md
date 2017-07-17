@@ -37,3 +37,6 @@ Removes an existing RepairBlock
 | Permission | Description |
 | --- | --- |
 | `cubeengine.itemrepair` | Base Permission for Itemrepair |
+| `cubeengine.itemrepair.block.cheap` |  |
+| `cubeengine.itemrepair.block.normal` |  |
+| `cubeengine.itemrepair.command` | Allows using all commands of Itemrepair |

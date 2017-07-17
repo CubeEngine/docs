@@ -27,3 +27,4 @@ Shows your current vote situation
 | Permission | Description |
 | --- | --- |
 | `cubeengine.vote` | Base Permission for Vote |
+| `cubeengine.vote.command` | Allows using all commands of Vote |

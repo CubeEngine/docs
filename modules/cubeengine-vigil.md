@@ -65,3 +65,5 @@ Gives you an item to check logs with.
 | Permission | Description |
 | --- | --- |
 | `cubeengine.vigil` | Base Permission for Vigil |
+| `cubeengine.vigil.command` | Allows using all commands of Vigil |
+| `cubeengine.vigil.use-logtool` | Allows using log-tools |
