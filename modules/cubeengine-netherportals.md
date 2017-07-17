@@ -1,4 +1,4 @@
-# CubeEngine - netherportals [WIP]
+# CubeEngine - NetherPortals [WIP]
 Modifies Vanilla Portal behaviours
 
 ## Features:
@@ -38,4 +38,4 @@ Sets the NetherPortal Target
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.netherportals` | Base Permission for netherportals |
+| `cubeengine.netherportals` | Base Permission for NetherPortals |

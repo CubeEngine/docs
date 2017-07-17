@@ -12,7 +12,7 @@
  - [Conomy](modules/cubeengine-conomy.md)
  - [ControlC](modules/cubeengine-controlc.md)
  - [CustomCommands](modules/cubeengine-customcommands.md)
- - [discworld](modules/cubeengine-discworld.md) - [WIP]
+ - [Disc World](modules/cubeengine-discworld.md) - [WIP]
  - [Docs](modules/cubeengine-docs.md)
  - [Donations](modules/cubeengine-donations.md) - [WIP]
  - [Elevator](modules/cubeengine-elevator.md)
@@ -28,7 +28,7 @@
  - [Mail](modules/cubeengine-mail.md)
  - [Multiverse](modules/cubeengine-multiverse.md)
  - [Namehistory](modules/cubeengine-namehistory.md)
- - [netherportals](modules/cubeengine-netherportals.md) - [WIP]
+ - [NetherPortals](modules/cubeengine-netherportals.md) - [WIP]
  - [Patient](modules/cubeengine-patient.md) - [WIP]
  - [Portals](modules/cubeengine-portals.md)
  - [Powertools](modules/cubeengine-powertools.md)

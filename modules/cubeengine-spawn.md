@@ -28,4 +28,4 @@ Changes the respawnpoint
 
 | Permission | Description |
 | --- | --- |
-| `cubeengine.spawn` | Base Permission for Spawn || `cubeengine.spawner` | Base Permission for Spawner |
+| `cubeengine.spawn` | Base Permission for Spawn |
