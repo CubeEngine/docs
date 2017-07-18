@@ -35,6 +35,7 @@
  - [Protector](modules/cubeengine-protector.md)
  - [Roles](modules/cubeengine-roles.md)
  - [Rulebook](modules/cubeengine-rulebook.md)
+ - [Selector](modules/cubeengine-selector.md)
  - [Shout](modules/cubeengine-shout.md)
  - [SignMarket](modules/cubeengine-signmarket.md)
  - [Spawn](modules/cubeengine-spawn.md)
