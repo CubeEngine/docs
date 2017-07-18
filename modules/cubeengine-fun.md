@@ -87,24 +87,19 @@ Throw something!
 | --- | --- |
 | `cubeengine.fun` | Base Permission for Fun |
 | `cubeengine.fun.command` | Allows using all commands of Fun |
-| `cubeengine.fun.command.explosion` |  |
 | `cubeengine.fun.command.explosion.block.damage` |  |
 | `cubeengine.fun.command.explosion.fire` |  |
 | `cubeengine.fun.command.explosion.other` |  |
 | `cubeengine.fun.command.explosion.player.damage` |  |
-| `cubeengine.fun.command.hat` |  |
 | `cubeengine.fun.command.hat.item` |  |
 | `cubeengine.fun.command.hat.more-armor` |  |
 | `cubeengine.fun.command.hat.notify` |  |
 | `cubeengine.fun.command.hat.other` |  |
 | `cubeengine.fun.command.hat.quit` |  |
-| `cubeengine.fun.command.lightning` |  |
-| `cubeengine.fun.command.lightning.player.damage` |  |
+| `cubeengine.fun.command.lightning.player-damage` |  |
 | `cubeengine.fun.command.lightning.unsafe` |  |
-| `cubeengine.fun.command.nuke` |  |
 | `cubeengine.fun.command.nuke.change-range` |  |
 | `cubeengine.fun.command.nuke.other` |  |
-| `cubeengine.fun.command.throw` |  |
 | `cubeengine.fun.command.throw.area-effect-cloud` |  |
 | `cubeengine.fun.command.throw.armor-stand` |  |
 | `cubeengine.fun.command.throw.arrow` |  |

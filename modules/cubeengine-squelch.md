@@ -10,5 +10,4 @@ Mute or Ignore other players
 | Permission | Description |
 | --- | --- |
 | `cubeengine.squelch` | Base Permission for Squelch |
-| `cubeengine.squelch.command` | Base Commands Permission |
 | `cubeengine.squelch.command.ignore.prevent` | Prevents adding the player with this permission to an ignore-list |
