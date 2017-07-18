@@ -196,7 +196,7 @@ Unlocks a password protected chest
 | `cubeengine.locker.allow.entity` |  |
 | `cubeengine.locker.allow.hanging` |  |
 | `cubeengine.locker.break-other` |  |
-| `cubeengine.locker.command` | Allows using all commands of Locker |
+| `cubeengine.locker.command` |  |
 | `cubeengine.locker.command.locker.give.other` |  |
 | `cubeengine.locker.command.locker.info.other` |  |
 | `cubeengine.locker.command.locker.info.show-owner` |  |
