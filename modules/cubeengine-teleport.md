@@ -185,6 +185,6 @@ Teleports you X amount of blocks into the air and puts a glass block beneath you
 | `cubeengine.teleport.command.tphereall.force` | Ignores all prevent permissions when using the /tphereall command |
 | `cubeengine.teleport.command.tppos.unsafe` |  |
 | `cubeengine.teleport.compass.jumpto.left` |  |
-| `cubeengine.teleport.right` |  |
+| `cubeengine.teleport.compass.jumpto.right` |  |
 | `cubeengine.teleport.teleport.prevent.tp` | Prevents from being teleported by someone else |
 | `cubeengine.teleport.teleport.prevent.tpto` | Prevents from teleporting to you |
