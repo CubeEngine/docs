@@ -23,7 +23,7 @@ Protects your worlds
 | [**region**&nbsp;**control**&nbsp;*deadCircuit*](#regioncontroldeadcircuit) | Controls redstone circuits commands | `control.deadcircuit.use` |
 | [**region**&nbsp;**control**&nbsp;*entityDamage*](#regioncontrolentitydamage) | Manages the region entity-damage settings | `control.entitydamage` |
 | [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*all*](#regioncontrolentitydamageall) | Controls entity damage | `control.entitydamage.all.use` |
-| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*entity*](#regioncontrolentitydamageentity) | Controls explosions caused by players breaking blocks | `control.entitydamage.entity.use` |
+| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*entity*](#regioncontrolentitydamageentity) | Controls damage by entities | `control.entitydamage.entity.use` |
 | [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*living*](#regioncontrolentitydamageliving) | Controls damage by living entities | `control.entitydamage.living.use` |
 | [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*pvp*](#regioncontrolentitydamagepvp) | Controls pvp damage | `control.entitydamage.pvp.use` |
 | [**region**&nbsp;**control**&nbsp;*move*](#regioncontrolmove) | Controls movement | `control.move.use` |
@@ -119,7 +119,7 @@ Controls entity damage
   
 
 #### region&nbsp;control&nbsp;entityDamage&nbsp;entity  
-Controls explosions caused by players breaking blocks  
+Controls damage by entities  
 **Usage:** `region control entityDamage entity <type> <set> [in <region>]`  
 **Permission:** `cubeengine.protector.command.control.entitydamage.entity.use`  
   
