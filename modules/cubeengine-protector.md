@@ -25,8 +25,11 @@ Protects your worlds
 | [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*all*](#regioncontrolentitydamageall) | Controls entity damage | `control.entitydamage.all.use` |
 | [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*entity*](#regioncontrolentitydamageentity) | Controls damage by entities | `control.entitydamage.entity.use` |
 | [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*living*](#regioncontrolentitydamageliving) | Controls damage by living entities | `control.entitydamage.living.use` |
-| [**region**&nbsp;**control**&nbsp;**entityDamage**&nbsp;*pvp*](#regioncontrolentitydamagepvp) | Controls pvp damage | `control.entitydamage.pvp.use` |
 | [**region**&nbsp;**control**&nbsp;*move*](#regioncontrolmove) | Controls movement | `control.move.use` |
+| [**region**&nbsp;**control**&nbsp;*playerDamage*](#regioncontrolplayerdamage) | Manages the region player-damage settings | `control.playerdamage` |
+| [**region**&nbsp;**control**&nbsp;**playerDamage**&nbsp;*all*](#regioncontrolplayerdamageall) | Controls player damage | `control.playerdamage.all.use` |
+| [**region**&nbsp;**control**&nbsp;**playerDamage**&nbsp;*living*](#regioncontrolplayerdamageliving) | Controls player damage by living entities | `control.playerdamage.living.use` |
+| [**region**&nbsp;**control**&nbsp;**playerDamage**&nbsp;*pvp*](#regioncontrolplayerdamagepvp) | Controls pvp damage | `control.playerdamage.pvp.use` |
 | [**region**&nbsp;**control**&nbsp;*spawn*](#regioncontrolspawn) | Controls spawning of entities | `control.spawn.use` |
 | [**region**&nbsp;**control**&nbsp;*teleport*](#regioncontrolteleport) | Controls teleport movement | `control.teleport.use` |
 | [**region**&nbsp;**control**&nbsp;*useAll*](#regioncontroluseall) | Controls players interacting with blocks | `control.useall.use` |
@@ -48,7 +51,7 @@ Manages the regions
 Manages the region settings  
 **Usage:** `region control <command>`  
 **Permission:** `cubeengine.protector.command.control`  
-**SubCommands:** `blockdamage` `build` `command` `deadCircuit` `entityDamage` `move` `spawn` `teleport` `useAll` `useBlock` `useItem`  
+**SubCommands:** `blockdamage` `build` `command` `deadCircuit` `entityDamage` `move` `playerDamage` `spawn` `teleport` `useAll` `useBlock` `useItem`  
 
 #### region&nbsp;control&nbsp;blockdamage  
 Manages the region block-damage settings  
@@ -110,7 +113,7 @@ Manages the region entity-damage settings
 **Usage:** `region control entityDamage <command>`  
 **Alias:** `entity`  
 **Permission:** `cubeengine.protector.command.control.entitydamage`  
-**SubCommands:** `all` `entity` `living` `pvp`  
+**SubCommands:** `all` `entity` `living`  
 
 #### region&nbsp;control&nbsp;entityDamage&nbsp;all  
 Controls entity damage  
@@ -130,16 +133,35 @@ Controls damage by living entities
 **Permission:** `cubeengine.protector.command.control.entitydamage.living.use`  
   
 
-#### region&nbsp;control&nbsp;entityDamage&nbsp;pvp  
-Controls pvp damage  
-**Usage:** `region control entityDamage pvp <set> [in <region>] [bypass <role>]`  
-**Permission:** `cubeengine.protector.command.control.entitydamage.pvp.use`  
-  
-
 #### region&nbsp;control&nbsp;move  
 Controls movement  
 **Usage:** `region control move <type> <set> [in <region>] [bypass <role>]`  
 **Permission:** `cubeengine.protector.command.control.move.use`  
+  
+
+#### region&nbsp;control&nbsp;playerDamage  
+Manages the region player-damage settings  
+**Usage:** `region control playerDamage <command>`  
+**Alias:** `player`  
+**Permission:** `cubeengine.protector.command.control.playerdamage`  
+**SubCommands:** `all` `living` `pvp`  
+
+#### region&nbsp;control&nbsp;playerDamage&nbsp;all  
+Controls player damage  
+**Usage:** `region control playerDamage all <set> [in <region>] [bypass <role>]`  
+**Permission:** `cubeengine.protector.command.control.playerdamage.all.use`  
+  
+
+#### region&nbsp;control&nbsp;playerDamage&nbsp;living  
+Controls player damage by living entities  
+**Usage:** `region control playerDamage living <set> [in <region>] [bypass <role>]`  
+**Permission:** `cubeengine.protector.command.control.playerdamage.living.use`  
+  
+
+#### region&nbsp;control&nbsp;playerDamage&nbsp;pvp  
+Controls pvp damage  
+**Usage:** `region control playerDamage pvp <set> [in <region>] [bypass <role>]`  
+**Permission:** `cubeengine.protector.command.control.playerdamage.pvp.use`  
   
 
 #### region&nbsp;control&nbsp;spawn  
@@ -212,11 +234,13 @@ Selects a Region
 | `cubeengine.protector.bypass.command` |  |
 | `cubeengine.protector.bypass.entity-damage.all` |  |
 | `cubeengine.protector.bypass.entity-damage.living` |  |
-| `cubeengine.protector.bypass.entity-damage.pvp` |  |
 | `cubeengine.protector.bypass.move.enter` |  |
 | `cubeengine.protector.bypass.move.exit` |  |
 | `cubeengine.protector.bypass.move.move` |  |
 | `cubeengine.protector.bypass.move.teleport` |  |
+| `cubeengine.protector.bypass.player-damage.all` |  |
+| `cubeengine.protector.bypass.player-damage.living` |  |
+| `cubeengine.protector.bypass.player-damage.pvp` |  |
 | `cubeengine.protector.bypass.spawn.player` |  |
 | `cubeengine.protector.bypass.use` |  |
 | `cubeengine.protector.bypass.use-all.block` |  |
