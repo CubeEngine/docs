@@ -61,4 +61,4 @@ modifies a backpacks context
 | --- | --- |
 | `cubeengine.backpack` | Base Permission for Backpack |
 | `cubeengine.backpack.command` | Allows using all commands of Backpack |
-| `cubeengine.backpack.command.open.other-player` | Allows using the open command as another player |
+| `cubeengine.backpack.command.backpack.open.other-player` | Allows using the open command as another player |
