@@ -69,4 +69,5 @@ Sets a command to be run when a kit is received
 | --- | --- |
 | `cubeengine.kits` | Base Permission for Kits |
 | `cubeengine.kits.command` | Allows using all commands of Kits |
+| `cubeengine.kits.command.kits.give.other` | Grants giving out kits to other players |
 | `cubeengine.kits.kits` | Grants access to all kits |
