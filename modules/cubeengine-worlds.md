@@ -10,12 +10,14 @@ Create universes with countless worlds
 | Command | Description | Permission<br>`cubeengine.worlds.command.<perm>` |
 | --- | --- | --- |
 | [*worlds*](#worlds) | Worlds commands | `worlds` |
-| [**worlds**&nbsp;*autoload*](#worldsautoload) | Sets the autoload behaviour | `worlds.autoload.use` |
 | [**worlds**&nbsp;*create*](#worldscreate) | Creates a new world | `worlds.create.use` |
 | [**worlds**&nbsp;*info*](#worldsinfo) | Show info about a world | `worlds.info.use` |
 | [**worlds**&nbsp;*list*](#worldslist) | Lists all worlds | `worlds.list.use` |
 | [**worlds**&nbsp;*listplayers*](#worldslistplayers) | Lists the players in a world | `worlds.listplayers.use` |
 | [**worlds**&nbsp;*load*](#worldsload) | Loads a world | `worlds.load.use` |
+| [**worlds**&nbsp;*modify*](#worldsmodify) | Worlds modify commands | `worlds.modify` |
+| [**worlds**&nbsp;**modify**&nbsp;*autoload*](#worldsmodifyautoload) | Sets the autoload behaviour | `worlds.modify.autoload.use` |
+| [**worlds**&nbsp;**modify**&nbsp;*generateStructure*](#worldsmodifygeneratestructure) | Sets whether structors generate | `worlds.modify.generatestructure.use` |
 | [**worlds**&nbsp;*remove*](#worldsremove) | Remove a world | `worlds.remove.use` |
 | [**worlds**&nbsp;*unload*](#worldsunload) | Unload a loaded world | `worlds.unload.use` |
 
@@ -23,13 +25,7 @@ Create universes with countless worlds
 Worlds commands  
 **Usage:** `worlds <command>`  
 **Permission:** `cubeengine.worlds.command.worlds`  
-**SubCommands:** `autoload` `create` `info` `list` `listplayers` `load` `remove` `unload`  
-
-#### worlds&nbsp;autoload  
-Sets the autoload behaviour  
-**Usage:** `worlds autoload <world> [set]`  
-**Permission:** `cubeengine.worlds.command.worlds.autoload.use`  
-  
+**SubCommands:** `create` `info` `list` `listplayers` `load` `modify` `remove` `unload`  
 
 #### worlds&nbsp;create  
 Creates a new world  
@@ -60,6 +56,24 @@ Lists the players in a world
 Loads a world  
 **Usage:** `worlds load <world> [-enable]`  
 **Permission:** `cubeengine.worlds.command.worlds.load.use`  
+  
+
+#### worlds&nbsp;modify  
+Worlds modify commands  
+**Usage:** `worlds modify <command>`  
+**Permission:** `cubeengine.worlds.command.worlds.modify`  
+**SubCommands:** `autoload` `generateStructure`  
+
+#### worlds&nbsp;modify&nbsp;autoload  
+Sets the autoload behaviour  
+**Usage:** `worlds modify autoload <world> [set]`  
+**Permission:** `cubeengine.worlds.command.worlds.modify.autoload.use`  
+  
+
+#### worlds&nbsp;modify&nbsp;generateStructure  
+Sets whether structors generate  
+**Usage:** `worlds modify generateStructure <world> [set]`  
+**Permission:** `cubeengine.worlds.command.worlds.modify.generatestructure.use`  
   
 
 #### worlds&nbsp;remove  
