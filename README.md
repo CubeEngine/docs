@@ -3,6 +3,7 @@
 ## Modules
 
  - [Core](modules/cubeengine-core.md)
+ - [ItemDuct](modules/cubeengine-itemduct.md)
  - [APIServer](modules/cubeengine-apiserver.md)
  - [Authorization](modules/cubeengine-authorization.md)
  - [Backpack](modules/cubeengine-backpack.md)
@@ -20,7 +21,6 @@
  - [Fly](modules/cubeengine-fly.md)
  - [Fun](modules/cubeengine-fun.md)
  - [Hide](modules/cubeengine-hide.md) - [WIP]
- - [ItemDuct](modules/cubeengine-itemduct.md) - [WIP]
  - [Itemrepair](modules/cubeengine-itemrepair.md)
  - [KickBan](modules/cubeengine-kickban.md)
  - [Kits](modules/cubeengine-kits.md)

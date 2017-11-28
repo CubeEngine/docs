@@ -36,6 +36,7 @@ Improved Vanilla
 | [*god*](#god) | Toggles the god-mode! | `god.use` |
 | [*headchange*](#headchange) | Changes a skull to a players skin. | `headchange.use` |
 | [*heal*](#heal) | Heals a player | `heal.use` |
+| [*hideEnchantments*](#hideenchantments) | Toggles the visibility of enchantments | `hideenchantments.use` |
 | [*invsee*](#invsee) | Allows you to see into the inventory of someone else. | `invsee.use` |
 | [*item*](#item) | Gives the specified Item to you | `item.use` |
 | [*itemDB*](#itemdb) | Looks up an item for you! | `itemdb.use` |
@@ -231,6 +232,12 @@ Changes a skull to a players skin.
 Heals a player  
 **Usage:** `heal [players]`  
 **Permission:** `cubeengine.vanillaplus.command.heal.use`  
+  
+
+#### hideEnchantments  
+Toggles the visibility of enchantments  
+**Usage:** `hideEnchantments [hide]`  
+**Permission:** `cubeengine.vanillaplus.command.hideenchantments.use`  
   
 
 #### invsee  
