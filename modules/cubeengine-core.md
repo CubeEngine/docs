@@ -14,4 +14,6 @@ Core Library for CubeEngine plugins
 | Permission | Description |
 | --- | --- |
 | `cubeengine.core` | Base Permission for LibCube |
+
 ## [Download on Ore](https://ore.spongepowered.org/CubeEngine/LibCube)
+

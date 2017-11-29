@@ -12,4 +12,6 @@ Transfer items via glass pipes
 | Permission | Description |
 | --- | --- |
 | `cubeengine.itemduct` | Base Permission for ItemDuct |
+
 ## [Download on Ore](https://ore.spongepowered.org/CubeEngine/CubeEngine---ItemDuct)
+
