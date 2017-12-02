@@ -3,6 +3,7 @@ Transfer items via glass pipes
 
 ## Features:
  - ItemDucts to move items around
+ - Mass Storage Units
 
 ## Pages:
  - [Usage](cubeengine-itemduct-usage.md)
