@@ -10,3 +10,5 @@ Chop whole trees down
 | Permission | Description |
 | --- | --- |
 | `cubeengine.chopchop` | Base Permission for ChopChop |
+| `cubeengine.chopchop.auto-plant` | Replants saplings automatically |
+| `cubeengine.chopchop.use` | Allows using the Chop Chop Axe |
