@@ -37,13 +37,22 @@
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
         </div>
-        
-            
+
         <div class="sidebar">
-            <div class="partner jprofiler first">
-                <a href="http://www.ej-technologies.com/products/jprofiler/overview.html" target="_blank">JProfiler</a>, ein führender Java profiler, unterstützt unsere Entwickler.
-                <div class="clear"></div>
-            </div>
+          <div class="partner intellij first">
+            <span>Java IDE</span>
+            <a href="https://www.jetbrains.com/idea/" target="_blank">
+              <img src="../assets/images/sponsors/intellij.svg" alt="IntelliJ IDEA">
+            </a>
+            <div class="clear"></div>
+          </div>
+          <div class="partner jprofiler second">
+            <span>Java Profiler</span>
+            <a href="http://www.ej-technologies.com/products/jprofiler/overview.html" target="_blank">
+              <img src="../assets/images/sponsors/jprofiler.png" alt="JProfiler">
+            </a>
+            <div class="clear"></div>
+          </div>
         </div>
 
         {{ content }}
