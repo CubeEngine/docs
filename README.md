@@ -40,6 +40,7 @@
  - [SignMarket](modules/cubeengine-signmarket.md)
  - [Spawn](modules/cubeengine-spawn.md)
  - [Spawner](modules/cubeengine-spawner.md)
+ - [sql](modules/cubeengine-sql.md)
  - [Squelch](modules/cubeengine-squelch.md)
  - [Teleport](modules/cubeengine-teleport.md)
  - [Travel](modules/cubeengine-travel.md)

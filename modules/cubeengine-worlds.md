@@ -19,13 +19,14 @@ Create universes with countless worlds
 | [**worlds**&nbsp;**modify**&nbsp;*autoload*](#worldsmodifyautoload) | Sets the autoload behaviour | `worlds.modify.autoload.use` |
 | [**worlds**&nbsp;**modify**&nbsp;*generateStructure*](#worldsmodifygeneratestructure) | Sets whether structors generate | `worlds.modify.generatestructure.use` |
 | [**worlds**&nbsp;*remove*](#worldsremove) | Remove a world | `worlds.remove.use` |
+| [**worlds**&nbsp;*rename*](#worldsrename) | Renames a world | `worlds.rename.use` |
 | [**worlds**&nbsp;*unload*](#worldsunload) | Unload a loaded world | `worlds.unload.use` |
 
 #### worlds  
 Worlds commands  
 **Usage:** `worlds <command>`  
 **Permission:** `cubeengine.worlds.command.worlds`  
-**SubCommands:** `create` `info` `list` `listplayers` `load` `modify` `remove` `unload`  
+**SubCommands:** `create` `info` `list` `listplayers` `load` `modify` `remove` `rename` `unload`  
 
 #### worlds&nbsp;create  
 Creates a new world  
@@ -81,6 +82,12 @@ Remove a world
 **Usage:** `worlds remove <world> [-folder] [-unload]`  
 **Alias:** `delete`  
 **Permission:** `cubeengine.worlds.command.worlds.remove.use`  
+  
+
+#### worlds&nbsp;rename  
+Renames a world  
+**Usage:** `worlds rename <world> <newName>`  
+**Permission:** `cubeengine.worlds.command.worlds.rename.use`  
   
 
 #### worlds&nbsp;unload  

@@ -16,6 +16,7 @@ Protects your worlds
 | [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*block*](#regioncontrolblockdamageblock) | Controls blocks breaking blocks | `control.blockdamage.block.use` |
 | [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*explosion*](#regioncontrolblockdamageexplosion) | Controls explosions breaking blocks | `control.blockdamage.explosion.use` |
 | [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*fire*](#regioncontrolblockdamagefire) | Controls fire breaking blocks | `control.blockdamage.fire.use` |
+| [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*lightningFire*](#regioncontrolblockdamagelightningfire) | Controls lightning fire | `control.blockdamage.lightningfire.use` |
 | [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*monster*](#regioncontrolblockdamagemonster) | Controls entities breaking blocks | `control.blockdamage.monster.use` |
 | [**region**&nbsp;**control**&nbsp;**blockdamage**&nbsp;*playerExplosion*](#regioncontrolblockdamageplayerexplosion) | Controls explosions caused by players breaking blocks | `control.blockdamage.playerexplosion.use` |
 | [**region**&nbsp;**control**&nbsp;*build*](#regioncontrolbuild) | Controls player building | `control.build.use` |
@@ -59,7 +60,7 @@ Manages the region block-damage settings
 **Usage:** `region control blockdamage <command>`  
 **Alias:** `block`  
 **Permission:** `cubeengine.protector.command.control.blockdamage`  
-**SubCommands:** `block` `explosion` `fire` `monster` `playerExplosion`  
+**SubCommands:** `block` `explosion` `fire` `lightningFire` `monster` `playerExplosion`  
 
 #### region&nbsp;control&nbsp;blockdamage&nbsp;block  
 Controls blocks breaking blocks  
@@ -77,6 +78,12 @@ Controls explosions breaking blocks
 Controls fire breaking blocks  
 **Usage:** `region control blockdamage fire <set> [in <region>]`  
 **Permission:** `cubeengine.protector.command.control.blockdamage.fire.use`  
+  
+
+#### region&nbsp;control&nbsp;blockdamage&nbsp;lightningFire  
+Controls lightning fire  
+**Usage:** `region control blockdamage lightningFire <set> [in <region>]`  
+**Permission:** `cubeengine.protector.command.control.blockdamage.lightningfire.use`  
   
 
 #### region&nbsp;control&nbsp;blockdamage&nbsp;monster  

@@ -18,6 +18,7 @@ Travel anywhere!
 | [**home**&nbsp;*invite*](#homeinvite) | Invite a user to one of your homes | `home.invite.use` |
 | [**home**&nbsp;*list*](#homelist) | Lists homes a player can access | `home.list.use` |
 | [**home**&nbsp;*move*](#homemove) | Move a home | `home.move.use` |
+| [**home**&nbsp;*purge*](#homepurge) | Removes all homes in a world | `home.purge.use` |
 | [**home**&nbsp;*remove*](#homeremove) | Remove a home | `home.remove.use` |
 | [**home**&nbsp;*rename*](#homerename) | Rename a home | `home.rename.use` |
 | [**home**&nbsp;*set*](#homeset) | Set your home | `home.set.use` |
@@ -37,7 +38,7 @@ Travel anywhere!
 Teleport to your home  
 **Usage:** `home <command>`  
 **Permission:** `cubeengine.travel.command.home`  
-**SubCommands:** `clear` `greeting` `ilist` `invite` `list` `move` `remove` `rename` `set` `tp` `unInvite`  
+**SubCommands:** `clear` `greeting` `ilist` `invite` `list` `move` `purge` `remove` `rename` `set` `tp` `unInvite`  
 
 #### home&nbsp;clear  
 Clear all homes [of a player]  
@@ -78,6 +79,13 @@ Move a home
 **Usage:** `home move [name] <owner>`  
 **Alias:** `replace`  
 **Permission:** `cubeengine.travel.command.home.move.use`  
+  
+
+#### home&nbsp;purge  
+Removes all homes in a world  
+**Usage:** `home purge <world>`  
+**Alias:** `/purgehomes`  
+**Permission:** `cubeengine.travel.command.home.purge.use`  
   
 
 #### home&nbsp;remove  

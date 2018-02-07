@@ -8,23 +8,10 @@ This module integrates into Votifier to provide vote rewards
  - Bonus for repeated vites
 
 ## Dependencies:
- `nuvotifier`
-
-## Commands:
-
-| Command | Description | Permission<br>`cubeengine.vote.command.<perm>` |
-| --- | --- | --- |
-| [*vote*](#vote) | Shows your current vote situation | `vote.use` |
-
-#### vote  
-Shows your current vote situation  
-**Usage:** `vote `  
-**Permission:** `cubeengine.vote.command.vote.use`  
-  
+ `nuvotifier` `cubeengine-sql`
 
 ## Additional Permissions:
 
 | Permission | Description |
 | --- | --- |
 | `cubeengine.vote` | Base Permission for Vote |
-| `cubeengine.vote.command` | Allows using all commands of Vote |

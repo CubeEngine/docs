@@ -19,6 +19,7 @@ Log everything you want!
 | [**vigil**&nbsp;**admin**&nbsp;*purge*](#vigiladminpurge) | purges all logs | `vigil.admin.purge.use` |
 | [**vigil**&nbsp;**admin**&nbsp;*setReportActive*](#vigiladminsetreportactive) | enables or disables reports in a world | `vigil.admin.setreportactive.use` |
 | [**vigil**&nbsp;*block*](#vigilblock) | Gives you a block to check logs with. | `vigil.block.use` |
+| [**vigil**&nbsp;*lookup*](#vigillookup) | Performs a lookup. | `vigil.lookup.use` |
 | [**vigil**&nbsp;*tool*](#vigiltool) | Gives you an item to check logs with. | `vigil.tool.use` |
 
 #### vigil  
@@ -26,7 +27,7 @@ Vigil-Module Commands
 **Usage:** `vigil <command>`  
 **Alias:** `log`  
 **Permission:** `cubeengine.vigil.command.vigil`  
-**SubCommands:** `admin` `block` `tool`  
+**SubCommands:** `admin` `block` `lookup` `tool`  
 
 #### vigil&nbsp;admin  
 Vigil-Admin Commands  
@@ -51,6 +52,13 @@ Gives you a block to check logs with.
 **Usage:** `vigil block <log-type>`  
 **Alias:** `/lb`  
 **Permission:** `cubeengine.vigil.command.vigil.block.use`  
+  
+
+#### vigil&nbsp;lookup  
+Performs a lookup.  
+**Usage:** `vigil lookup [radius <radius>]`  
+**Alias:** `/lookup`  
+**Permission:** `cubeengine.vigil.command.vigil.lookup.use`  
   
 
 #### vigil&nbsp;tool  
