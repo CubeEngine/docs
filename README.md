@@ -3,20 +3,21 @@
 ## Modules
 
  - [Core](modules/cubeengine-core.md)
+ - [ChopChop](modules/cubeengine-chopchop.md)
+ - [Elevator](modules/cubeengine-elevator.md)
  - [ItemDuct](modules/cubeengine-itemduct.md)
+ - [Spawner](modules/cubeengine-spawner.md)
  - [APIServer](modules/cubeengine-apiserver.md)
  - [Authorization](modules/cubeengine-authorization.md)
  - [Backpack](modules/cubeengine-backpack.md)
  - [Bigdata](modules/cubeengine-bigdata.md)
  - [Chat](modules/cubeengine-chat.md)
- - [ChopChop](modules/cubeengine-chopchop.md)
  - [Conomy](modules/cubeengine-conomy.md)
  - [ControlC](modules/cubeengine-controlc.md)
  - [CustomCommands](modules/cubeengine-customcommands.md)
  - [Disc World](modules/cubeengine-discworld.md) - [WIP]
  - [Docs](modules/cubeengine-docs.md)
  - [Donations](modules/cubeengine-donations.md) - [WIP]
- - [Elevator](modules/cubeengine-elevator.md)
  - [Faq](modules/cubeengine-faq.md)
  - [Fly](modules/cubeengine-fly.md)
  - [Fun](modules/cubeengine-fun.md)
@@ -39,7 +40,6 @@
  - [Shout](modules/cubeengine-shout.md)
  - [SignMarket](modules/cubeengine-signmarket.md)
  - [Spawn](modules/cubeengine-spawn.md)
- - [Spawner](modules/cubeengine-spawner.md)
  - [sql](modules/cubeengine-sql.md)
  - [Squelch](modules/cubeengine-squelch.md)
  - [Teleport](modules/cubeengine-teleport.md)

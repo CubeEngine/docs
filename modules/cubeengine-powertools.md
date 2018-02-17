@@ -49,7 +49,7 @@ Removes a command from your powertool
 **Permission:** `cubeengine.powertools.command.powertool.remove.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

@@ -55,7 +55,7 @@ modifies a backpacks context
 **Permission:** `cubeengine.backpack.command.backpack.removecontext.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

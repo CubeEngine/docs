@@ -5,7 +5,7 @@ Provides serialization to a MongoDB
  - MongoDB connection
  - Reflect-based object mapping
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

@@ -5,7 +5,7 @@ Answers all your frequently asked questions!
  - Automatically responds to questions asked in chat
  - Uses tags to detect which question was asked
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

@@ -56,7 +56,7 @@ removes the declared language and languagefiles!
 **Permission:** `cubeengine.rulebook.command.rulebook.remove.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

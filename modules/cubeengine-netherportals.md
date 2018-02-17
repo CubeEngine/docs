@@ -34,7 +34,7 @@ Sets the NetherPortal Target
 **Permission:** `cubeengine.netherportals.command.netherportals.setnethertarget.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

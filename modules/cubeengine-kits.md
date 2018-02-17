@@ -105,7 +105,7 @@ Lists all currently available kits.
 **Permission:** `cubeengine.kits.command.kit.list.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

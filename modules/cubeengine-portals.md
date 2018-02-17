@@ -125,7 +125,7 @@ Selects an existing portal
 **Permission:** `cubeengine.portals.command.portals.select.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

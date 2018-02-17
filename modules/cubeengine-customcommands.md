@@ -37,7 +37,7 @@ Prints out all the custom chat commands.
 **Permission:** `cubeengine.customcommands.command.customcommands.help.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

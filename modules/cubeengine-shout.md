@@ -62,7 +62,7 @@ Displays an announcement
 **Permission:** `cubeengine.shout.command.shout.show.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

@@ -474,7 +474,7 @@ Displays informations from a player!
 **Permission:** `cubeengine.vanillaplus.command.whois.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

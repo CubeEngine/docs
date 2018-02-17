@@ -178,7 +178,7 @@ Teleport to a warp
 **Permission:** `cubeengine.travel.command.warp.tp.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

@@ -16,7 +16,7 @@ Shows the namehistory of a player
 **Permission:** `cubeengine.namehistory.command.namehistory.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

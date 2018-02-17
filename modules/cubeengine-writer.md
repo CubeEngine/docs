@@ -18,7 +18,7 @@ Edit a sign or a signed book
 **Permission:** `cubeengine.writer.command.edit.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

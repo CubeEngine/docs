@@ -63,7 +63,7 @@ Unbans a previously banned player.
 **Permission:** `cubeengine.kickban.command.unban.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

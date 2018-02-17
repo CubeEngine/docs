@@ -1,7 +1,10 @@
 # CubeEngine - sql
 Provide SQL with jOOQ
 
-## Additional Permissions:
+## Features:
+ - jOOQ
+
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

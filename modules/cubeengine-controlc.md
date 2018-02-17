@@ -4,7 +4,7 @@ You cannot copy in console with ControlC
 ## Features:
  - Handles SIGINT and SIGTERM
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

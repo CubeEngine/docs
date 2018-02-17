@@ -17,7 +17,7 @@ Generates documentation
 **Permission:** `cubeengine.docs.command.generatedocs.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

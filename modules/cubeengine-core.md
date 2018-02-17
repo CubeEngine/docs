@@ -1,15 +1,14 @@
-# LibCube
-Core Library for CubeEngine plugins
+# CubeEngine - LibCube
+Such Cube Very Lib Much Util Wow
 
 ## Features:
  - Annotation Commands
  - Easy configurations
- - Database Abstraction Layer using jOOQ
  - Gettext Translation
  - CubeEngine Modules
  - Various Utilities
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

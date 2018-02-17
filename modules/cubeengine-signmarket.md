@@ -27,7 +27,7 @@ Enters the editmode allowing to change market signs easily
 **Permission:** `cubeengine.signmarket.command.marketsign.editmode.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

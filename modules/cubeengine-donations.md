@@ -7,7 +7,7 @@ Provides WebAPI to handle donations
 ## Dependencies:
  `cubeengine-apiserver`
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

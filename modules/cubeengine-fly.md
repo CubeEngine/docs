@@ -4,7 +4,7 @@ Flying without creative mode
 ## Features:
  - Allows flying with feathers
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

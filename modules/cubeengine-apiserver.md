@@ -7,7 +7,7 @@ Provides an APIServer Service
  - RPC
  - Authentication
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

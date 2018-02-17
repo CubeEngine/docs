@@ -4,7 +4,7 @@ Provides a custom world generator for a discworld
 ## Features:
  - Generate a disk-like world
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

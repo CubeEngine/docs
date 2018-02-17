@@ -38,7 +38,7 @@ Unhides a player.
 **Permission:** `cubeengine.hide.command.unhide.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

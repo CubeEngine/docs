@@ -5,7 +5,7 @@ Find out what your server is suffering from.
  - Generates reports about the world status
  - Accessible via web API
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

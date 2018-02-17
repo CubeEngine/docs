@@ -47,7 +47,7 @@ Renames a universe
 **Permission:** `cubeengine.multiverse.command.multiverse.rename.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

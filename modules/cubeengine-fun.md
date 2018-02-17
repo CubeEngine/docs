@@ -81,7 +81,7 @@ Throw something!
 **Permission:** `cubeengine.fun.command.throw.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

@@ -335,7 +335,7 @@ Sets a permission for this user [in context]
 **Permission:** `cubeengine.roles.command.roles.user.setpermission.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

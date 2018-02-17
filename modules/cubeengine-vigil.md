@@ -68,7 +68,7 @@ Gives you an item to check logs with.
 **Permission:** `cubeengine.vigil.command.vigil.tool.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

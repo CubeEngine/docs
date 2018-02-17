@@ -96,9 +96,9 @@ Unload a loaded world
 **Permission:** `cubeengine.worlds.command.worlds.unload.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |
 | `cubeengine.worlds` | Base Permission for Worlds |
-| `cubeengine.worlds.command` | Allows using all commands of Worlds |
+| `cubeengine.worlds.command` | Allows using all commands for this module |

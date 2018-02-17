@@ -38,16 +38,20 @@ Protects your worlds
 | [**region**&nbsp;**control**&nbsp;*useBlock*](#regioncontroluseblock) | Controls player interacting with blocks | `control.useblock.use` |
 | [**region**&nbsp;**control**&nbsp;*useItem*](#regioncontroluseitem) | Controls player interactive with items | `control.useitem.use` |
 | [**region**&nbsp;*define*](#regiondefine) | Defines a new Region | `region.define.use` |
+| [**region**&nbsp;*delete*](#regiondelete) | Deletes a region | `region.delete.use` |
 | [**region**&nbsp;*info*](#regioninfo) | Displays Region info | `region.info.use` |
 | [**region**&nbsp;*list*](#regionlist) | Lists regions | `region.list.use` |
+| [**region**&nbsp;*priority*](#regionpriority) | Changes Region priority | `region.priority.use` |
 | [**region**&nbsp;*redefine*](#regionredefine) | Redefines an existing Region | `region.redefine.use` |
 | [**region**&nbsp;*select*](#regionselect) | Selects a Region | `region.select.use` |
+| [**region**&nbsp;*show*](#regionshow) | Toggles particles for the currently selected region | `region.show.use` |
+| [**region**&nbsp;*teleport*](#regionteleport) | Teleports to a region | `region.teleport.use` |
 
 #### region  
 Manages the regions  
 **Usage:** `region <command>`  
 **Permission:** `cubeengine.protector.command.region`  
-**SubCommands:** `control` `define` `info` `list` `redefine` `select`  
+**SubCommands:** `control` `define` `delete` `info` `list` `priority` `redefine` `select` `show` `teleport`  
 
 #### region&nbsp;control  
 Manages the region settings  
@@ -214,6 +218,13 @@ Defines a new Region
 **Permission:** `cubeengine.protector.command.region.define.use`  
   
 
+#### region&nbsp;delete  
+Deletes a region  
+**Usage:** `region delete <region>`  
+**Alias:** `remove`  
+**Permission:** `cubeengine.protector.command.region.delete.use`  
+  
+
 #### region&nbsp;info  
 Displays Region info  
 **Usage:** `region info <region> [-allSettings]`  
@@ -224,6 +235,12 @@ Displays Region info
 Lists regions  
 **Usage:** `region list [match] [in <world>]`  
 **Permission:** `cubeengine.protector.command.region.list.use`  
+  
+
+#### region&nbsp;priority  
+Changes Region priority  
+**Usage:** `region priority [priority] <region>`  
+**Permission:** `cubeengine.protector.command.region.priority.use`  
   
 
 #### region&nbsp;redefine  
@@ -238,7 +255,19 @@ Selects a Region
 **Permission:** `cubeengine.protector.command.region.select.use`  
   
 
-## Additional Permissions:
+#### region&nbsp;show  
+Toggles particles for the currently selected region  
+**Usage:** `region show `  
+**Permission:** `cubeengine.protector.command.region.show.use`  
+  
+
+#### region&nbsp;teleport  
+Teleports to a region  
+**Usage:** `region teleport <region> [-force]`  
+**Permission:** `cubeengine.protector.command.region.teleport.use`  
+  
+
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

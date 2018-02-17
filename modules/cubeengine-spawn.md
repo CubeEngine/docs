@@ -24,7 +24,7 @@ Changes the respawnpoint
 **Permission:** `cubeengine.spawn.command.setrolespawn.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

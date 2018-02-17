@@ -8,7 +8,10 @@ Transfer items via glass pipes
 ## Pages:
  - [Usage](cubeengine-itemduct-usage.md)
 
-## Additional Permissions:
+## Config:
+ - [ItemductConfig](cubeengine-itemduct-config-itemductconfig.md)
+
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

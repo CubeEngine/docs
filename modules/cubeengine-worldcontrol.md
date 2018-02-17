@@ -4,7 +4,7 @@ Control what happens in your world
 ## Features:
  - Configuration of world settings
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |

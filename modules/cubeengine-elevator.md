@@ -2,11 +2,11 @@
 Lift up and down using signs
 
 ## Features:
- - Multi level lifts
- - Changable destination
- - Use item to create lifts
+ - Create Elevators by shift-left clicking signs with enderpearls
+ - Change the floor name shift-left clicking with a renamed paper
+ - Change the elevator destination by shift-left and right clicking
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |
@@ -15,3 +15,6 @@ Lift up and down using signs
 | `cubeengine.elevator.create` | Allows creating elevators |
 | `cubeengine.elevator.rename` | Allows renaming elevators |
 | `cubeengine.elevator.use` | Allows using elevators |
+
+## [Download on Ore](https://ore.spongepowered.org/CubeEngine/CubeEngine---Elevator)
+

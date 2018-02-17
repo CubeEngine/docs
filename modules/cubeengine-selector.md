@@ -16,7 +16,7 @@ Provides you with a wand to select a cuboid
 **Permission:** `cubeengine.selector.command.selectiontool.use`  
   
 
-## Additional Permissions:
+## Permissions:
 
 | Permission | Description |
 | --- | --- |
