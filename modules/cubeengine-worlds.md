@@ -101,4 +101,4 @@ Unload a loaded world
 | Permission | Description |
 | --- | --- |
 | `cubeengine.worlds` | Base Permission for Worlds |
-| `cubeengine.worlds.command` | Allows using all commands for this module |
+| `cubeengine.worlds.command` | Allows using all commands of Worlds |

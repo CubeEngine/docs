@@ -43,6 +43,7 @@ Protects your worlds
 | [**region**&nbsp;*list*](#regionlist) | Lists regions | `region.list.use` |
 | [**region**&nbsp;*priority*](#regionpriority) | Changes Region priority | `region.priority.use` |
 | [**region**&nbsp;*redefine*](#regionredefine) | Redefines an existing Region | `region.redefine.use` |
+| [**region**&nbsp;*redstonedefine*](#regionredstonedefine) | Defines a region by following connected redstone | `region.redstonedefine.use` |
 | [**region**&nbsp;*select*](#regionselect) | Selects a Region | `region.select.use` |
 | [**region**&nbsp;*show*](#regionshow) | Toggles particles for the currently selected region | `region.show.use` |
 | [**region**&nbsp;*teleport*](#regionteleport) | Teleports to a region | `region.teleport.use` |
@@ -51,7 +52,7 @@ Protects your worlds
 Manages the regions  
 **Usage:** `region <command>`  
 **Permission:** `cubeengine.protector.command.region`  
-**SubCommands:** `control` `define` `delete` `info` `list` `priority` `redefine` `select` `show` `teleport`  
+**SubCommands:** `control` `define` `delete` `info` `list` `priority` `redefine` `redstonedefine` `select` `show` `teleport`  
 
 #### region&nbsp;control  
 Manages the region settings  
@@ -247,6 +248,12 @@ Changes Region priority
 Redefines an existing Region  
 **Usage:** `region redefine <region>`  
 **Permission:** `cubeengine.protector.command.region.redefine.use`  
+  
+
+#### region&nbsp;redstonedefine  
+Defines a region by following connected redstone  
+**Usage:** `region redstonedefine <name>`  
+**Permission:** `cubeengine.protector.command.region.redstonedefine.use`  
   
 
 #### region&nbsp;select  

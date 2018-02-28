@@ -13,7 +13,7 @@ Generate Documentation for CubeEngine on the fly.
 #### generateDocs  
 Generates documentation  
 **Usage:** `generateDocs `  
-**Alias:** `/gd`  
+**Alias:** `/gd` `/docgen` `/gendoc`  
 **Permission:** `cubeengine.docs.command.generatedocs.use`  
   
 

@@ -8,6 +8,11 @@ Such Cube Very Lib Much Util Wow
  - CubeEngine Modules
  - Various Utilities
 
+## Config:
+ - [CommandConfiguration](cubeengine-core-config-commandconfiguration.md)
+ - [I18nConfig](cubeengine-core-config-i18nconfig.md)
+ - [LoggerConfiguration](cubeengine-core-config-loggerconfiguration.md)
+
 ## Permissions:
 
 | Permission | Description |
