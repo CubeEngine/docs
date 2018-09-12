@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+.wrapper {
+  max-width: 70%;
+  section {
+    max-width: 100%;
+  }
+}
+
 section {
   #footer {
     .credits {
