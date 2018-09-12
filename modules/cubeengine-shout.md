@@ -27,7 +27,7 @@ Announce a message to players on the server
 
 #### shout&nbsp;create  
 Creates a new announcement  
-**Usage:** `shout create <name> [message <message>] [delay <<x> minutes|hours|days>] [permission <permission>] [weight <weight>] [-fixed-cycle]`  
+**Usage:** `shout create <name> <message> [delay <<x> minutes|hours|days>] [permission <permission>] [weight <weight>] [-fixed-cycle] [-asJson]`  
 **Permission:** `cubeengine.shout.command.shout.create.use`  
   
 
@@ -46,7 +46,7 @@ List all announcements
 
 #### shout&nbsp;modify  
 modifies an announcement  
-**Usage:** `shout modify <announcement> <message> [locale <locale>] [-append]`  
+**Usage:** `shout modify <announcement> <message> [locale <locale>] [-append] [-asJson]`  
 **Permission:** `cubeengine.shout.command.shout.modify.use`  
   
 

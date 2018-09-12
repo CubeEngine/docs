@@ -6,6 +6,9 @@ Lift up and down using signs
  - Change the floor name shift-left clicking with a renamed paper
  - Change the elevator destination by shift-left and right clicking
 
+## Pages:
+ - [Usage](cubeengine-elevator-usage.md)
+
 ## Config:
  - [ElevatorConfig](cubeengine-elevator-config-elevatorconfig.md)
 

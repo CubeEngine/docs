@@ -20,6 +20,7 @@ Log everything you want!
 | [**vigil**&nbsp;**admin**&nbsp;*setReportActive*](#vigiladminsetreportactive) | enables or disables reports in a world | `vigil.admin.setreportactive.use` |
 | [**vigil**&nbsp;*block*](#vigilblock) | Gives you a block to check logs with. | `vigil.block.use` |
 | [**vigil**&nbsp;*lookup*](#vigillookup) | Performs a lookup. | `vigil.lookup.use` |
+| [**vigil**&nbsp;*nearby*](#vigilnearby) | Performs a lookup nearby | `vigil.nearby.use` |
 | [**vigil**&nbsp;*tool*](#vigiltool) | Gives you an item to check logs with. | `vigil.tool.use` |
 
 #### vigil  
@@ -27,7 +28,7 @@ Vigil-Module Commands
 **Usage:** `vigil <command>`  
 **Alias:** `log`  
 **Permission:** `cubeengine.vigil.command.vigil`  
-**SubCommands:** `admin` `block` `lookup` `tool`  
+**SubCommands:** `admin` `block` `lookup` `nearby` `tool`  
 
 #### vigil&nbsp;admin  
 Vigil-Admin Commands  
@@ -56,9 +57,15 @@ Gives you a block to check logs with.
 
 #### vigil&nbsp;lookup  
 Performs a lookup.  
-**Usage:** `vigil lookup [radius <radius>]`  
+**Usage:** `vigil lookup [radius <radius>] [report <report>] [prepared <preparedLookup>] [-last]`  
 **Alias:** `/lookup`  
 **Permission:** `cubeengine.vigil.command.vigil.lookup.use`  
+  
+
+#### vigil&nbsp;nearby  
+Performs a lookup nearby  
+**Usage:** `vigil nearby [report <report>]`  
+**Permission:** `cubeengine.vigil.command.vigil.nearby.use`  
   
 
 #### vigil&nbsp;tool  

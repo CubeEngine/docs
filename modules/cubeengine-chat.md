@@ -60,7 +60,7 @@ Changes your display name
 
 #### rand  
 Shows a random number from 0 to 100  
-**Usage:** `rand `  
+**Usage:** `rand [dice]`  
 **Alias:** `roll`  
 **Permission:** `cubeengine.chat.command.rand.use`  
   

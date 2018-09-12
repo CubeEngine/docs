@@ -8,6 +8,9 @@ Chop whole trees down
 ## Pages:
  - [Usage](cubeengine-chopchop-usage.md)
 
+## Config:
+ - [ChopchopConfig](cubeengine-chopchop-config-chopchopconfig.md)
+
 ## Permissions:
 
 | Permission | Description |
