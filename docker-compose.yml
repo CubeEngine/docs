@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  minecraft:
+    image: cubeengine/cubeengine:1.16.5-8.0.0
+    stop_signal: SIGUSR2
+    stop_grace_period: 5m
+    environment:
+      - 'JVM_ARGS=-Xmx6G -Xms6G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true'
+      - 'EULA=true'
+      - 'SEED=0'
+      - "MOTD=CubeEngine Docs"
+      - 'MAX_PLAYERS=1'
+      - 'DIFFICULTY=easy'
+      - 'ENABLE_COMMAND_BLOCK=false'
+      - 'ENABLE_RCON=false'
+      - 'SPAWN_PROTECTION=0'
+      - 'HARDCORE=false'
+      - 'ALLOW_NETHER=false'
+      - 'FORCE_GAMEMODE=false'
+      - 'ALLOW_FLIGHT=false'
+      - 'ENABLE_QUERY=false'
+      - 'VIEW_DISTANCE=3'
+      - 'WHITE_LIST=true'
+      - 'SPAWN_MONSTERS=false'
+      - 'LEVEL_TYPE=flat'
+      - 'PVP=false'
+      - 'DUMMY_FOR_DEPLOY=1'
+      - 'CUBEENGINE_DOCS_SHUTDOWN=true'
+    volumes:
+      - './data:/minecraft'
+      - './cubeengine.config:/cubeengine.config'
