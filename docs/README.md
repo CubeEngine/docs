@@ -16,6 +16,7 @@
  - [Kits](modules/kits/kits.md)
  - [Locker](modules/locker/locker.md)
  - [Mechansism](modules/mechanism/mechanism.md)
+ - [Multiverse](modules/multiverse/multiverse.md)
  - [observe](modules/observe/observe.md)
  - [Portals](modules/portals/portals.md)
  - [Powertools](modules/powertools/powertools.md)
