@@ -8,7 +8,7 @@ Travel anywhere!
  - Invitations
 
 ## Dependencies:
- `cubeengine-zoned`
+ `cubeengine-zoned` (optional)
 
 ## Commands:
 

@@ -8,6 +8,12 @@ This module adds chat formatting functionality.
  - AFK detection
  - Chat colors
 
+## Pages:
+ - [Usage](pages/usage.md)
+
+## Config:
+ - [ChatConfig](pages/config-chatconfig.md)
+
 ## Commands:
 
 | Command | Description | Permission<br>`cubeengine.chat.command.<perm>` |
@@ -82,6 +88,6 @@ Replies to the last person that whispered to you.
 | `cubeengine.chat.command.afk.prevent.autoafk` | Prevents from being displayed as afk automatically |
 | `cubeengine.chat.command.afk.prevent.autounafk` | Prevents from being displayed as no longer afk automatically unless using chat |
 | `cubeengine.chat.command.nick.of-other` | Allows to set the nickname to a players name that plays on this server |
-| `cubeengine.chat.command.nick.other` |  |
+| `cubeengine.chat.command.nick.other` | Allows to set the nickname of another player |
 | `cubeengine.chat.longer` | Allows using a + at the end of chat to write longer messages |
 | `cubeengine.chat.newline` | Allows using newlines (\n) in chat |
