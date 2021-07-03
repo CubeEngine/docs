@@ -64,7 +64,7 @@ jobs:
         run: |
           mkdir data
           chmod 777 data
-          docker-compose up & sleep 5 && docker-compose stop -t 300 && docker-compose down
+          docker-compose up & sleep 30 && docker-compose stop -t 300 && docker-compose down
       - name: Commit & Push
         if: steps.ce-check.outputs.modified == 'true'
         run: |
