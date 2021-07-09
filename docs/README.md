@@ -3,6 +3,7 @@
 ## Modules
 
  - [Core](modules/core/core.md)
+ - [ChopChop](modules/chopchop/chopchop.md)
  - [Elevator](modules/elevator/elevator.md)
  - [ItemDuct](modules/itemduct/itemduct.md)
  - [Spawner](modules/spawner/spawner.md)
