@@ -26,7 +26,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
       - name: Cached Builds
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: last_cubeengine_*
           key: cubeengine-build-no
@@ -49,13 +49,13 @@ jobs:
           fi
       - name: Cached Libs
         if: steps.ce-check.outputs.modified == 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: data/libraries
           key: mc-libraries
       - name: Cached World
         if: steps.ce-check.outputs.modified == 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: data/world
           key: mc-world
